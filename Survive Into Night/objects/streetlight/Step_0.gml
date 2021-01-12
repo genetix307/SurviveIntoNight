@@ -1,3 +1,4 @@
+// Genetix Studio
 /// @description  CALCULATE DEPTH AND STUFF
 // SET DEPTH BASED ON THE POSITION OF THE FOLLOWED OBJECT
 hdepth = (obj_to_follow.x-x)/factor;
@@ -21,4 +22,3 @@ if (vdepth < -max_depth/2) {
 
 // SET DRAW DEPTH TO MAKE OBJECTS CLOSER TO THE BOTTOM OF THE SCREEN DRAW LAST
 depth = -y -100;
-

@@ -34,7 +34,7 @@ function enemy_step_zombie() {
 	{
 	
 	direction = point_direction(x,y,player.x,player.y) 
-	mp_potential_step_object(player.x,player.y,my_speed*2,default_solid)
+	mp_potential_step_object(player.x,player.y,my_speed*1.5,default_solid)
 	if can_attack = 0 {
 		can_attack = reload_time
 		alarm[2] = 5
