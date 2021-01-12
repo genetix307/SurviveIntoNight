@@ -1,0 +1,211 @@
+Converting GML script: ${project_dir}\scripts\lightmap_draw\lightmap_draw.gml
+Converted builtin - line 10: view_xview -> cx
+Converted builtin - line 10: view_yview -> cy
+
+Converting GML script: ${project_dir}\scripts\lightmap_update\lightmap_update.gml
+Converted builtin - line 16: view_xview -> cx
+Converted builtin - line 17: view_yview -> cy
+
+Font font_stats has been converted to font family Arabic Transparent (Bold)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font_stats\font_stats.gms1.png
+Font font_mission has been converted to font family Arabic Transparent (Bold)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font_mission\font_mission.gms1.png
+Font font_bigger has been converted to font family Arabic Transparent (Bold)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font_bigger\font_bigger.gms1.png
+Converting GML script: ${project_dir}\objects\blood_splatter\Step_0.gml
+Converted builtin - line 7: view_xview -> cx
+Converted builtin - line 8: view_yview -> cy
+
+Converting GML script: ${project_dir}\objects\wall\Create_0.gml
+Converted description /// @description  SET UP VARIABLES
+
+Converting GML script: ${project_dir}\objects\wall\Step_0.gml
+Converted description /// @description  CALCULATE DEPTH AND STUFF
+
+Converting GML script: ${project_dir}\objects\wall\Draw_73.gml
+Converted description /// @description  DRAW THE TOP OF THE CUBE IN DRAW END SO IT WON'T BE COVERED
+
+Converting GML script: ${project_dir}\objects\wall\Draw_0.gml
+Converted description /// @description  DRAW THE BOTTOM AND THE SIDES IN THE DRAW EVENT
+
+Converting GML script: ${project_dir}\objects\wall_base\Create_0.gml
+Converted description /// @description  SET UP VARIABLES
+
+Converting GML script: ${project_dir}\objects\wall_base\Step_0.gml
+Converted description /// @description  CALCULATE DEPTH AND STUFF
+
+Converting GML script: ${project_dir}\objects\wall_base\Draw_73.gml
+Converted description /// @description  DRAW THE TOP OF THE CUBE IN DRAW END SO IT WON'T BE COVERED
+
+Converting GML script: ${project_dir}\objects\wall_base\Draw_0.gml
+Converted description /// @description  DRAW THE BOTTOM AND THE SIDES IN THE DRAW EVENT
+
+Converting GML script: ${project_dir}\objects\crate\Create_0.gml
+Converted description /// @description  SET UP VARIABLES
+
+Converting GML script: ${project_dir}\objects\crate\Step_0.gml
+Converted description /// @description  CALCULATE DEPTH AND STUFF
+
+Converting GML script: ${project_dir}\objects\crate\Draw_73.gml
+Converted description /// @description  DRAW THE TOP OF THE CUBE IN DRAW END SO IT WON'T BE COVERED
+
+Converting GML script: ${project_dir}\objects\crate\Draw_0.gml
+Converted description /// @description  DRAW THE BOTTOM AND THE SIDES IN THE DRAW EVENT
+
+Converting GML script: ${project_dir}\objects\helicopter_extract\Collision_122dc230-c542-419b-b9c2-4c64c1e11845.gml
+Converted builtin - line 3: view_object[0] = self -> __view_set( e__VW.Object, 0, self )
+
+Converting GML script: ${project_dir}\objects\obj_lightmap\Create_0.gml
+Converted builtin - line 3: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\hud\Alarm_1.gml
+Converted builtin - line 1: view_xview[0] -> cx
+Converted builtin - line 1: view_yview -> cy
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 1: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\hud\Alarm_0.gml
+Converted builtin - line 2: view_xview[0] -> cx
+Converted builtin - line 2: view_yview -> cy
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\hud\Draw_73.gml
+Converted builtin - line 2: view_xview -> cx
+Converted builtin - line 3: view_xview -> cx
+Converted builtin - line 6: view_xview -> cx
+Converted builtin - line 10: view_xview -> cx
+Converted builtin - line 11: view_xview -> cx
+Converted builtin - line 12: view_xview -> cx
+Converted builtin - line 13: view_xview -> cx
+Converted builtin - line 16: view_xview -> cx
+Converted builtin - line 17: view_xview -> cx
+Converted builtin - line 18: view_xview -> cx
+Converted builtin - line 19: view_xview -> cx
+Converted builtin - line 22: view_xview -> cx
+Converted builtin - line 23: view_xview -> cx
+Converted builtin - line 24: view_xview -> cx
+Converted builtin - line 25: view_xview -> cx
+Converted builtin - line 33: view_xview -> cx
+Converted builtin - line 33: view_xview -> cx
+Converted builtin - line 37: view_xview -> cx
+Converted builtin - line 37: view_xview -> cx
+Converted builtin - line 38: view_xview -> cx
+Converted builtin - line 38: view_xview -> cx
+Converted builtin - line 43: view_xview -> cx
+Converted builtin - line 44: view_xview -> cx
+Converted builtin - line 47: view_xview -> cx
+Converted builtin - line 48: view_xview -> cx
+Converted builtin - line 51: view_xview -> cx
+Converted builtin - line 56: view_xview -> cx
+Converted builtin - line 60: view_xview -> cx
+Converted builtin - line 62: view_xview -> cx
+Converted builtin - line 2: view_yview -> cy
+Converted builtin - line 3: view_yview -> cy
+Converted builtin - line 6: view_yview -> cy
+Converted builtin - line 10: view_yview -> cy
+Converted builtin - line 11: view_yview -> cy
+Converted builtin - line 12: view_yview -> cy
+Converted builtin - line 13: view_yview -> cy
+Converted builtin - line 16: view_yview -> cy
+Converted builtin - line 17: view_yview -> cy
+Converted builtin - line 18: view_yview -> cy
+Converted builtin - line 19: view_yview -> cy
+Converted builtin - line 22: view_yview -> cy
+Converted builtin - line 23: view_yview -> cy
+Converted builtin - line 24: view_yview -> cy
+Converted builtin - line 25: view_yview -> cy
+Converted builtin - line 33: view_yview -> cy
+Converted builtin - line 33: view_yview -> cy
+Converted builtin - line 37: view_yview -> cy
+Converted builtin - line 37: view_yview -> cy
+Converted builtin - line 38: view_yview -> cy
+Converted builtin - line 38: view_yview -> cy
+Converted builtin - line 43: view_yview -> cy
+Converted builtin - line 44: view_yview -> cy
+Converted builtin - line 47: view_yview -> cy
+Converted builtin - line 48: view_yview -> cy
+Converted builtin - line 51: view_yview -> cy
+Converted builtin - line 56: view_yview -> cy
+Converted builtin - line 60: view_yview -> cy
+Converted builtin - line 62: view_yview -> cy
+
+Converting GML script: ${project_dir}\objects\intro_world\Step_0.gml
+Converted builtin - line 1: view_xview -> cx
+Converted builtin - line 2: view_yview -> cy
+
+Converting GML script: ${project_dir}\objects\intro_world_b\Step_0.gml
+Converted builtin - line 1: view_xview -> cx
+Converted builtin - line 2: view_yview -> cy
+
+Converting GML script: ${project_dir}\objects\cursor\Step_0.gml
+Converted builtin - line 10: view_object[0] = cursor -> __view_set( e__VW.Object, 0, cursor )
+Converted builtin - line 17: view_object[0] = player -> __view_set( e__VW.Object, 0, player )
+
+Converting GML script: ${project_dir}\objects\player\Mouse_54.gml
+Converted description /// @description  CREATE A NEW CUBE
+
+Converting GML script: ${project_dir}\objects\story_text_intro\Step_0.gml
+Converted builtin - line 3: view_xview -> cx
+
+Converting GML script: ${project_dir}\objects\story_car\Step_0.gml
+Converted builtin - line 1: background_x[0] = view_xview[view_current]*0.8 -> __background_set( e__BG.X, 0, view_xview[view_current]*0.8 )
+Converted builtin - line 4: background_x[1] = view_xview[view_current]*0.75 -> __background_set( e__BG.X, 1, view_xview[view_current]*0.75 )
+Converted builtin - line 7: background_x[2] = view_xview[view_current]*0.7 -> __background_set( e__BG.X, 2, view_xview[view_current]*0.7 )
+Converted builtin - line 2: background_y[0] -> __background_get( e__BG.Y, 0 )
+Converted builtin - line 5: background_y[1] -> __background_get( e__BG.Y, 1 )
+Converted builtin - line 8: background_y[2] -> __background_get( e__BG.Y, 2 )
+Converted builtin - line 2: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 5: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 8: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 2: background_y[0] = __view_get( e__VW.YView, view_current )*.8 + __background_get( e__BG.Y, 0 ) -> __background_set( e__BG.Y, 0, __view_get( e__VW.YView, view_current )*.8 + __background_get( e__BG.Y, 0 ) )
+Converted builtin - line 5: background_y[1] = __view_get( e__VW.YView, view_current )*.75 + __background_get( e__BG.Y, 1 ) -> __background_set( e__BG.Y, 1, __view_get( e__VW.YView, view_current )*.75 + __background_get( e__BG.Y, 1 ) )
+Converted builtin - line 8: background_y[2] = __view_get( e__VW.YView, view_current )*.7 + __background_get( e__BG.Y, 2 ) -> __background_set( e__BG.Y, 2, __view_get( e__VW.YView, view_current )*.7 + __background_get( e__BG.Y, 2 ) )
+Converted builtin - line 1: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 4: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 7: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+
+Converting GML script: ${project_dir}\objects\story_car\Draw_0.gml
+Converted builtin - line 6: view_xview -> cx
+Converted builtin - line 6: view_yview -> cy
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'sfx_slash' - setting to default audio group
+Missing audiogroup for sound: 'sfx_handgun' - setting to default audio group
+Missing audiogroup for sound: 'sfx_thud' - setting to default audio group
+Missing audiogroup for sound: 'sfx_gun_empty' - setting to default audio group
+Missing audiogroup for sound: 'sfx_reload' - setting to default audio group
+Missing audiogroup for sound: 'sfx_playerhit' - setting to default audio group
+Missing audiogroup for sound: 'sfx_alarm_short' - setting to default audio group
+Missing audiogroup for sound: 'sfx_click' - setting to default audio group
+Missing audiogroup for sound: 'sfx_knife_hit' - setting to default audio group
+Missing audiogroup for sound: 'sfx_bullet_hit' - setting to default audio group
+Missing audiogroup for sound: 'bgm_story_intro' - setting to default audio group
+Missing audiogroup for sound: 'radio_mission_aa' - setting to default audio group
+Missing audiogroup for sound: 'bgm_ambient_nature' - setting to default audio group
+Missing audiogroup for sound: 'bgm_mission_complete' - setting to default audio group
+Missing audiogroup for sound: 'sfx_helicopter' - setting to default audio group
+Missing audiogroup for sound: 'bgm_ambient_a' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'action/action_bounce.gml'
+Added compatibility script 'action/action_effect.gml'
+Added compatibility script 'action/action_set_relative.gml'
+Added compatibility script 'background/__background_get.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'draw/draw_set_blend_mode_ext.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
