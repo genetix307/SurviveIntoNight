@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e761910f-c0d2-4628-93e1-3a2eacf3aecb","path":"sprites/spr_stairs_wood/spr_stairs_wood.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e761910f-c0d2-4628-93e1-3a2eacf3aecb","path":"sprites/spr_stairs_wood/spr_stairs_wood.yy",},"LayerId":{"name":"4e403229-2b92-4eba-9b62-a1b10b43babb","path":"sprites/spr_stairs_wood/spr_stairs_wood.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_stairs_wood","path":"sprites/spr_stairs_wood/spr_stairs_wood.yy",},"resourceVersion":"1.0","name":"e761910f-c0d2-4628-93e1-3a2eacf3aecb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3990c60f-883b-4490-bcde-411535a1e41c","path":"sprites/spr_wall_top_brick/spr_wall_top_brick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3990c60f-883b-4490-bcde-411535a1e41c","path":"sprites/spr_wall_top_brick/spr_wall_top_brick.yy",},"LayerId":{"name":"d081271c-1956-449b-a087-719b879828eb","path":"sprites/spr_wall_top_brick/spr_wall_top_brick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_wall_top_brick","path":"sprites/spr_wall_top_brick/spr_wall_top_brick.yy",},"resourceVersion":"1.0","name":"3990c60f-883b-4490-bcde-411535a1e41c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_stairs_wood","path":"sprites/spr_stairs_wood/spr_stairs_wood.yy",},
+    "spriteId": {"name":"spr_wall_top_brick","path":"sprites/spr_wall_top_brick/spr_wall_top_brick.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6c2b5d08-3411-4d68-b005-b47d5a9ece66","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e761910f-c0d2-4628-93e1-3a2eacf3aecb","path":"sprites/spr_stairs_wood/spr_stairs_wood.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4d2534f5-fcd5-4eb4-8cf6-2a8d1b069290","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3990c60f-883b-4490-bcde-411535a1e41c","path":"sprites/spr_wall_top_brick/spr_wall_top_brick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_stairs_wood","path":"sprites/spr_stairs_wood/spr_stairs_wood.yy",},
+    "parent": {"name":"spr_wall_top_brick","path":"sprites/spr_wall_top_brick/spr_wall_top_brick.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_stairs_wood",
+    "name": "spr_wall_top_brick",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4e403229-2b92-4eba-9b62-a1b10b43babb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d081271c-1956-449b-a087-719b879828eb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Floors",
-    "path": "folders/Sprites/Environment/Floors.yy",
+    "name": "Walls",
+    "path": "folders/Sprites/Environment/Walls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_stairs_wood",
+  "name": "spr_wall_top_brick",
   "tags": [],
   "resourceType": "GMSprite",
 }
