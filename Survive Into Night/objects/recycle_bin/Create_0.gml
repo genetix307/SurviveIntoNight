@@ -5,5 +5,5 @@ my_name = "Recycle Bin"
 
 image_speed = 0
 //image_index = round(random(image_number))
-depth = 20
+depth = -150
 

@@ -24,3 +24,10 @@ if gamepad_button_check_released(0,gp_face1) {
 //alarm[1] = 5
 }
 
+if !collision_point(x,y,backpack_slot,false,true)
+{
+backpack_menu.show_item_name = ""
+backpack_menu.show_item_durability = 0
+backpack_menu.show_item_loaded = 0
+backpack_menu.show_item_description = ""
+}

@@ -10,7 +10,14 @@ vaxis = gamepad_axis_value(0, gp_axislv)
 if dead = 0 {
 	if hud.backpack_open = 0 {
 //Sprint
-if gamepad_button_check(0,gp_shoulderl) and distance_to_object(instance_nearest(x,y,default_solid)) > 4 and store.sp >=1 {my_speed = 3 store.sp -= .075 reduce_max_sp()} else {my_speed = 0}
+if gamepad_button_check(0,gp_shoulderl) and distance_to_object(instance_nearest(x,y,default_solid)) > 4 and store.sp >3 {my_speed = 3 store.sp -= .075 reduce_max_sp()} else {my_speed = 0}
+
+//Toggle flashlight
+if gamepad_button_check_pressed(0,gp_shoulderlb) {
+if instance_number(obj_light_flashlight) = 0 {instance_create_depth(x,y,depth,obj_light_flashlight) store.flashlight_on = 1 audio_play_sound(sfx_lightswitch,1,false)} 
+else if instance_number(obj_light_flashlight) > 0 {with obj_light_flashlight instance_destroy() audio_play_sound(sfx_lightswitch,1,false) store.flashlight_on = 0}
+}
+
 
 //Alternate Active Slot
 if gamepad_button_check_pressed(0,gp_shoulderr) and player.alarm[0] <= 0 {
@@ -40,10 +47,10 @@ if rd != 0 { image_angle = rd }
 
 	}
 
-//Set depth
-depth=-y;
+
 
 if can_attack > 0 {can_attack -= 1}
+if vibrate > 0 {vibrate -= 1 if vibrate <= 0 {gamepad_set_vibration(0, 0, 0)}}
 
 //Death
 if store.hp <= 0 {dead = 1 depth = 40000 alarm[2] = 150}

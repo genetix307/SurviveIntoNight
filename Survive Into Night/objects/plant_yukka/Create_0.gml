@@ -3,4 +3,4 @@ const_speed = 2;
 
 image_speed = .03
 image_angle = random(360)
-
+depth = 1

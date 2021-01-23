@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_cursor_joystik",
-    "path": "sprites/spr_cursor_joystik/spr_cursor_joystik.yy",
+    "name": "spr_cursor_menu",
+    "path": "sprites/spr_cursor_menu/spr_cursor_menu.yy",
   },
   "solid": false,
   "visible": true,

@@ -16,12 +16,14 @@ show_item_loaded = 0
 show_item_description = ""
 
 swap_slot_a = 0
+swap_item_a = 0
 swap_name_a = ""
 swap_durability_a = 0
 swap_loaded_a = 0
 swap_description_a = ""
 
 swap_slot_b = 0
+swap_item_b = 0
 swap_name_b = ""
 swap_durability_b = 0
 swap_loaded_b = 0

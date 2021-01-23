@@ -6,6 +6,8 @@ my_id = instance_number(backpack_slot)
 my_item = 0
 my_durability = 0
 my_loaded = 0
+my_name = ""
+my_description = ""
 image_speed = 0
 
 if my_id = 1 {x=cx+700 y=cy+60}

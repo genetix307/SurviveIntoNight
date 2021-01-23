@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Dynamic",
-    "path": "folders/Objects/Environment/Dynamic.yy",
+    "name": "Indoors",
+    "path": "folders/Objects/Environment/Indoors.yy",
   },
   "resourceVersion": "1.0",
   "name": "fridge",

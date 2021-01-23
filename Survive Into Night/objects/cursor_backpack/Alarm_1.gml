@@ -1,10 +1,12 @@
 // Genetix Studio
 backpack_menu.swap_slot_a = 0
+backpack_menu.swap_item_a = 0
 backpack_menu.swap_name_a = ""
 backpack_menu.swap_durability_a = 0
 backpack_menu.swap_loaded_a = 0
 backpack_menu.swap_description_a = ""
 backpack_menu.swap_slot_b = 0
+backpack_menu.swap_item_b = 0
 backpack_menu.swap_name_b = ""
 backpack_menu.swap_durability_b = 0
 backpack_menu.swap_loaded_b = 0

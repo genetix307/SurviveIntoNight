@@ -1,23 +1,27 @@
 // Genetix Studio
-if gamepad_button_check_pressed(0,gp_face1) {
+//Select Item
 backpack_menu.show_item_name = store.slot_name[my_id]
 backpack_menu.show_item_durability = store.slot_durability[my_id]
 backpack_menu.show_item_loaded = store.slot_loaded[my_id]
 backpack_menu.show_item_description = store.slot_description[my_id]
 
+if gamepad_button_check_pressed(0,gp_face1) {
 backpack_menu.swap_slot_a = my_id
-backpack_menu.swap_name_a = store.slot_name[my_id]
-backpack_menu.swap_durability_a = store.slot_durability[my_id]
-backpack_menu.swap_loaded_a = store.slot_loaded[my_id]
-backpack_menu.swap_description_a = store.slot_description[my_id]
+backpack_menu.swap_item_a = my_item
+backpack_menu.swap_name_a = my_name
+backpack_menu.swap_durability_a = my_durability
+backpack_menu.swap_loaded_a = my_loaded
+backpack_menu.swap_description_a = my_description
 }
 
+//Swap Item
 if gamepad_button_check_released(0,gp_face1) {
 backpack_menu.swap_slot_b = my_id
-backpack_menu.swap_name_b = store.slot_name[my_id]
-backpack_menu.swap_durability_b = store.slot_durability[my_id]
-backpack_menu.swap_loaded_b = store.slot_loaded[my_id]
-backpack_menu.swap_description_b = store.slot_description[my_id]
+backpack_menu.swap_item_b = my_item
+backpack_menu.swap_name_b = my_name
+backpack_menu.swap_durability_b = my_durability
+backpack_menu.swap_loaded_b = my_loaded
+backpack_menu.swap_description_b = my_description
 }
 
 //Drop Item
@@ -26,6 +30,8 @@ drop_item()
 my_item = 0
 my_durability = 0
 my_loaded = 0
+my_name = ""
+my_description = ""
 
 backpack_menu.show_item_name = ""
 backpack_menu.show_item_durability = 0

@@ -13,6 +13,6 @@ part3 = random(360)
 
 tree_height = 8
 
-depth = -y -150
+depth = -190
 
 

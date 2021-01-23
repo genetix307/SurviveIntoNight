@@ -1,4 +1,4 @@
-depth = -90;
+
 
 if collision_line(x+lengthdir_x(88,direction-10),y+lengthdir_y(88,direction-10),x+lengthdir_x(0,direction-10),y+lengthdir_y(0,direction-10),player,false,true)
 {

@@ -12,57 +12,32 @@ draw_text(cx+28,cy+702,string(fps))
 
 //Draw date and time
 draw_set_color(c_white)
-draw_text(cx+2,cy+32,"Day "+string(store.day) +" | "+string(store.time_hour)+string(store.timeofday))
+draw_text(cx+2,cy+62,"Day "+string(store.day) +" | "+string(store.time_hour)+string(store.timeofday))
 
 //Draw Active Item
 draw_set_font(font_stats)
 draw_set_color(c_yellow)
-draw_text(cx+2,cy+52,store.slot_name[store.active_slot])
-if store.slot_durability[store.active_slot] !=0 { draw_text(cx+2,cy+64,"Durability: "+string(store.slot_durability[store.active_slot]))}
-if player.current_weapon = 2 {draw_text(cx+2,cy+74,"Ammo: "+ string(store.slot_loaded[store.active_slot])+" / "+string(store.ammo_handgun))} //Handguns
-if player.current_weapon = 3 { draw_text(cx+2,cy+74,"Ammo: "+ string(store.slot_loaded[store.active_slot])+" / "+string(store.ammo_rifle))} //Rifles
-if player.current_weapon = 4 { draw_text(cx+2,cy+74,"Ammo: "+ string(store.slot_loaded[store.active_slot])+" / "+string(store.ammo_shotgun))} //Shotguns
+draw_text(cx+2,cy+82,store.slot_name[store.active_slot])
+if store.slot_durability[store.active_slot] !=0 { draw_text(cx+2,cy+94,"Durability: "+string(store.slot_durability[store.active_slot]))}
+if player.current_weapon = 2 { draw_text(cx+2,cy+104,"Ammo: "+ string(store.slot_loaded[store.active_slot])+" / "+string(store.ammo_handgun))} //Handguns
+if player.current_weapon = 3 { draw_text(cx+2,cy+104,"Ammo: "+ string(store.slot_loaded[store.active_slot])+" / "+string(store.ammo_rifle))} //Rifles
+if player.current_weapon = 4 { draw_text(cx+2,cy+104,"Ammo: "+ string(store.slot_loaded[store.active_slot])+" / "+string(store.ammo_shotgun))} //Shotguns
 
-//Draw HP bar
-draw_set_font(font_stats)
-draw_set_alpha(.75)
-draw_set_color(c_gray)
-draw_rectangle(cx+1,cy+3,cx+153,cy+14,false)
-draw_set_alpha(.8)
-draw_set_color(c_black)
-draw_rectangle(cx+1,cy+2,cx+153,cy+15,true)
-draw_rectangle_colour(cx+3,cy+3,cx+((store.hp/store.max_hp)*150)+3,cy+14,c_green,c_lime,c_green,c_green,false)
-draw_set_alpha(1)
-draw_set_color(c_black)
-draw_text(cx+4,cy+3,"Health")
-draw_text(cx+100,cy+3,string(round(store.hp))+"/"+string(round(store.max_hp)))               
-draw_set_color(c_white)
-draw_text(cx+3,cy+2,"Health")
-draw_text(cx+98,cy+2,string(round(store.hp))+"/"+string(round(store.max_hp)))       
-draw_sprite(spr_stat_cap,0,cx+153,cy+8)
-
-//Draw SP bar
-draw_set_alpha(.75)
-draw_set_color(c_gray)
-draw_rectangle(cx+1,cy+18,cx+153,cy+29,false)
-draw_set_alpha(.8)
-draw_set_color(c_black)
-draw_rectangle(cx+1,cy+17,cx+153,cy+30,true)
-draw_rectangle_colour(cx+3,cy+18,cx+((store.sp/store.max_sp)*150)+3,cy+29,c_orange,c_yellow,c_orange,c_orange,false)
-draw_set_alpha(1)
-draw_set_color(c_black)
-draw_text(cx+4,cy+18,"Stamina")
-draw_text(cx+100,cy+18,string(round(store.sp))+"/"+string(round(store.max_sp)))               
-draw_set_color(c_white)
-draw_text(cx+3,cy+17,"Stamina")
-draw_text(cx+98,cy+17,string(round(store.sp))+"/"+string(round(store.max_sp)))       
-draw_sprite(spr_stat_cap,0,cx+153,cy+23)
+show_statusbars()
 
 //Show Item 
 if show_item > 0
 {
 draw_set_font(font_stats)
 	draw_text_color(player.x-36,player.y-36,show_item_text,c_white,c_white,c_white,c_white,show_item)	
+}
+
+//Show Area 
+if show_area > 0
+{
+draw_set_font(font_show_area)
+	draw_text_color(cx+442,cy+12,show_area_text,c_maroon,c_maroon,c_maroon,c_maroon,show_area)	
+	draw_text_color(cx+440,cy+10,show_area_text,c_red,c_red,c_red,c_red,show_area)	
 }
 
 //Show Quick slots

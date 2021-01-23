@@ -6,6 +6,8 @@ backpack_open = 0
 
 show_item = 0
 show_item_text = ""
+show_area = 0
+show_area_text = ""
 
 //Light Cycle refresh
 if store.timeofday = "PM"

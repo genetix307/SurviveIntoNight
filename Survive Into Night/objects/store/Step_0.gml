@@ -14,3 +14,10 @@ if max_sp > max_sp_perm {max_sp = max_sp_perm}
 if hp > max_hp {hp = max_hp}
 if hp < 0 {hp = 0}
 if max_hp > max_hp_perm {max_hp = max_hp_perm}
+
+if thirst < 0 {thirst = 0}
+if thirst > max_thirst {thirst = max_thirst}
+
+if flashlight_battery > max_flashlight_battery {flashlight_battery = max_flashlight_battery}
+if flashlight_battery < 0 {flashlight_battery = 0}
+

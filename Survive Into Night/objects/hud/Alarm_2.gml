@@ -4,6 +4,8 @@ alarm[2] = 900
 if store.time_hour < 12
 {
 store.time_hour +=1
+store.thirst -= 1
+if store.thirst <1 {store.hp -= 10 store.sp -= 10}
 
 if store.time_hour = 12 
 	{

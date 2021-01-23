@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_wall_top_beige",
-    "path": "sprites/spr_wall_top_beige/spr_wall_top_beige.yy",
+    "name": "spr_wall_beige",
+    "path": "sprites/spr_wall_beige/spr_wall_beige.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "default_solid",
-    "path": "objects/default_solid/default_solid.yy",
+    "name": "default_wall",
+    "path": "objects/default_wall/default_wall.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,9 +25,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"wall_beige","path":"objects/wall_beige/wall_beige.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"wall_beige","path":"objects/wall_beige/wall_beige.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,"parent":{"name":"wall_beige","path":"objects/wall_beige/wall_beige.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"wall_beige","path":"objects/wall_beige/wall_beige.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"wall_beige","path":"objects/wall_beige/wall_beige.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_wall_top_beige",
-    "path": "sprites/spr_wall_top_beige/spr_wall_top_beige.yy",
+    "name": "spr_wall_beige",
+    "path": "sprites/spr_wall_beige/spr_wall_beige.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,8 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"ceiling_beige","path":"objects/ceiling_beige/ceiling_beige.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"ceiling_beige","path":"objects/ceiling_beige/ceiling_beige.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,"parent":{"name":"ceiling_beige","path":"objects/ceiling_beige/ceiling_beige.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"ceiling_beige","path":"objects/ceiling_beige/ceiling_beige.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],

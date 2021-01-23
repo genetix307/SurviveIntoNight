@@ -11,6 +11,9 @@ wood = 0
 pistol_frame = 0
 rifle_frame = 0
 shotgun_frame = 0
+chemicals = 0
+plastic = 0
+gun_powder = 0
 
 
 //Stats
@@ -20,8 +23,13 @@ hp = max_hp
 max_sp_perm = 100
 max_sp = max_sp_perm
 sp = max_sp
+max_flashlight_battery = 100
+flashlight_battery = max_flashlight_battery
+max_thirst = 100
+thirst = max_thirst
 
 active_slot = 1
+flashlight_on = 1
 
 day = 1
 time_hour = 4

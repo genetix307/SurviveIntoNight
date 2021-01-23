@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_wall_top_brick",
-    "path": "sprites/spr_wall_top_brick/spr_wall_top_brick.yy",
+    "name": "spr_wall_brick",
+    "path": "sprites/spr_wall_brick/spr_wall_brick.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,9 +25,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"wall_brick","path":"objects/wall_brick/wall_brick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"wall_brick","path":"objects/wall_brick/wall_brick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,"parent":{"name":"wall_brick","path":"objects/wall_brick/wall_brick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"wall_brick","path":"objects/wall_brick/wall_brick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"wall_brick","path":"objects/wall_brick/wall_brick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

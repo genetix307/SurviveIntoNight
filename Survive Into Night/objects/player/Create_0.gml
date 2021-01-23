@@ -4,8 +4,13 @@ const_speed = 2;
 
 instance_create(x,y,obj_lightmap)
 instance_create(x,y,cursor)
+instance_create(x,y,hud)
+if store.flashlight_on = 1 {instance_create(x,y,obj_light_flashlight)}
 use_hold = 0
 play_bgm()
+showArea()
+vibrate = 0
+depth = -25
 
 //Setup Gamepad
 if gamepad_is_connected(0) 
@@ -23,14 +28,14 @@ my_speed = 0
 //my_vibration = 0
 }
 
-instance_create(x,y,hud)
-
 hp = store.max_hp
 can_attack = 0
 can_recycle = 0
+can_craft = 0
 dead = 0
 image_speed = 0
 current_weapon = 0
+cursor_distance = 220
 x = store.player_x
 y = store.player_y
 

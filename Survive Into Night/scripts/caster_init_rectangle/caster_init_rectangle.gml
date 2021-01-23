@@ -9,6 +9,4 @@ function caster_init_rectangle(argument0, argument1, argument2, argument3) {
 	caster_add_point(right,bottom);
 	caster_add_point(left,bottom);
 
-
-
 }

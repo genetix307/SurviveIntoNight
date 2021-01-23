@@ -15,5 +15,5 @@ my_slot = 2
 my_name = "Butter Knife"
 my_durability = 8
 my_loaded = 0
-my_description = "Dull knife for spreading butter and other condiments. Attack Points: 30\nBreaks down into: 2x Metal"
+my_description = "Dull knife for spreading butter and other condiments. Attack Points: 30\nBreaks down into: 1x Metal"
 

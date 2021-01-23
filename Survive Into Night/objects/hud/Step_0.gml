@@ -5,6 +5,7 @@ y = player.y
 }
 
 if show_item > 0 {show_item -= .1}
+if show_area > 0 {show_area -= .02}
 
 
 if gamepad_button_check_pressed(0,gp_face2) and backpack_open = 0 
