@@ -21,3 +21,4 @@ if thirst > max_thirst {thirst = max_thirst}
 if flashlight_battery > max_flashlight_battery {flashlight_battery = max_flashlight_battery}
 if flashlight_battery < 0 {flashlight_battery = 0}
 
+

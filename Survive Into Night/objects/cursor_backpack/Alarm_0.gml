@@ -1,4 +1,6 @@
 // Genetix Studio
+if backpack_menu.swap_slot_b != 0
+{
 show_debug_message("Swapping items")
 store.slot_item[backpack_menu.swap_slot_a] = backpack_menu.swap_item_b
 store.slot_name[backpack_menu.swap_slot_a] = backpack_menu.swap_name_b
@@ -26,3 +28,4 @@ backpack_menu.swap_loaded_b = 0
 backpack_menu.swap_description_b = ""
 
 audio_play_sound(sfx_backpack,1,false)
+}

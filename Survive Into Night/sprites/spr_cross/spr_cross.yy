@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c6f706f3-6ad6-4c44-8a8e-ead34689a68c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "decor",
-    "path": "folders/Sprites/Environment/decor.yy",
+    "name": "Indoors",
+    "path": "folders/Sprites/Environment/Indoors.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cross",

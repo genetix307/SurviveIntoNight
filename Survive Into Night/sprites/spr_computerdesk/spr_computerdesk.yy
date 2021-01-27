@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5f3c93d8-23a4-42fb-9e83-f2f1c6359641","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Furniture",
-    "path": "folders/Sprites/Environment/Furniture.yy",
+    "name": "Indoors",
+    "path": "folders/Sprites/Environment/Indoors.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_computerdesk",

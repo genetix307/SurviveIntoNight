@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"06cc41dc-b06a-41d8-9c01-ab1d0d64b4e0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Furniture",
-    "path": "folders/Sprites/Environment/Furniture.yy",
+    "name": "Indoors",
+    "path": "folders/Sprites/Environment/Indoors.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_oven",

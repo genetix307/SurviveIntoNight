@@ -19,13 +19,16 @@ if show_item_durability != 0 {draw_text_color(cx+670,cy+678,"Durability points: 
 if show_item_loaded != 0 {draw_text_color(cx+830,cy+678,"Ammo loaded: "+string(show_item_loaded),c_teal,c_teal,c_teal,c_teal,1)}
 
 //Show menu buttons
-draw_text_color(cx+1217,cy+627,"Drop Item",c_white,c_silver,c_white,c_white,1)
-draw_sprite(spr_show_button_y,0,cx+1201,cy+635)
+draw_text_color(cx+1215,cy+630,"Move/Swap",c_white,c_silver,c_white,c_white,1)
+draw_sprite(spr_show_button_a,0,cx+1199,cy+638)
+
+draw_text_color(cx+1215,cy+650,"Drop Item",c_white,c_silver,c_white,c_white,1)
+draw_sprite(spr_show_button_y,0,cx+1199,cy+658)
 
 if player.can_recycle = 1
 {
-draw_text_color(cx+1217,cy+647,"Recycle",c_white,c_silver,c_white,c_white,1)
-draw_sprite(spr_show_button_x,0,cx+1201,cy+655)
+draw_text_color(cx+1215,cy+670,"Recycle",c_white,c_silver,c_white,c_white,1)
+draw_sprite(spr_show_button_x,0,cx+1199,cy+678)
 }
 
 }
@@ -43,13 +46,19 @@ draw_text_color(cx+4,cy+118,"Material Resources",c_yellow,c_yellow,c_yellow,c_ye
 draw_text_color(cx+8,cy+130,"Sugar x"+string(store.sugar),c_white,c_silver,c_white,c_white,1)
 draw_text_color(cx+8,cy+140,"Water x"+string(store.water),c_white,c_silver,c_white,c_white,1)
 draw_text_color(cx+8,cy+150,"Metal x"+string(store.metal),c_white,c_silver,c_white,c_white,1)
-draw_text_color(cx+8,cy+160,"Wood x"+string(store.wood),c_white,c_silver,c_white,c_white,1)
+draw_text_color(cx+8,cy+160,"Fiber x"+string(store.fiber),c_white,c_silver,c_white,c_white,1)
 draw_text_color(cx+8,cy+170,"Plastic x"+string(store.plastic),c_white,c_silver,c_white,c_white,1)
 draw_text_color(cx+8,cy+180,"Chemicals x"+string(store.chemicals),c_white,c_silver,c_white,c_white,1)
 draw_text_color(cx+8,cy+190,"Gun Powder x"+string(store.gun_powder),c_white,c_silver,c_white,c_white,1)
 draw_text_color(cx+8,cy+200,"Pistol Frame x"+string(store.pistol_frame),c_white,c_silver,c_white,c_white,1)
 draw_text_color(cx+8,cy+210,"Rifle Frame x"+string(store.rifle_frame),c_white,c_silver,c_white,c_white,1)
 draw_text_color(cx+8,cy+220,"Shotgun Frame x"+string(store.shotgun_frame),c_white,c_silver,c_white,c_white,1)
+
+//Draw Current Task info
+draw_set_font(font_stats)
+draw_text_color(cx+184,cy+2,"Current Task",c_lime,c_green,c_lime,c_green,1)
+draw_text_ext_color(cx+188,cy+14,store.current_task,9,300,c_white,c_silver,c_white,c_silver,1)
+
 
 /*
 //Testing

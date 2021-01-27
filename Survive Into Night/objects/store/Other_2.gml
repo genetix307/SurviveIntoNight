@@ -7,7 +7,7 @@ ammo_shotgun = 0
 sugar = 0
 water = 0
 metal = 0
-wood = 0
+fiber = 0
 pistol_frame = 0
 rifle_frame = 0
 shotgun_frame = 0
@@ -15,8 +15,7 @@ chemicals = 0
 plastic = 0
 gun_powder = 0
 
-
-//Stats
+//Player Stats
 max_hp_perm = 100
 max_hp = max_hp_perm
 hp = max_hp
@@ -28,12 +27,14 @@ flashlight_battery = max_flashlight_battery
 max_thirst = 100
 thirst = max_thirst
 
+//Game Stats
+zombies_slain = 0
+
 active_slot = 1
 flashlight_on = 1
-
 day = 1
-time_hour = 4
-timeofday = "PM"
+time_hour = 10
+timeofday = "AM"
 
 //Item Slots (Slots 1-4 Quick Slots)
 total_slots = 41
@@ -62,6 +63,9 @@ for (i = 0; i<total_slots;i+=1)
 slot_description[i] = 0
 }
 
+//Story & Quest
+current_task = "Explore the nearby Church for signs of your Son that was heading there a week before."
+current_task_index = 0
 
 
 //Settings

@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a788b8cb-7e59-4949-96d8-39217613fd31","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Furniture",
-    "path": "folders/Sprites/Environment/Furniture.yy",
+    "name": "Indoors",
+    "path": "folders/Sprites/Environment/Indoors.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_chair_comfy",

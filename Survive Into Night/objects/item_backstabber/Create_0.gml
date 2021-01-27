@@ -1,8 +1,9 @@
 my_spin = 0
 shine = 0
-if hud.set_world = 1
+static_start = 0
+if hud.set_world = 1 and static_start = 0
 {
-speed = 3 +random(6)
+speed = 2 +random(2)
 direction = random(360)
 my_spin = 12 +random(24)
 }

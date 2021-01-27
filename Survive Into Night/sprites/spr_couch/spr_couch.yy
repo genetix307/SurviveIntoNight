@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1698db2b-d980-40e5-a340-0c1f67305842","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Furniture",
-    "path": "folders/Sprites/Environment/Furniture.yy",
+    "name": "Indoors",
+    "path": "folders/Sprites/Environment/Indoors.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_couch",

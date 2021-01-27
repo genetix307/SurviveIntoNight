@@ -7,4 +7,7 @@ if store.slot_item[store.active_slot] = 5 {player.current_weapon = 4 player_use_
 if store.slot_item[store.active_slot] = 6 {audio_play_sound(sfx_lightswitch,1,false); store.flashlight_battery+=50 clear_slot() } //Batteries
 if store.slot_item[store.active_slot] = 7 {player.current_weapon = 1 player_use_weapon()} //Backstabber
 if store.slot_item[store.active_slot] = 8 {player.current_weapon = 1 player_use_weapon()} //Fork
+if store.slot_item[store.active_slot] = 12 {audio_play_sound(sfx_tape,1,false); store.hp+=30; clear_slot() } //Bandages
+if store.slot_item[store.active_slot] = 13 {audio_play_sound(sfx_drinking,1,false); store.max_hp += 25; clear_slot() } //Medicine
+if store.slot_item[store.active_slot] = 14 {audio_play_sound(sfx_drinking,1,false); store.thirst -=40; clear_slot() } //Water Bottle
 }

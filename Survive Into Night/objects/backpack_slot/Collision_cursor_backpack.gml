@@ -5,6 +5,7 @@ backpack_menu.show_item_durability = store.slot_durability[my_id]
 backpack_menu.show_item_loaded = store.slot_loaded[my_id]
 backpack_menu.show_item_description = store.slot_description[my_id]
 
+//Swap items
 if gamepad_button_check_pressed(0,gp_face1) {
 backpack_menu.swap_slot_a = my_id
 backpack_menu.swap_item_a = my_item
@@ -14,7 +15,6 @@ backpack_menu.swap_loaded_a = my_loaded
 backpack_menu.swap_description_a = my_description
 }
 
-//Swap Item
 if gamepad_button_check_released(0,gp_face1) {
 backpack_menu.swap_slot_b = my_id
 backpack_menu.swap_item_b = my_item

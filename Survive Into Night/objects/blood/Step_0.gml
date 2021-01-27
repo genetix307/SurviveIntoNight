@@ -6,8 +6,8 @@ if speed > 0 {speed -= .25}
 if speed < 0 {speed = 0}
 }
 
-image_alpha -= .001
-if fade = 1 {image_alpha -= .001}
+image_alpha -= .0005
+if fade = 1 {image_alpha -= .0005}
 if image_alpha <= 0 {instance_destroy()}
 
 if distance_to_object(player) > 600 {instance_destroy()}

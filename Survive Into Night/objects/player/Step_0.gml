@@ -48,7 +48,6 @@ if rd != 0 { image_angle = rd }
 	}
 
 
-
 if can_attack > 0 {can_attack -= 1}
 if vibrate > 0 {vibrate -= 1 if vibrate <= 0 {gamepad_set_vibration(0, 0, 0)}}
 
