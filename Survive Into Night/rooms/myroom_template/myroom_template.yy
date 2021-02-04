@@ -56,7 +56,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "myroom_template",
+  "name": "myroom_TEMPLATE",
   "tags": [],
   "resourceType": "GMRoom",
 }

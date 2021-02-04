@@ -16,5 +16,5 @@ my_slot = 7
 my_name = "The Backstabber"
 my_durability = 20
 my_loaded = 0
-my_description = "Strong sharp knife for stabbing your foes in the back. Attack Points: 70\nBreaks down into: 2x Metal, 1x Wood"
+my_description = "Strong sharp knife for stabbing your foes in the back. Attack Points: 70\nBreaks down into: 2x Metal, 1x Fiber"
 

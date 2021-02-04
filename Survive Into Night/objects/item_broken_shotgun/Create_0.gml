@@ -16,5 +16,5 @@ my_slot = 11
 my_name = "Broken Shotgun"
 my_durability = 0
 my_loaded = 0
-my_description = "Broken scraps of a shotgun.\nBreaks down into: 1x Shotgun Frame, 1 Wood, 4x Metal"
+my_description = "Broken scraps of a shotgun.\nBreaks down into: 1x Shotgun Frame, 1 Fiber, 4x Metal"
 

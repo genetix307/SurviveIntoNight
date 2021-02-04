@@ -8,7 +8,7 @@ haxis = gamepad_axis_value(0, gp_axislh)
 vaxis = gamepad_axis_value(0, gp_axislv)
 
 if dead = 0 {
-	if hud.backpack_open = 0 {
+	if hud.backpack_open = 0 and hud.chat_open = 0 {
 //Sprint
 if gamepad_button_check(0,gp_shoulderl) and distance_to_object(instance_nearest(x,y,default_solid)) > 4 and store.sp >3 {my_speed = 3 store.sp -= .075 reduce_max_sp()} else {my_speed = 0}
 

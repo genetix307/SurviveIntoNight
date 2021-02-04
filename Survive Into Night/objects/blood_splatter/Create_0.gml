@@ -1,5 +1,4 @@
 //if store.show_blood > 0 {instance_destroy()}
-
 xx = random(1280)
 yy = random(720)
 

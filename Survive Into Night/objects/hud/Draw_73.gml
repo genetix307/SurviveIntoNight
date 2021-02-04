@@ -66,3 +66,17 @@ if backpack_open =1 {
 	draw_rectangle(0,0,room_width,room_height,false)
 	draw_set_alpha(1)
 }
+
+//Show Chat
+if chat_open =1 {
+	draw_set_color(c_blue)
+	draw_set_alpha(.8)
+	draw_rectangle(cx+320,cy+80,cx+960,cy+200,false)
+	draw_set_color(c_white)
+	draw_rectangle(cx+320,cy+80,cx+960,cy+200,true)
+	draw_set_alpha(1)
+	draw_sprite(spr_show_button_a,0,cx+945,cy+185)
+	draw_set_font(font_chat)
+	draw_text_ext_color(cx+330,cy+86,chat_text,16,630,c_white,c_white,c_white,c_white,1)
+	
+}

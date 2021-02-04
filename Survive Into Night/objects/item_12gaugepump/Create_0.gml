@@ -16,5 +16,5 @@ my_slot = 5
 my_name = "12-gauge Pump Shotgun"
 my_durability = 20
 my_loaded = 0
-my_description = "Short Range pump action shotgun. Attack Points: 5\nBreaks down into: 1x Shotgun Frame, 1 Wood, 4x Metal"
+my_description = "Short Range pump action shotgun. Attack Points: 5\nBreaks down into: 1x Shotgun Frame, 1 Fiber, 4x Metal"
 

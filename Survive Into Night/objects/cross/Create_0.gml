@@ -5,3 +5,4 @@ image_speed = 0
 image_index = round(random(image_number))
 depth = 50
 
+my_name = "Say a prayer?"

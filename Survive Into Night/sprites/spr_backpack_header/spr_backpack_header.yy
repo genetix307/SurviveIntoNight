@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f1c68cb8-12fa-41ee-940a-2388315d41cc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "backpack",
-    "path": "folders/Sprites/Menu/backpack.yy",
+    "name": "Menu",
+    "path": "folders/Sprites/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_backpack_header",

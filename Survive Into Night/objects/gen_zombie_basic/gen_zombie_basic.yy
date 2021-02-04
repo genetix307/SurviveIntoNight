@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_hitbox_skel",
-    "path": "sprites/spr_hitbox_skel/spr_hitbox_skel.yy",
+    "name": "spr_gen_enemy",
+    "path": "sprites/spr_gen_enemy/spr_gen_enemy.yy",
   },
   "solid": false,
   "visible": false,

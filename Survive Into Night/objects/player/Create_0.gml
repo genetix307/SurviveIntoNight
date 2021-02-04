@@ -11,6 +11,7 @@ play_bgm()
 showArea()
 vibrate = 0
 depth = -25
+gamepad_set_vibration(0, 0, 0)
 
 //Setup Gamepad
 if gamepad_is_connected(0) 

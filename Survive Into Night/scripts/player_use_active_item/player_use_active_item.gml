@@ -1,5 +1,5 @@
 function player_use_active_item() {
-if store.slot_item[store.active_slot] = 1 {audio_play_sound(sfx_drinking,1,false); store.max_sp+=10; store.thirst -=6; store.max_hp -= 2 clear_slot() } //Canned Soda
+if store.slot_item[store.active_slot] = 1 {audio_play_sound(sfx_drinking,1,false); store.max_sp+=10; store.thirst +=6; store.max_hp -= 2 clear_slot() } //Canned Soda
 if store.slot_item[store.active_slot] = 2 {player.current_weapon = 1 player_use_weapon()} //Butter Knife
 if store.slot_item[store.active_slot] = 3 {player.current_weapon = 2 player_use_weapon()} //9mm Pistol
 if store.slot_item[store.active_slot] = 4 {player.current_weapon = 3 player_use_weapon()} //AR-15
@@ -9,5 +9,6 @@ if store.slot_item[store.active_slot] = 7 {player.current_weapon = 1 player_use_
 if store.slot_item[store.active_slot] = 8 {player.current_weapon = 1 player_use_weapon()} //Fork
 if store.slot_item[store.active_slot] = 12 {audio_play_sound(sfx_tape,1,false); store.hp+=30; clear_slot() } //Bandages
 if store.slot_item[store.active_slot] = 13 {audio_play_sound(sfx_drinking,1,false); store.max_hp += 25; clear_slot() } //Medicine
-if store.slot_item[store.active_slot] = 14 {audio_play_sound(sfx_drinking,1,false); store.thirst -=40; clear_slot() } //Water Bottle
+if store.slot_item[store.active_slot] = 14 {audio_play_sound(sfx_drinking,1,false); store.thirst +=40; clear_slot() } //Water Bottle
+if store.slot_item[store.active_slot] = 15 {audio_play_sound(sfx_drinking,1,false); store.max_sp+=25; store.thirst +=8; clear_slot() } //Energy Drink
 }

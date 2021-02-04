@@ -1,5 +1,5 @@
 fade = 0
-image_alpha -= .00015 + random(.00075)
+image_alpha -= .00012 + random(.00075)
 if speed > 0 {speed -= .05 image_angle +=6} else speed = 0
 
 

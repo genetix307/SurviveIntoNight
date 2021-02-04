@@ -1,5 +1,7 @@
 enemy_create()
 
+image_speed = 0
+image_index = round(random(image_number))
 my_speed = 1+random(1)
 hp = 50+random(20)
 can_attack = 0
@@ -15,3 +17,5 @@ direction = random(360)
 
 //Set depth
 depth=-5;
+
+stuck_check = 0
