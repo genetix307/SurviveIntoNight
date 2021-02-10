@@ -12,7 +12,7 @@ function enemy_step_zombie() {
 	if alert = 1 and stunned <= 0 {
 	xx = player.x + lengthdir_x(24,player.image_angle)
 	yy = player.y + lengthdir_y(24,player.image_angle)
-	mp_potential_step_object(xx,yy,my_speed,default_solid)}
+	if hud.chat_open = 0 {mp_potential_step_object(xx,yy,my_speed,default_solid)}}
 	
 	//Hesitate
 	if alert = 1 and stunned <= 0 and distance_to_object(player)< my_range/2 and distance_to_object(player) > my_range/3 and hesitate> 8  {mp_potential_step_object(player.x,player.y,-(my_speed+.3),default_solid)}
@@ -31,12 +31,13 @@ function enemy_step_zombie() {
 
 	//Check Alert
 	if alert = 0 {
+	if collision_point(x,y,obj_light_flashlight,false,true) {audio_play_sound(sfx_zombie_growl,1,false) show_alert = 1.1 alert = 1 alarm[0] = 600}
 	if clear_shot = 0 and distance_to_object(player) < my_range {audio_play_sound(sfx_zombie_growl,1,false) show_alert = 1.1 alert = 1 alarm[0] = 600}
 	if collision_circle(x,y,300,default_weapon,false,true) and distance_to_object(player) < my_range {audio_play_sound(sfx_zombie_growl,1,false) show_alert = 1.2 alert = 1 alarm[0] = 600}
 	}
 
 	//Attack
-	if distance_to_object(player) < attack_range and player.dead = 0 and stunned = 0
+	if distance_to_object(player) < attack_range and player.dead = 0 and stunned = 0 and hud.chat_open = 0
 	{
 	
 	direction = point_direction(x,y,player.x,player.y) 

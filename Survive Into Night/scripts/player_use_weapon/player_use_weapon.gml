@@ -5,9 +5,9 @@ function player_use_weapon() {
 	if player.current_weapon = 1 and player.use_hold = 0 and store.sp > 0 //Knives
 	{
 	sprite_index = spr_player_knife_attack; image_index = 0
-	if store.slot_item[store.active_slot] = 2 {instance_create(x,y,weapon_butterknife) can_attack = 20 store.slot_durability[store.active_slot] -=1 store.sp -= 5} //Butter Knife
-	if store.slot_item[store.active_slot] = 7 {instance_create(x,y,weapon_backstabber) can_attack = 22 store.slot_durability[store.active_slot] -=1 store.sp -= 5} //Backstabber
-	if store.slot_item[store.active_slot] = 8 {instance_create(x,y,weapon_fork) can_attack = 20 store.slot_durability[store.active_slot] -=1 store.sp -= 5} //Butter Knife
+	if store.slot_item[store.active_slot] = 2 {instance_create(x,y,weapon_butterknife) can_attack = 20 store.sp -= 5} //Butter Knife
+	if store.slot_item[store.active_slot] = 7 {instance_create(x,y,weapon_backstabber) can_attack = 22 store.sp -= 5} //Backstabber
+	if store.slot_item[store.active_slot] = 8 {instance_create(x,y,weapon_fork) can_attack = 20 store.sp -= 5} //Butter Knife
 	if store.slot_durability[store.active_slot] <=0 {item_break()}
 	}
 

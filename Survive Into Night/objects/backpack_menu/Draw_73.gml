@@ -37,9 +37,9 @@ show_statusbars()
 show_materials()
 
 //Draw Current Task info
-draw_set_font(font_menu_header)
+draw_set_font(font_chat)
 draw_text_color(cx+184,cy+2,"Current Task",c_lime,c_green,c_lime,c_green,1)
-draw_text_ext_color(cx+188,cy+14,store.current_task,9,300,c_white,c_silver,c_white,c_silver,1)
+draw_text_ext_color(cx+188,cy+18,store.current_task,15,460,c_white,c_silver,c_white,c_silver,1)
 
 
 

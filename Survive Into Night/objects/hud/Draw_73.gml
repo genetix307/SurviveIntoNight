@@ -72,6 +72,8 @@ if chat_open =1 {
 	draw_set_color(c_blue)
 	draw_set_alpha(.8)
 	draw_rectangle(cx+320,cy+80,cx+960,cy+200,false)
+	draw_set_color(c_dkgray)
+	draw_rectangle(cx+318,cy+78,cx+958,cy+198,true)
 	draw_set_color(c_white)
 	draw_rectangle(cx+320,cy+80,cx+960,cy+200,true)
 	draw_set_alpha(1)

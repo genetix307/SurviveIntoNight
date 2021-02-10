@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Objects/NPC.yy",
+    "name": "Story",
+    "path": "folders/Objects/Story.yy",
   },
   "resourceVersion": "1.0",
   "name": "npc_billy",

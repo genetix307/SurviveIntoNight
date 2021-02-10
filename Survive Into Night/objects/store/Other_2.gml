@@ -14,6 +14,7 @@ shotgun_frame = 0
 chemicals = 0
 plastic = 0
 gun_powder = 0
+souls = 0
 
 //Player Stats
 max_hp_perm = 100
@@ -35,7 +36,7 @@ newspapers_found = 0
 active_slot = 1
 flashlight_on = 1
 day = 1
-time_hour = 10
+time_hour = 5
 timeofday = "AM"
 
 //Item Slots (Slots 1-4 Quick Slots)
@@ -68,6 +69,11 @@ slot_description[i] = 0
 //Story & Quest
 current_task = "Explore the nearby Church for signs of your Son that was heading there a week before."
 current_task_index = 0
+
+//Tutorial
+tut_recycle = 0
+tut_craft = 0
+
 
 
 //Settings

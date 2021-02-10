@@ -16,6 +16,8 @@ if store.slot_item[my_id] = 13 {store.sugar+=1 store.chemicals+=2} //Bandages
 if store.slot_item[my_id] = 14 {store.water+=2 store.plastic+=1} //Water Bottle
 if store.slot_item[my_id] = 15 {store.sugar+=1 store.water+=1 store.chemicals +=1 store.metal+=1} //Canned Soda
 if store.slot_item[my_id] = 16 {store.fiber+=3} //Woodboard
+if store.slot_item[my_id] = 17 {store.fiber+=1} //Cash
+if store.slot_item[my_id] = 18 {store.chemicals+=2 store.water+=1 store.plastic+=1} //Cleaning Spray
 
 
 store.slot_item[my_id] = 0 

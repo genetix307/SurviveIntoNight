@@ -23,4 +23,9 @@ draw_text_color(cx+8,cy+190,"Gun Powder x"+string(store.gun_powder),c_white,c_si
 draw_text_color(cx+8,cy+200,"Pistol Frame x"+string(store.pistol_frame),c_white,c_silver,c_white,c_white,1)
 draw_text_color(cx+8,cy+210,"Rifle Frame x"+string(store.rifle_frame),c_white,c_silver,c_white,c_white,1)
 draw_text_color(cx+8,cy+220,"Shotgun Frame x"+string(store.shotgun_frame),c_white,c_silver,c_white,c_white,1)
+
+draw_text_color(cx+4,cy+238,"Other Resources",c_yellow,c_yellow,c_yellow,c_yellow,1)
+draw_text_color(cx+8,cy+250,"Souls x"+string(store.souls),c_white,c_silver,c_white,c_white,1)
+
+
 }

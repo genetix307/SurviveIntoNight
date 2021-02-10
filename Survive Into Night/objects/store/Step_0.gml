@@ -22,3 +22,7 @@ if flashlight_battery > max_flashlight_battery {flashlight_battery = max_flashli
 if flashlight_battery < 0 {flashlight_battery = 0}
 
 if prayer_blessing > 0 {prayer_blessing -=1}
+
+//Cheats
+//Keyboard based
+if keyboard_check_pressed(ord("H")) {player_x = 768 player_y = 1080 room = myroom_church} //Home Sweet Home

@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": false,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_flashlight_skel",
+    "path": "sprites/spr_flashlight_skel/spr_flashlight_skel.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_light_parent",
