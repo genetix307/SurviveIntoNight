@@ -1,3 +1,3 @@
-r += 1;
-light_set_rotation(r);
+//r += 1;
+//light_set_rotation(r);
 

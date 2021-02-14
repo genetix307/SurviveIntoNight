@@ -24,5 +24,18 @@ if flashlight_battery < 0 {flashlight_battery = 0}
 if prayer_blessing > 0 {prayer_blessing -=1}
 
 //Cheats
-//Keyboard based
+//if cheats_enabled {
 if keyboard_check_pressed(ord("H")) {player_x = 768 player_y = 1080 room = myroom_church} //Home Sweet Home
+if keyboard_check_pressed(ord("W")) {instance_create_depth(player.x,player.y,0,item_12gaugepump) repeat 3 instance_create_depth(player.x,player.y,0,item_ammo_shotgun) } //I Got Shotgun
+if keyboard_check_pressed(ord("R")) { //The Junk Drawer
+sugar += 25
+water += 25
+metal += 25
+fiber += 25
+pistol_frame += 25
+rifle_frame += 25
+shotgun_frame += 25
+chemicals += 25
+plastic += 25
+gun_powder += 25
+}

@@ -6,8 +6,11 @@ function enemy_step_zombie() {
 	if image_angle > direction {image_angle -=5}
 	
 	//Wander
-	if alert = 0 and stunned <= 0 {if 10 > random(50) {direction = direction +random_range(-.5,.5)}}
+	if alert = 0 and stunned <= 0 {if 10 > random(50) {direction = direction +random_range(-.5,.5) speed = my_speed}}
 
+	//Wait for chat
+	if hud.chat_open != 0 {speed = 0}
+	
 	//Run at Player
 	if alert = 1 and stunned <= 0 {
 	xx = player.x + lengthdir_x(24,player.image_angle)
@@ -39,7 +42,6 @@ function enemy_step_zombie() {
 	//Attack
 	if distance_to_object(player) < attack_range and player.dead = 0 and stunned = 0 and hud.chat_open = 0
 	{
-	
 	direction = point_direction(x,y,player.x,player.y) 
 	mp_potential_step_object(player.x,player.y,my_speed*1.5,default_solid)
 	if can_attack = 0 {

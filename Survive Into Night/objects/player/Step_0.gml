@@ -10,6 +10,7 @@ vaxis = gamepad_axis_value(0, gp_axislv)
 if dead = 0 {
 	if hud.backpack_open = 0 and hud.chat_open = 0 {
 //Sprint
+if gamepad_button_check_pressed(0,gp_shoulderl) {store.sp -= .5}
 if gamepad_button_check(0,gp_shoulderl) and distance_to_object(instance_nearest(x,y,default_solid)) > 4 and store.sp >3 {my_speed = 3 store.sp -= .075 reduce_max_sp()} else {my_speed = 0}
 
 //Toggle flashlight
@@ -50,6 +51,7 @@ if rd != 0 { image_angle = rd }
 
 if can_attack > 0 {can_attack -= 1}
 if vibrate > 0 {vibrate -= 1 if vibrate <= 0 {gamepad_set_vibration(0, 0, 0)}}
+if hud.chat_open = 1 {speed=0}
 
 //Death
 if store.hp <= 0 {dead = 1 depth = 40000 alarm[2] = 150}

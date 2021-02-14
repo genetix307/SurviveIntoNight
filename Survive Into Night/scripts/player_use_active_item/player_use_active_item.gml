@@ -11,4 +11,5 @@ if store.slot_item[store.active_slot] = 12 {audio_play_sound(sfx_tape,1,false); 
 if store.slot_item[store.active_slot] = 13 {audio_play_sound(sfx_drinking,1,false); store.max_hp += 25; clear_slot() } //Medicine
 if store.slot_item[store.active_slot] = 14 {audio_play_sound(sfx_drinking,1,false); store.thirst +=40; clear_slot() } //Water Bottle
 if store.slot_item[store.active_slot] = 15 {audio_play_sound(sfx_drinking,1,false); store.max_sp+=25; store.thirst +=8; clear_slot() } //Energy Drink
+if store.slot_item[store.active_slot] = 19 {audio_play_sound(sfx_drinking,1,false); store.max_sp+=15; store.max_hp -= 3 clear_slot() } //Candy Bar
 }

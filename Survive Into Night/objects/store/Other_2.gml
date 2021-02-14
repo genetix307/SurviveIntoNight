@@ -67,12 +67,13 @@ slot_description[i] = 0
 }
 
 //Story & Quest
-current_task = "Explore the nearby Church for signs of your Son that was heading there a week before."
+current_task = "Explore the nearby Church for signs of your girlfriend that was heading there a week before."
 current_task_index = 0
 
 //Tutorial
 tut_recycle = 0
 tut_craft = 0
+tut_bells = 0
 
 
 

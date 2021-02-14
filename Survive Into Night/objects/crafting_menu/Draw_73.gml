@@ -17,7 +17,7 @@ draw_text_color(cx+670,cy+622,show_item_name,c_lime,c_green,c_lime,c_lime,1)
 draw_text_color(cx+670,cy+640,show_item_description,c_white,c_silver,c_white,c_white,1)
 
 //Show menu buttons
-draw_text_color(cx+1210,cy+630,"Craft/Upgrade",c_white,c_silver,c_white,c_white,1)
+draw_text_color(cx+1210,cy+630,"Craft",c_white,c_silver,c_white,c_white,1)
 draw_sprite(spr_show_button_a,0,cx+1194,cy+638)
 }
 

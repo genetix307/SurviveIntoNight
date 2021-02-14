@@ -1,3 +1,4 @@
 // Genetix Studio
 draw_self()
-draw_text(x,y,my_id)
+
+if can_craft = 0 {draw_sprite_ext(sprite_index,image_index,x,y,1,1,image_angle,c_red,.75)}

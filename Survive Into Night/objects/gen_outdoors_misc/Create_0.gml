@@ -4,6 +4,8 @@ my_item = round(random(100))
 if my_item =1 {instance_create_depth(x,y,depth,item_cannedsoda)}
 if my_item =2 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_cannedsoda)}
 if my_item =3 {instance_create_depth(x,y,depth,item_cannedsoda)}
+if my_item =5 {instance_create_depth(x,y,depth,item_cannedsoda)}
+if my_item =6 {instance_create_depth(x,y,depth,item_cannedsoda)}
 
 if my_item =4 {instance_create_depth(x,y,depth,item_batteries)}
 
@@ -18,7 +20,6 @@ if my_item =14 {instance_create_depth(x,y,depth,item_woodboard)}
 
 if my_item =16 {instance_create_depth(x,y,depth,item_bandages)}
 if my_item =17 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_bandages)}
-
 if my_item =20 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_medicine)}
 
 if my_item =25 {instance_create_depth(x,y,depth,item_cash)}
@@ -34,3 +35,7 @@ if my_item =34 {instance_create_depth(x,y,depth,item_cash)}
 if my_item =35 {instance_create_depth(x,y,depth,item_cash)}
 if my_item =36 {instance_create_depth(x,y,depth,item_cash)}
 if my_item =37 {instance_create_depth(x,y,depth,item_cash)}
+
+if my_item =39 {instance_create_depth(x,y,depth,item_candybar)}
+if my_item =40 {instance_create_depth(x,y,depth,item_candybar)}
+if my_item =41 {instance_create_depth(x,y,depth,item_candybar)}
