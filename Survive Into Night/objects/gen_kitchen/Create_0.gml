@@ -19,6 +19,7 @@ if my_item =19 {instance_create_depth(x,y,depth,item_fork)}
 if my_item =20 {instance_create_depth(x,y,depth,item_fork)}
 if my_item =70 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_energydrink)}
 if my_item =23 {instance_create_depth(x,y,depth,item_water_bottle)}
+if my_item =21 {instance_create_depth(x,y,depth,item_energydrink)}
 if my_item =25 {instance_create_depth(x,y,depth,item_cash)}
 if my_item =26 {instance_create_depth(x,y,depth,item_cash)}
 if my_item =29 {instance_create_depth(x,y,depth,item_cleaningspray)}

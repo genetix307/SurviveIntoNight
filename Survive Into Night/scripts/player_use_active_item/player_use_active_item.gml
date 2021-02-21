@@ -1,4 +1,5 @@
 function player_use_active_item() {
+if store.slot_item[store.active_slot] = 0 {player.current_weapon = 0 player_use_weapon()} //Punch
 if store.slot_item[store.active_slot] = 1 {audio_play_sound(sfx_drinking,1,false); store.max_sp+=10; store.thirst +=6; store.max_hp -= 2 clear_slot() } //Canned Soda
 if store.slot_item[store.active_slot] = 2 {player.current_weapon = 1 player_use_weapon()} //Butter Knife
 if store.slot_item[store.active_slot] = 3 {player.current_weapon = 2 player_use_weapon()} //9mm Pistol

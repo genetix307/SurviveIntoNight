@@ -33,6 +33,7 @@ hp = store.max_hp
 can_attack = 0
 can_recycle = 0
 can_craft = 0
+can_upgrade = 0
 dead = 0
 image_speed = 0
 current_weapon = 0

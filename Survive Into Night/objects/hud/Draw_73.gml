@@ -11,8 +11,9 @@ draw_text(cx+28,cy+702,string(fps))
 }
 
 //Draw date and time
-draw_set_color(c_white)
-draw_text(cx+2,cy+62,"Day "+string(store.day) +" | "+string(store.time_hour)+string(store.timeofday))
+draw_set_color(c_aqua)
+draw_text(cx+2,cy+65,"Day "+string(store.day) +" | "+string(store.time_hour)+string(store.timeofday))
+draw_sprite(spr_daytime_symbol,daytime_logo,cx+79,cy+71)
 
 //Draw Active Item
 draw_set_font(font_stats)

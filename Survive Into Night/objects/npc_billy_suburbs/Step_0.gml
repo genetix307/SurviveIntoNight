@@ -1,10 +1,4 @@
-// Genetix Studio
-//direction = other.direction
-//speed = other.speed + random(.75)
-//other.speed = 1
-//friction = .2
 if wait > 0 and hud.chat_open = 0 {wait -=1}
-
 
 if distance_to_object(player) < 120
 {
@@ -26,7 +20,7 @@ if store.current_task_index = 2 and wait = 0
 {
 player.speed = 0
 hud.chat_open = 1
-hud.chat_text = "Well nice to meet ya, name is Billy. I haven't seen many other of the living around these parts recently... Well except for those feckin' blue jackets. Gang calls themselves the Devils of Night. Watch out for them now, they aren't friendly folks one bit."
+hud.chat_text = "Well nice to meet ya, name is Billy. Guess I already said that, huh? I haven't seen many other of the living around these parts recently... Well except for those f**kin' blue jackets. Gang calls themselves the Devils of Night. Watch out for them now, they aren't friendly folks one bit."
 store.current_task_index =3
 exit
 }
@@ -64,7 +58,7 @@ if store.current_task_index = 6 and wait = 0
 {
 player.speed = 0
 hud.chat_open = 1
-hud.chat_text = "You're still alive, and you found my lucky wrench! I appreciate that, I know how risky it can be running around out here. Well, a deal is a deal. Your lady did indeed stop by the Church a few days ago. I gave her some food and water, she didn't stay long though."
+hud.chat_text = "You're still alive, and you found my lucky wrench! I appreciate that, I know how risky it can be running around out here. Well, a deal is a deal. Your lady did indeed stop by the Church a few days ago. I gave her some food and supplies, she didn't stay long though."
 store.current_task_index =7
 exit
 }
@@ -82,7 +76,7 @@ if store.current_task_index = 8 and wait = 0
 {
 player.speed = 0
 hud.chat_open = 1
-hud.chat_text = "That hospital is East of the Church, a little bit North of here... It's become a outpost for the Devils of Night gang. You go there and you're DEAD. I warned her about it and told her it would be safer to stay at the Church. For some reason the infected don't go near it."
+hud.chat_text = "That hospital is East of the Church, a little bit North of here... It's become an outpost for the Devils of Night gang. You go there and you're DEAD. I warned her about it and told her it would be safer to stay at the Church. For some reason the infected don't go near it."
 store.current_task_index =9
 exit
 }
@@ -102,7 +96,7 @@ if store.current_task_index = 10 and wait = 0
 {
 player.speed = 0
 hud.chat_open = 1
-hud.chat_text = "Stay safe out there my friend. I'll probably head into downtown soon, maybe we'll see you around."
+hud.chat_text = "Stay safe out there my friend. I'll probably head into the downtown area just East of here soon, maybe we'll see you around."
 wait = 10
 exit
 }

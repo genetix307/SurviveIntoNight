@@ -1,0 +1,13 @@
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function setTrash(){
+if room = myroom_church {repeat 4 instance_create(x,y,trash_pile)}
+if room = myroom_southchurch_path {repeat 14 instance_create(x,y,trash_pile)}
+if room = myroom_suburbs {repeat 38 instance_create(x,y,trash_pile)}
+if room = myroom_graveyard {repeat 28 instance_create(x,y,trash_pile)}
+if room = myroom_abandonedcrypts {repeat 10 instance_create(x,y,trash_pile)}
+if room = myroom_downtown {repeat 38 instance_create(x,y,trash_pile)}
+if room = myroom_eastchurch_path {repeat 14 instance_create(x,y,trash_pile)}
+if room = myroom_hospital {repeat 20 instance_create(x,y,trash_pile)}
+
+}

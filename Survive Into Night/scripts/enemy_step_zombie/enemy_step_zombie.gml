@@ -11,6 +11,9 @@ function enemy_step_zombie() {
 	//Wait for chat
 	if hud.chat_open != 0 {speed = 0}
 	
+	//Stunned
+	if stunned > 0 {speed = 0}
+	
 	//Run at Player
 	if alert = 1 and stunned <= 0 {
 	xx = player.x + lengthdir_x(24,player.image_angle)
@@ -21,11 +24,10 @@ function enemy_step_zombie() {
 	if alert = 1 and stunned <= 0 and distance_to_object(player)< my_range/2 and distance_to_object(player) > my_range/3 and hesitate> 8  {mp_potential_step_object(player.x,player.y,-(my_speed+.3),default_solid)}
 
 	//Run when damaged
-	if damaged > 10 or stunned > 0 {mp_potential_step_object(player.x,player.y,-(random(3)),default_solid)}
+	if damaged > 10 or stunned > 0 {mp_potential_step_object(player.x,player.y,-(random(4)),default_solid)}
 
 	if hp <= 0 {
 	audio_play_sound(sfx_zombie_die,1,false)
-	//instance_create(x,y,enemy_dead_standard)
 	instance_destroy()
 	}
 
@@ -43,7 +45,7 @@ function enemy_step_zombie() {
 	if distance_to_object(player) < attack_range and player.dead = 0 and stunned = 0 and hud.chat_open = 0
 	{
 	direction = point_direction(x,y,player.x,player.y) 
-	mp_potential_step_object(player.x,player.y,my_speed*1.5,default_solid)
+	//mp_potential_step_object(player.x,player.y,my_speed*1.5,default_solid)
 	if can_attack = 0 {
 		can_attack = reload_time
 		alarm[2] = 60

@@ -31,9 +31,12 @@ prayer_blessing = 0
 
 //Game Stats
 zombies_slain = 0
+devilsofnight_slain = 0
 newspapers_found = 0
+//daysSurvived
 
 active_slot = 1
+hold_slot = 1
 flashlight_on = 1
 day = 1
 time_hour = 5
@@ -69,13 +72,12 @@ slot_description[i] = 0
 //Story & Quest
 current_task = "Explore the nearby Church for signs of your girlfriend that was heading there a week before."
 current_task_index = 0
+have_key_hospital_f1 = 0
 
 //Tutorial
 tut_recycle = 0
 tut_craft = 0
 tut_bells = 0
-
-
 
 //Settings
 cursor_sensitivity = 10
@@ -87,6 +89,7 @@ player_x = 0
 player_y = 0
 show_fps = 1
 enemy_cap = 100
+gamePaused = 0
 
 //Load audio groups
 if !audio_group_is_loaded(audiogroup_sfx)

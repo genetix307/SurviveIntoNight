@@ -8,44 +8,46 @@ haxis = gamepad_axis_value(0, gp_axislh)
 vaxis = gamepad_axis_value(0, gp_axislv)
 
 if dead = 0 {
-	if hud.backpack_open = 0 and hud.chat_open = 0 {
-//Sprint
-if gamepad_button_check_pressed(0,gp_shoulderl) {store.sp -= .5}
-if gamepad_button_check(0,gp_shoulderl) and distance_to_object(instance_nearest(x,y,default_solid)) > 4 and store.sp >3 {my_speed = 3 store.sp -= .075 reduce_max_sp()} else {my_speed = 0}
+	if hud.chat_open = 0 
+	{ 		
+		//Use active item
+		if gamepad_button_check(0,gp_shoulderrb) {use_hold = 1 player_use_active_item()}
+		if gamepad_button_check_pressed(0,gp_shoulderrb) {use_hold = 0 player_use_active_item()}
 
-//Toggle flashlight
-if gamepad_button_check_pressed(0,gp_shoulderlb) {
-if instance_number(obj_light_flashlight) = 0 {instance_create_depth(x,y,depth,obj_light_flashlight) store.flashlight_on = 1 audio_play_sound(sfx_lightswitch,1,false)} 
-else if instance_number(obj_light_flashlight) > 0 {with obj_light_flashlight instance_destroy() audio_play_sound(sfx_lightswitch,1,false) store.flashlight_on = 0}
-}
+	if hud.backpack_open = 0 {
+		//Sprint
+		if gamepad_button_check_pressed(0,gp_shoulderl) {store.sp -= .5}
+		if gamepad_button_check(0,gp_shoulderl) and distance_to_object(instance_nearest(x,y,default_solid)) > 4 and store.sp >3 {my_speed = 3 store.sp -= .075 reduce_max_sp()} else {my_speed = 0}
 
+		//Toggle flashlight
+		if gamepad_button_check_pressed(0,gp_shoulderlb) {
+		if instance_number(obj_light_flashlight) = 0 {instance_create_depth(x,y,depth,obj_light_flashlight) store.flashlight_on = 1 audio_play_sound(sfx_lightswitch,1,false)} 
+		else if instance_number(obj_light_flashlight) > 0 {with obj_light_flashlight instance_destroy() audio_play_sound(sfx_lightswitch,1,false) store.flashlight_on = 0}
+		}
 
-//Alternate Active Slot
-if gamepad_button_check_pressed(0,gp_shoulderr) and player.alarm[0] <= 0 {
-if store.active_slot < 4 {store.active_slot += 1} else {store.active_slot = 1}
-player.current_weapon = 0
-check_current_weapon()
-}
+		//Alternate Active Slot
+		if gamepad_button_check_pressed(0,gp_shoulderr) and player.alarm[0] <= 0 {
+		if store.active_slot < 4 {store.active_slot += 1} else {store.active_slot = 1}
+		player.current_weapon = 0
+		check_current_weapon()
+		}
 
-//Use active item
-if gamepad_button_check(0,gp_shoulderrb) {use_hold = 1 player_use_active_item()}
-if gamepad_button_check_pressed(0,gp_shoulderrb) {use_hold = 0 player_use_active_item()}
+		//Reload Weapon
+		if gamepad_button_check_pressed(0,gp_face3) and current_weapon > 0 {player_reload()}
 
-//Reload Weapon
-if gamepad_button_check_pressed(0,gp_face3) and current_weapon > 0 {player_reload()}
+		//Movement & Aiming
+		if !gamepad_button_check(0,gp_shoulderlb) {
+		direction = ld //point_direction(0, 0, haxis, vaxis);
+		speed = point_distance(0 ,0, haxis, vaxis) * (3+my_speed);
+		}
 
-if !gamepad_button_check(0,gp_shoulderlb) {
-direction = ld //point_direction(0, 0, haxis, vaxis);
-speed = point_distance(0 ,0, haxis, vaxis) * (3+my_speed);
-}
+		if can_attack = 0 and alarm[0] <= 0
+		{
+		if speed = 0 {player_set_idle()} else {player_set_run()}
+		}
 
-if can_attack = 0 and alarm[0] <= 0
-{
-if speed = 0 {player_set_idle()} else {player_set_run()}
-}
-
-if rd != 0 { image_angle = rd }
-
+		if rd != 0 { image_angle = rd }
+		}
 	}
 
 

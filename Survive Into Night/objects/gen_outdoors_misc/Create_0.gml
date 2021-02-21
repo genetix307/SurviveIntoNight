@@ -21,6 +21,7 @@ if my_item =14 {instance_create_depth(x,y,depth,item_woodboard)}
 if my_item =16 {instance_create_depth(x,y,depth,item_bandages)}
 if my_item =17 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_bandages)}
 if my_item =20 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_medicine)}
+if my_item =21 {instance_create_depth(x,y,depth,item_medicine)}
 
 if my_item =25 {instance_create_depth(x,y,depth,item_cash)}
 if my_item =26 {instance_create_depth(x,y,depth,item_cash)}
