@@ -31,3 +31,6 @@ if my_item =33 {instance_create_depth(x,y,depth,item_cleaningspray)}
 if my_item =34 {instance_create_depth(x,y,depth,item_candybar)}
 if my_item =35 {instance_create_depth(x,y,depth,item_candybar)}
 if my_item =36 {instance_create_depth(x,y,depth,item_candybar)}
+
+if my_item =38 {instance_create_depth(x,y,depth,item_resourcebox)}
+if my_item =39 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_resourcebox)}

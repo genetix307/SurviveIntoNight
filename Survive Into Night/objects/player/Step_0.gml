@@ -8,7 +8,7 @@ haxis = gamepad_axis_value(0, gp_axislh)
 vaxis = gamepad_axis_value(0, gp_axislv)
 
 if dead = 0 {
-	if hud.chat_open = 0 
+	if hud.chat_open = 0 and store.gamePaused = 0
 	{ 		
 		//Use active item
 		if gamepad_button_check(0,gp_shoulderrb) {use_hold = 1 player_use_active_item()}
@@ -34,6 +34,9 @@ if dead = 0 {
 
 		//Reload Weapon
 		if gamepad_button_check_pressed(0,gp_face3) and current_weapon > 0 {player_reload()}
+		
+		//Drop Active Item
+		if gamepad_button_check_pressed(0,gp_face4) {my_id = store.active_slot drop_item()}
 
 		//Movement & Aiming
 		if !gamepad_button_check(0,gp_shoulderlb) {
@@ -53,13 +56,14 @@ if dead = 0 {
 
 if can_attack > 0 {can_attack -= 1}
 if vibrate > 0 {vibrate -= 1 if vibrate <= 0 {gamepad_set_vibration(0, 0, 0)}}
-if hud.chat_open = 1 {speed=0}
+if hud.chat_open = 1 or store.gamePaused = 1 {speed=0}
 
 //Death
 if store.hp <= 0 {dead = 1 depth = 40000 alarm[2] = 150}
 }
 
-if dead > 0 {sprite_index = spr_player_dead
+if dead > 0 {
+sprite_index = spr_player_dead
 speed = 0
 image_angle = 0}
 

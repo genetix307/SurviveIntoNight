@@ -19,6 +19,7 @@ if store.slot_item[my_id] = 16 {store.fiber+=3} //Woodboard
 if store.slot_item[my_id] = 17 {store.fiber+=1} //Cash
 if store.slot_item[my_id] = 18 {store.chemicals+=2 store.water+=1 store.plastic+=1} //Cleaning Spray
 if store.slot_item[my_id] = 19 {store.sugar+=2 store.plastic+=1} //Candy Bar
+if store.slot_item[my_id] = 20 {store.sugar+=3 store.water+=3 store.metal+=3 store.fiber+=3 store.chemicals+=3 store.plastic+=3} //Resource Box
 
 
 store.slot_item[my_id] = 0 

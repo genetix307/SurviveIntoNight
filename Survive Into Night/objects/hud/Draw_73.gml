@@ -10,11 +10,6 @@ draw_text(cx+2,cy+702,"FPS")
 draw_text(cx+28,cy+702,string(fps))
 }
 
-//Draw date and time
-draw_set_color(c_aqua)
-draw_text(cx+2,cy+65,"Day "+string(store.day) +" | "+string(store.time_hour)+string(store.timeofday))
-draw_sprite(spr_daytime_symbol,daytime_logo,cx+79,cy+71)
-
 //Draw Active Item
 draw_set_font(font_stats)
 draw_set_color(c_yellow)
@@ -42,7 +37,7 @@ draw_set_font(font_show_area)
 }
 
 //Show Quick slots
-if backpack_open = 0
+if backpack_open = 0 and store.gamePaused = 0
 {
 draw_sprite(spr_item_slot,store.slot_item[1],cx+1104,cy+694)
 draw_sprite(spr_item_slot,store.slot_item[2],cx+1154,cy+694)
@@ -60,8 +55,8 @@ if store.active_slot = 3 {draw_rectangle_color(cx+1180,cy+670,cx+1226,cy+718,c_o
 if store.active_slot = 4 {draw_rectangle_color(cx+1230,cy+670,cx+1278,cy+718,c_orange,c_orange,c_orange,c_orange,true)}
 }
 
-//Backpack veil
-if backpack_open =1 {
+//Menu veil
+if backpack_open =1 or store.gamePaused = 1 {
 	draw_set_color(c_black)
 	draw_set_alpha(.8)
 	draw_rectangle(0,0,room_width,room_height,false)

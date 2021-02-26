@@ -9,6 +9,9 @@ y = cy+20
 depth = hud.depth -5
 instance_create_depth(cx+640,cy+360,depth-3,cursor_backpack)
 repeat 40 instance_create_depth(x,y,depth-2,backpack_slot)
+player.speed = 0
+
+//if instance_number(bacpack_menu) > 1 {instance_destroy()}
 
 show_item_name = ""
 show_item_durability = 0

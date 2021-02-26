@@ -1,5 +1,25 @@
 randomize()
 
+//Load audio groups
+if !audio_group_is_loaded(audiogroup_sfx)
+   {
+   audio_group_load(audiogroup_sfx);
+   } 
+
+//Init Permanenet Vars
+//Settings
+cursor_sensitivity = 10
+//paused = 0
+mouse_active = 0
+mouse_xx = 0
+mouse_yy = 0
+player_x = 0
+player_y = 0
+show_fps = 1
+enemy_cap = 100
+gamePaused = 0
+
+//Initialize Vars --------------------------------------------------------------------------------------------------------
 //Permenant Resources
 ammo_handgun = 0
 ammo_rifle = 0
@@ -33,7 +53,7 @@ prayer_blessing = 0
 zombies_slain = 0
 devilsofnight_slain = 0
 newspapers_found = 0
-//daysSurvived
+daysSurvived = 0
 
 active_slot = 1
 hold_slot = 1
@@ -79,21 +99,6 @@ tut_recycle = 0
 tut_craft = 0
 tut_bells = 0
 
-//Settings
-cursor_sensitivity = 10
-paused = 0
-mouse_active = 0
-mouse_xx = 0
-mouse_yy = 0
-player_x = 0
-player_y = 0
-show_fps = 1
-enemy_cap = 100
-gamePaused = 0
 
-//Load audio groups
-if !audio_group_is_loaded(audiogroup_sfx)
-   {
-   audio_group_load(audiogroup_sfx);
-   } 
+
 

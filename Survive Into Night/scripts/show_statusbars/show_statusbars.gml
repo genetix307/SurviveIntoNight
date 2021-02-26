@@ -72,4 +72,11 @@ draw_set_color(c_white)
 draw_text(cx+3,cy+48,"Flashlight")
 draw_text(cx+98,cy+47,string(round(store.flashlight_battery))+"/"+string(round(store.max_flashlight_battery)))       
 draw_sprite(spr_stat_cap,0,cx+153,cy+53)
+
+//Draw date and time
+draw_set_color(c_aqua)
+draw_text(cx+2,cy+65,"Day "+string(store.day) +" | "+string(store.time_hour)+string(store.timeofday))
+draw_sprite(spr_daytime_symbol,hud.daytime_logo,cx+79,cy+71)
+
 }
+

@@ -19,6 +19,7 @@ if store.slot_item[my_id] = 16 {instance_create_depth(player.x,player.y,player.d
 if store.slot_item[my_id] = 17 {instance_create_depth(player.x,player.y,player.depth+1,item_cash)}
 if store.slot_item[my_id] = 18 {instance_create_depth(player.x,player.y,player.depth+1,item_cleaningspray)}
 if store.slot_item[my_id] = 19 {instance_create_depth(player.x,player.y,player.depth+1,item_candybar)}
+if store.slot_item[my_id] = 20 {instance_create_depth(player.x,player.y,player.depth+1,item_resourcebox)}
 store.slot_item[my_id] = 0 
 store.slot_name[my_id] = "" 
 store.slot_durability[my_id] = 0 

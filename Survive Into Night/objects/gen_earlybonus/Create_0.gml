@@ -31,4 +31,9 @@ if my_item =53 {instance_create_depth(x,y,depth,item_12gaugepump)}
 if my_item =54 {instance_create_depth(x,y,depth,item_AR15)}
 if my_item =55 {instance_create_depth(x,y,depth,item_backstabber)}
 
+if my_item =57 {instance_create_depth(x,y,depth,item_resourcebox)}
+if my_item =58 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_resourcebox)}
+if my_item =59 {instance_create_depth(x,y,depth,item_resourcebox)}
+if my_item =60 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_resourcebox)}
+
 }

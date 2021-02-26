@@ -25,16 +25,21 @@ draw_sprite(spr_show_button_a,0,cx+1199,cy+638)
 draw_text_color(cx+1215,cy+650,"Drop Item",c_white,c_silver,c_white,c_white,1)
 draw_sprite(spr_show_button_y,0,cx+1199,cy+658)
 
+draw_text_color(cx+1215,cy+673,"Use Item",c_white,c_silver,c_white,c_white,1)
+draw_sprite(spr_show_button_rt,0,cx+1199,cy+681)
+
 if player.can_recycle = 1
 {
-draw_text_color(cx+1215,cy+670,"Recycle",c_white,c_silver,c_white,c_white,1)
-draw_sprite(spr_show_button_x,0,cx+1199,cy+678)
+draw_text_color(cx+1136,cy+673,"Recycle",c_white,c_silver,c_white,c_white,1)
+draw_sprite(spr_show_button_x,0,cx+1118,cy+681)
 }
 
 }
 
 show_statusbars()
 show_materials()
+
+draw_sprite(spr_map,0,cx+18,cy+88)
 
 //Draw Current Task info
 draw_set_font(font_chat)

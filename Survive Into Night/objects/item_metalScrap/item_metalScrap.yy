@@ -2,7 +2,10 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_show_button_a",
+    "path": "sprites/spr_show_button_a/spr_show_button_a.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

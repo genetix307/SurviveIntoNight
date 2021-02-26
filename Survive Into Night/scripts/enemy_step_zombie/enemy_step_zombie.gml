@@ -9,7 +9,7 @@ function enemy_step_zombie() {
 	if alert = 0 and stunned <= 0 {if 10 > random(50) {direction = direction +random_range(-.5,.5) speed = my_speed}}
 
 	//Wait for chat
-	if hud.chat_open != 0 {speed = 0}
+	if hud.chat_open != 0 or store.gamePaused != 0 {speed = 0}
 	
 	//Stunned
 	if stunned > 0 {speed = 0}
@@ -42,7 +42,7 @@ function enemy_step_zombie() {
 	}
 
 	//Attack
-	if distance_to_object(player) < attack_range and player.dead = 0 and stunned = 0 and hud.chat_open = 0
+	if distance_to_object(player) < attack_range and player.dead = 0 and stunned = 0 and hud.chat_open = 0 and store.gamePaused = 0
 	{
 	direction = point_direction(x,y,player.x,player.y) 
 	//mp_potential_step_object(player.x,player.y,my_speed*1.5,default_solid)

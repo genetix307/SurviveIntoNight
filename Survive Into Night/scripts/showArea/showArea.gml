@@ -10,4 +10,5 @@ if room = myroom_abandonedcrypts {hud.show_area_text = "Abandoned Crypts"}
 if room = myroom_downtown {hud.show_area_text = "Downtown Woodland Hills"}
 if room = myroom_eastchurch_path {hud.show_area_text = "East Church Pathway"}
 if room = myroom_hospital {hud.show_area_text = "Woodland Hills Hospital"}
+if room = myroom_hospital_floor2 {hud.show_area_text = "Hospital Floor 2"}
 }

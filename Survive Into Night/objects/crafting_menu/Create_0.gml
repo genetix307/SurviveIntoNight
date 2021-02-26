@@ -9,10 +9,13 @@ y = cy+20
 depth = hud.depth -5
 instance_create_depth(cx+640,cy+360,depth-3,cursor_crafting)
 repeat 13 instance_create_depth(x,y,depth-2,crafting_slot)
+player.speed = 0
 
 show_item_name = ""
 show_item_description = ""
 
+
+if instance_number(crafting_menu) > 1 {instance_destroy()}
 
 
 
