@@ -1,0 +1,1 @@
+my_name = "Eddies Magic Shop"

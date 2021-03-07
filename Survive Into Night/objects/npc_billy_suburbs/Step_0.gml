@@ -58,7 +58,8 @@ if store.current_task_index = 6 and wait = 0
 {
 player.speed = 0
 hud.chat_open = 1
-hud.chat_text = "You're still alive, and you found my lucky wrench! I appreciate that, I know how risky it can be running around out here. Well, a deal is a deal. Your lady did indeed stop by the Church a few days ago. I gave her some food and supplies, she didn't stay long though."
+hud.chat_text = "You're still alive, and you found my lucky wrench! I appreciate that, I know how risky it can be running around out there - Here it's not much but these supplies should help you craft something. Well, a deal is a deal. Your lady did indeed stop by the Church a few days ago. I gave her some food and supplies, she didn't stay long though."
+instance_create(player.x,player.y,item_resourcebox)
 store.current_task_index =7
 exit
 }

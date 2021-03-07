@@ -14,3 +14,8 @@ vibrate = 5
 
 action_effect(4, 0, 0, 0, 255, 1);
 action_set_relative(0);
+
+//screenshake
+obj_camera.shake = true
+obj_camera.shake_magnitude = 5
+obj_camera.alarm[0] = obj_camera.shake_time

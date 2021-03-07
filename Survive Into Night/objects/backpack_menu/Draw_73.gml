@@ -38,6 +38,7 @@ draw_sprite(spr_show_button_x,0,cx+1118,cy+681)
 
 show_statusbars()
 show_materials()
+show_accomplishments()
 
 draw_sprite(spr_map,0,cx+18,cy+88)
 

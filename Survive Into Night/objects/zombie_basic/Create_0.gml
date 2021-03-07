@@ -20,3 +20,11 @@ direction = random(360)
 depth=-5;
 
 stuck_check = 0
+
+//Check if night bonus
+if (store.timeofday = "PM" and store.time_hour >=8) or (store.timeofday = "AM" and store.time_hour <=5)
+{
+	hp += random(30)
+	my_speed += random(.5)
+	my_range += random(20)
+}

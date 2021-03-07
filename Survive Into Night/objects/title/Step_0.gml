@@ -5,4 +5,4 @@ if gamepad_button_check_pressed(0,gp_face1) or gamepad_button_check_pressed(0,gp
 room = myroom_mainmenu
 }
 
-if image_yscale < 1 {image_yscale += .008}
+if image_yscale < 1 {image_yscale += .02}

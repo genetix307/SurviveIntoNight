@@ -8,6 +8,7 @@ x = cx+1100
 y = cy+20
 depth = hud.depth -5
 instance_create_depth(cx+640,cy+360,depth-3,cursor_backpack)
+instance_create_depth(cx+560,cy+650,depth-3,backpack_button_exitgame)
 repeat 40 instance_create_depth(x,y,depth-2,backpack_slot)
 player.speed = 0
 

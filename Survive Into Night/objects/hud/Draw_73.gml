@@ -66,7 +66,7 @@ if backpack_open =1 or store.gamePaused = 1 {
 //Show Chat
 if chat_open =1 {
 	draw_set_color(c_blue)
-	draw_set_alpha(.65)
+	draw_set_alpha(.75)
 	draw_rectangle(cx+320,cy+80,cx+960,cy+200,false)
 	draw_set_color(c_dkgray)
 	draw_rectangle(cx+319,cy+79,cx+961,cy+201,true)

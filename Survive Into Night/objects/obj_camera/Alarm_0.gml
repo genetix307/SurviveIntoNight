@@ -1,0 +1,2 @@
+// Genetix Studio
+shake = false

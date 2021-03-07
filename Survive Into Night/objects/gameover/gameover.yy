@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Menu",
-    "path": "folders/Objects/Menu.yy",
+    "name": "Paused",
+    "path": "folders/Objects/Menu/Paused.yy",
   },
   "resourceVersion": "1.0",
   "name": "gameover",

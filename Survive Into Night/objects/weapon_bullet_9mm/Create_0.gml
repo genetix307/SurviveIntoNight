@@ -16,4 +16,7 @@ speed = 26
 
 instance_create(x,y,bullet_shell)
 
-
+//screenshake
+obj_camera.shake = true
+obj_camera.shake_magnitude = 2
+obj_camera.alarm[0] = obj_camera.shake_time

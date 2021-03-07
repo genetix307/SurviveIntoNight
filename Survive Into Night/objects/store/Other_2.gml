@@ -18,6 +18,8 @@ player_y = 0
 show_fps = 1
 enemy_cap = 100
 gamePaused = 0
+build_version = "Early Access version 0.03"
+prod_mode = 0
 
 //Initialize Vars --------------------------------------------------------------------------------------------------------
 //Permenant Resources
@@ -49,11 +51,13 @@ max_thirst = 100
 thirst = max_thirst
 prayer_blessing = 0
 
-//Game Stats
+//Game Accomplishments
 zombies_slain = 0
 devilsofnight_slain = 0
 newspapers_found = 0
 daysSurvived = 0
+items_crafted = 0
+items_recycled = 0
 
 active_slot = 1
 hold_slot = 1
