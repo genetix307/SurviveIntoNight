@@ -18,8 +18,9 @@ player_y = 0
 show_fps = 1
 enemy_cap = 100
 gamePaused = 0
-build_version = "Early Access version 0.03"
-prod_mode = 0
+build_version = "Early Access version 0.05"
+prod_mode = 1
+control_mode = 0 //0 Gamepad, 1 keyboard_mouse
 
 //Initialize Vars --------------------------------------------------------------------------------------------------------
 //Permenant Resources

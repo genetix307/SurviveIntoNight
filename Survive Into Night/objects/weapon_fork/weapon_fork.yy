@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_item_fork",
-    "path": "sprites/spr_item_fork/spr_item_fork.yy",
+    "name": "spr_skel_knife",
+    "path": "sprites/spr_skel_knife/spr_skel_knife.yy",
   },
   "solid": false,
   "visible": false,

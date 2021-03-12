@@ -13,5 +13,8 @@ if instance_number(pause_menu) > 1 {instance_destroy()}
 if instance_number(crafting_menu) > 0 {with crafting_menu instance_destroy()}
 if instance_number(backpack_menu) > 0 {with backpack_menu instance_destroy()}
 
+instance_create_depth(cx+640,cy+360,depth-3,cursor_paused)
+instance_create_depth(cx+120,cy+320,depth-3,paused_button_exit)
+
 
 

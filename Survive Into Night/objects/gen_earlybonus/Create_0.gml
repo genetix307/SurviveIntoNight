@@ -39,4 +39,6 @@ if my_item =60 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,it
 if my_item =61 {instance_create_depth(x,y,depth,item_noodlecup)}
 if my_item =62 {instance_create_depth(x,y,depth,item_noodlecup)}
 
+if my_item =65 {instance_create_depth(x,y,depth,item_hammer)}
+
 }

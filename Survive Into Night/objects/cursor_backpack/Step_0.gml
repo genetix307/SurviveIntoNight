@@ -24,7 +24,7 @@ y = device_mouse_y(0)
 if instance_number(backpack_menu) <= 0 {instance_destroy() exit}
 
 //Swap item slots
-if gamepad_button_check_released(0,gp_face1) {
+if gamepad_button_check_released(0,gp_face1) or mouse_check_button_released(mb_left) {
 	//if backpack_menu.swap_slot_a != 0 and backpack_menu.swap_slot_b != 0 
 		//{	
 			alarm[0] = 2

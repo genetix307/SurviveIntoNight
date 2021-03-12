@@ -9,7 +9,7 @@ crafting_menu.show_item_description = my_description
 var craft_standard = 0
 
 //Craft or Upgrade
-if gamepad_button_check_pressed(0,gp_face1) { 
+if gamepad_button_check_pressed(0,gp_face1) or mouse_check_button_pressed(mb_left) { 
 if my_id=1 {if store.water >=2 and store.plastic >=1 {instance_create_depth(player.x,player.y,20,item_water_bottle) store.water -=2 store.plastic -=1 craft_standard = 1}} 
 if my_id=2 {if store.sugar >=1 and store.water >=1 and store.chemicals >=1 and store.metal >=1 {instance_create_depth(player.x,player.y,20,item_energydrink) store.sugar-=1 store.water-=1 store.chemicals-=1 store.metal-=1 craft_standard = 1}} 
 if my_id=3 {if store.chemicals >=1 and store.metal >=1 {instance_create_depth(player.x,player.y,20,item_batteries) store.chemicals -=1 store.metal -=1 craft_standard = 1}}

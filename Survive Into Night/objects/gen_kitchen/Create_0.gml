@@ -38,3 +38,6 @@ if my_item =39 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,it
 if my_item =40 {instance_create_depth(x,y,depth,item_noodlecup)}
 if my_item =41 {instance_create_depth(x,y,depth,item_noodlecup)}
 if my_item =42 {instance_create_depth(x,y,depth,item_noodlecup)}
+
+if my_item =45 {instance_create_depth(x,y,depth,item_hammer)}
+if my_item =46 {instance_create_depth(x,y,depth,item_hammer)}

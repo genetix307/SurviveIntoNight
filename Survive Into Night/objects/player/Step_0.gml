@@ -11,48 +11,80 @@ if dead = 0 {
 	if hud.chat_open = 0 and store.gamePaused = 0
 	{ 		
 		//Use active item
-		if gamepad_button_check(0,gp_shoulderrb) {use_hold = 1 player_use_active_item()}
-		if gamepad_button_check_pressed(0,gp_shoulderrb) {use_hold = 0 player_use_active_item()}
+		if hud.backpack_open = 0 
+		{
+		if (gamepad_button_check(0,gp_shoulderrb) or mouse_check_button(mb_left)) {use_hold = 1 player_use_active_item()}
+		if (gamepad_button_check_pressed(0,gp_shoulderrb) or mouse_check_button(mb_left)) {use_hold = 0 player_use_active_item()}
+		}
+		if hud.backpack_open = 1
+		{
+		if (gamepad_button_check(0,gp_shoulderrb) or keyboard_check(ord("E"))) {use_hold = 1 player_use_active_item()}
+		if (gamepad_button_check_pressed(0,gp_shoulderrb) or keyboard_check(ord("E")))  {use_hold = 0 player_use_active_item()}
+		}
 
 	if hud.backpack_open = 0 {
 		//Sprint
-		if gamepad_button_check_pressed(0,gp_shoulderl) {store.sp -= .5}
-		if gamepad_button_check(0,gp_shoulderl) and distance_to_object(instance_nearest(x,y,default_solid)) > 4 and store.sp >3 {my_speed = 3 store.sp -= .075 reduce_max_sp()} else {my_speed = 0}
+		if (gamepad_button_check_pressed(0,gp_shoulderl) or keyboard_check_pressed(vk_shift)) {store.sp -= .5}
+		if (gamepad_button_check(0,gp_shoulderl) or keyboard_check(vk_shift)) and distance_to_object(instance_nearest(x,y,default_solid)) > 4 and store.sp >3 {my_speed = 3 store.sp -= .075 reduce_max_sp()} else {my_speed = 0}
 
 		//Toggle flashlight
-		if gamepad_button_check_pressed(0,gp_shoulderlb) {
+		if gamepad_button_check_pressed(0,gp_shoulderlb) or keyboard_check_released(ord("F")) {
 		if instance_number(obj_light_flashlight) = 0 {instance_create_depth(x,y,depth,obj_light_flashlight) store.flashlight_on = 1 audio_play_sound(sfx_lightswitch,1,false)} 
 		else if instance_number(obj_light_flashlight) > 0 {with obj_light_flashlight instance_destroy() audio_play_sound(sfx_lightswitch,1,false) store.flashlight_on = 0}
 		}
 
 		//Alternate Active Slot
-		if gamepad_button_check_pressed(0,gp_shoulderr) and player.alarm[0] <= 0 {
+		if (gamepad_button_check_pressed(0,gp_shoulderr) or mouse_wheel_up()) and player.alarm[0] <= 0 {
 		if store.active_slot < 4 {store.active_slot += 1} else {store.active_slot = 1}
-		player.current_weapon = 0
-		check_current_weapon()
+			player.current_weapon = 0
+			check_current_weapon()
+			}
+			
+		if mouse_wheel_down() and player.alarm[0] <= 0 {
+			if store.active_slot >1 {store.active_slot -= 1} else {store.active_slot = 4}
+			if keyboard_check_pressed(ord("1")) {store.active_slot =1}
+			if keyboard_check_pressed(ord("2")) {store.active_slot =2}
+			if keyboard_check_pressed(ord("3")) {store.active_slot =3}
+			if keyboard_check_pressed(ord("4")) {store.active_slot =4}
+			player.current_weapon = 0
+			check_current_weapon()
 		}
 
 		//Reload Weapon
-		if gamepad_button_check_pressed(0,gp_face3) and current_weapon > 0 {player_reload()}
+		if (gamepad_button_check_pressed(0,gp_face3) or keyboard_check_pressed(ord("R"))) and current_weapon > 0 {player_reload()}
 		
 		//Drop Active Item
-		if gamepad_button_check_pressed(0,gp_face4) {my_id = store.active_slot drop_item()}
+		if (gamepad_button_check_pressed(0,gp_face4) or mouse_check_button_pressed(mb_right)) {my_id = store.active_slot drop_item()}
 
-		//Movement & Aiming
-		if !gamepad_button_check(0,gp_shoulderlb) {
-		direction = ld //point_direction(0, 0, haxis, vaxis);
-		speed = point_distance(0 ,0, haxis, vaxis) * (3+my_speed);
-		}
-
-		if can_attack = 0 and alarm[0] <= 0
+		//Movement & Aiming - Keyboard & Mouse
+		if store.control_mode = 1
 		{
-		if speed = 0 {player_set_idle()} else {player_set_run()}
+		image_angle = point_direction(x, y, device_mouse_x(0), device_mouse_y(0))
+		if keyboard_check(ord("W")) {direction=90 speed = (3+my_speed)}
+		if keyboard_check(ord("A")) {direction=180 speed = (3+my_speed)}
+		if keyboard_check(ord("S")) {direction=270 speed = (3+my_speed)}
+		if keyboard_check(ord("D")) {direction=0 speed = (3+my_speed)}
+		if speed > 0 {speed -= .25}
+		if speed < 0 {speed = 0}
 		}
-
-		if rd != 0 { image_angle = rd }
+		
+		//Movement & Aiming
+		if store.control_mode = 0
+		{
+			if !gamepad_button_check(0,gp_shoulderlb) 
+			{
+				direction = ld //point_direction(0, 0, haxis, vaxis);
+				speed = point_distance(0 ,0, haxis, vaxis) * (3+my_speed);
+			}
+			if rd != 0 { image_angle = rd }
 		}
+		
+		if can_attack = 0 and alarm[0] <= 0
+			{
+				if speed = 0 {player_set_idle()} else {player_set_run()}
+			}
 	}
-
+	}
 
 if can_attack > 0 {can_attack -= 1}
 if vibrate > 0 {vibrate -= 1 if vibrate <= 0 {gamepad_set_vibration(0, 0, 0)}}

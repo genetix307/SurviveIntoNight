@@ -14,6 +14,7 @@ function player_use_weapon() {
 	if store.slot_item[store.active_slot] = 2 {instance_create(x,y,weapon_butterknife) can_attack = 20 store.sp -= 5} //Butter Knife
 	if store.slot_item[store.active_slot] = 7 {instance_create(x,y,weapon_backstabber) can_attack = 22 store.sp -= 5} //Backstabber
 	if store.slot_item[store.active_slot] = 8 {instance_create(x,y,weapon_fork) can_attack = 20 store.sp -= 5} //Butter Knife
+	if store.slot_item[store.active_slot] = 22 {instance_create(x,y,weapon_hammer) can_attack = 20 store.sp -= 5} //Hammer
 	}
 
 	if player.current_weapon = 2 and player.use_hold = 0 //Handguns
