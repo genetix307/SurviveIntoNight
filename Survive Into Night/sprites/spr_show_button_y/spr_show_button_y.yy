@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a0ece33b-5fa0-4211-920a-ce02f28c7b61","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Menu",
-    "path": "folders/Sprites/Menu.yy",
+    "name": "show_buttons",
+    "path": "folders/Sprites/Menu/show_buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_show_button_y",

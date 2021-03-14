@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"39f899bd-7adf-4e8b-9d6d-b6b64d797a72","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Environment",
-    "path": "folders/Sprites/Environment.yy",
+    "name": "Outdoors",
+    "path": "folders/Sprites/Environment/Outdoors.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_crate_top",

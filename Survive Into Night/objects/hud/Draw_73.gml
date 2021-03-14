@@ -64,7 +64,7 @@ if backpack_open =1 or store.gamePaused = 1 {
 }
 
 //Show Chat
-if chat_open =1 {
+if chat_open =1 and store.gamePaused = 0 {
 	draw_set_color(c_blue)
 	draw_set_alpha(.75)
 	draw_rectangle(cx+320,cy+80,cx+960,cy+200,false)
@@ -74,7 +74,8 @@ if chat_open =1 {
 	draw_rectangle(cx+320,cy+80,cx+960,cy+200,true)
 	draw_rectangle(cx+318,cy+78,cx+962,cy+202,true)
 	draw_set_alpha(1)
-	draw_sprite(spr_show_button_a,0,cx+945,cy+185)
+	if store.control_mode = 0 { draw_sprite(spr_show_button_a,0,cx+945,cy+185) }
+	if store.control_mode = 1 { draw_sprite(spr_show_button_space,0,cx+935,cy+187) }
 	draw_set_font(font_chat)
 	draw_text_ext_color(cx+330,cy+86,chat_text,18,630,c_white,c_white,c_white,c_white,1)
 	

@@ -1,5 +1,5 @@
 // Genetix Studio
-if gamepad_button_check_released(0,gp_face1) and distance_to_object(player) < 8 and store.prayer_blessing <= 0
+if (gamepad_button_check_released(0,gp_face1) or keyboard_check_released(vk_space)) and distance_to_object(player) < 8 and store.prayer_blessing <= 0
 {
 player.speed = 0
 hud.chat_open = 1

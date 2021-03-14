@@ -15,6 +15,7 @@ alarm[0] = 3
 my_slot = 3
 my_name = "9mm Pistol"
 my_durability = 40
+if store.drop_check > 0 and store.drop_dur > 0 {my_durability = store.drop_dur; store.drop_dur = 0;}
 my_loaded = 0
 my_description = "Lightweight pistol used for self defense.Attack Points: 20\nBreaks down into: 1x Pistol Frame, 3x Metal"
 

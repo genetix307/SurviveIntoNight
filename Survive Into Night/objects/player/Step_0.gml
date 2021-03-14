@@ -42,13 +42,14 @@ if dead = 0 {
 			
 		if mouse_wheel_down() and player.alarm[0] <= 0 {
 			if store.active_slot >1 {store.active_slot -= 1} else {store.active_slot = 4}
-			if keyboard_check_pressed(ord("1")) {store.active_slot =1}
-			if keyboard_check_pressed(ord("2")) {store.active_slot =2}
-			if keyboard_check_pressed(ord("3")) {store.active_slot =3}
-			if keyboard_check_pressed(ord("4")) {store.active_slot =4}
 			player.current_weapon = 0
 			check_current_weapon()
 		}
+		
+		if keyboard_check_pressed(ord("1")) {store.active_slot =1 player.current_weapon = 0 check_current_weapon()}
+		if keyboard_check_pressed(ord("2")) {store.active_slot =2 player.current_weapon = 0 check_current_weapon()}
+		if keyboard_check_pressed(ord("3")) {store.active_slot =3 player.current_weapon = 0 check_current_weapon()}
+		if keyboard_check_pressed(ord("4")) {store.active_slot =4 player.current_weapon = 0 check_current_weapon()}
 
 		//Reload Weapon
 		if (gamepad_button_check_pressed(0,gp_face3) or keyboard_check_pressed(ord("R"))) and current_weapon > 0 {player_reload()}

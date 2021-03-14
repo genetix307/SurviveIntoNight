@@ -15,6 +15,7 @@ alarm[0] = 3
 my_slot = 4
 my_name = "AR-15 Rifle"
 my_durability = 60
+if store.drop_check > 0 and store.drop_dur > 0 {my_durability = store.drop_dur; store.drop_dur = 0;}
 my_loaded = 0
 my_description = "Fully Automatic rifle built for fighters of freedom. Attack Points: 17\nBreaks down into: 1x Rifle Frame, 4x Metal"
 

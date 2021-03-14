@@ -14,6 +14,7 @@ alarm[0] = 3
 my_slot = 8
 my_name = "Fork"
 my_durability = 6
+if store.drop_check > 0 and store.drop_dur > 0 {my_durability = store.drop_dur; store.drop_dur = 0;}
 my_loaded = 0
 my_description = "Small utensil for eating. Attack Points: 20\nBreaks down into: 1x Metal"
 

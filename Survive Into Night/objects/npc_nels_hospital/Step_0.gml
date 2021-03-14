@@ -5,7 +5,7 @@ if distance_to_object(player) < 120
 	image_angle = point_direction(x,y,player.x,player.y)
 }
 
-if gamepad_button_check_released(0,gp_face1) and distance_to_object(player) < 8
+if (gamepad_button_check_released(0,gp_face1) or keyboard_check_released(vk_space)) and distance_to_object(player) < 8
 {
 if store.current_task_index = 10 and wait = 0
 {
