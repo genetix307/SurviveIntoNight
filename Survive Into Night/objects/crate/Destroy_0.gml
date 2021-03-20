@@ -1,6 +1,5 @@
 // Genetix Studio
-// Genetix Studio
-my_item = round(random(200))
+my_item = round(random(120))
 
 if my_item =1 {instance_create_depth(x,y,depth,item_cannedsoda)}
 if my_item =2 {instance_create_depth(x,y,depth,item_batteries)}

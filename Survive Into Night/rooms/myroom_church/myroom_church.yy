@@ -667,6 +667,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"crow","path":"objects/crow/crow.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1512.0,"y":1512.0,"resourceVersion":"1.0","name":"inst_63D7D885","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"crow","path":"objects/crow/crow.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1440.0,"y":2760.0,"resourceVersion":"1.0","name":"inst_1FD85F9F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"npc_nels_church","path":"objects/npc_nels_church/npc_nels_church.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":1800.0,"resourceVersion":"1.0","name":"inst_66D66708","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"piano","path":"objects/piano/piano.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":138.783356,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1049.0,"y":1263.0,"resourceVersion":"1.0","name":"inst_452975E","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":24,"gridY":24,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"bg_tile_church","path":"tilesets/bg_tile_church/bg_tile_church.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":17,"SerialiseHeight":30,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -1359,6 +1360,7 @@
     {"name":"inst_63D7D885","path":"rooms/myroom_church/myroom_church.yy",},
     {"name":"inst_1FD85F9F","path":"rooms/myroom_church/myroom_church.yy",},
     {"name":"inst_66D66708","path":"rooms/myroom_church/myroom_church.yy",},
+    {"name":"inst_452975E","path":"rooms/myroom_church/myroom_church.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

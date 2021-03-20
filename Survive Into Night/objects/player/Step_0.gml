@@ -65,6 +65,11 @@ if dead = 0 {
 		if keyboard_check(ord("A")) {direction=180 speed = (3+my_speed)}
 		if keyboard_check(ord("S")) {direction=270 speed = (3+my_speed)}
 		if keyboard_check(ord("D")) {direction=0 speed = (3+my_speed)}
+		
+		if keyboard_check(ord("W")) and keyboard_check(ord("A")) {direction=135 speed = (3+my_speed)}
+		if keyboard_check(ord("A")) and keyboard_check(ord("S")) {direction=225 speed = (3+my_speed)}
+		if keyboard_check(ord("S")) and keyboard_check(ord("D")) {direction=315speed = (3+my_speed)}
+		if keyboard_check(ord("D")) and keyboard_check(ord("W")) {direction=45 speed = (3+my_speed)}
 		if speed > 0 {speed -= .25}
 		if speed < 0 {speed = 0}
 		}

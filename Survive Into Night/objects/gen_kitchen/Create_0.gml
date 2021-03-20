@@ -6,6 +6,10 @@ if my_item =2 {instance_create_depth(x,y,depth,item_butterknife)}
 if my_item =3 {instance_create_depth(x,y,depth,item_butterknife)}
 if my_item =4 {instance_create_depth(x,y,depth,item_butterknife)}
 if my_item =5 {instance_create_depth(x,y,depth,item_butterknife)}
+if my_item =6 {instance_create_depth(x,y,depth,item_butterknife)}
+if my_item =7 {instance_create_depth(x,y,depth,item_butterknife)}
+if my_item =8 {instance_create_depth(x,y,depth,item_cannedsoda)}
+if my_item =9 {instance_create_depth(x,y,depth,item_cannedsoda)}
 if my_item =10 {instance_create_depth(x,y,depth,item_cannedsoda)}
 if my_item =11 {instance_create_depth(x,y,depth,item_cannedsoda)}
 if my_item =12 {instance_create_depth(x,y,depth,item_cannedsoda)}
@@ -31,6 +35,7 @@ if my_item =33 {instance_create_depth(x,y,depth,item_cleaningspray)}
 if my_item =34 {instance_create_depth(x,y,depth,item_candybar)}
 if my_item =35 {instance_create_depth(x,y,depth,item_candybar)}
 if my_item =36 {instance_create_depth(x,y,depth,item_candybar)}
+if my_item =37 {instance_create_depth(x,y,depth,item_candybar)}
 
 if my_item =38 {instance_create_depth(x,y,depth,item_resourcebox)}
 if my_item =39 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_resourcebox)}
@@ -38,6 +43,7 @@ if my_item =39 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,it
 if my_item =40 {instance_create_depth(x,y,depth,item_noodlecup)}
 if my_item =41 {instance_create_depth(x,y,depth,item_noodlecup)}
 if my_item =42 {instance_create_depth(x,y,depth,item_noodlecup)}
+if my_item =43 {instance_create_depth(x,y,depth,item_noodlecup)}
 
 if my_item =45 {instance_create_depth(x,y,depth,item_hammer)}
 if my_item =46 {instance_create_depth(x,y,depth,item_hammer)}

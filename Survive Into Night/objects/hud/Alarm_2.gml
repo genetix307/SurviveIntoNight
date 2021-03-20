@@ -52,7 +52,7 @@ if store.time_hour = 8 {with obj_lightmap lightmap_set_ambient(.74);}
 if store.time_hour = 9 {with obj_lightmap lightmap_set_ambient(.77);}
 if store.time_hour = 10 {with obj_lightmap lightmap_set_ambient(.87); daytime_logo =0}
 if store.time_hour = 11 {with obj_lightmap lightmap_set_ambient(.92);}
-if store.time_hour = 12 {with obj_lightmap lightmap_set_ambient(.12);}
+if store.time_hour = 12 {with obj_lightmap lightmap_set_ambient(.12); hud.showDay=5 hud.show_area_text = "Day "+string(store.day);}
 }
 }
 

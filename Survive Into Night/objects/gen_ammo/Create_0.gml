@@ -6,6 +6,7 @@ if my_item =2 {instance_create_depth(x,y,depth,item_ammo_handgun)}
 if my_item =3 {instance_create_depth(x,y,depth,item_ammo_handgun)}
 if my_item =4 {instance_create_depth(x,y,depth,item_ammo_handgun)}
 if my_item =5 {instance_create_depth(x,y,depth,item_ammo_handgun)}
+if my_item =6 {instance_create_depth(x,y,depth,item_ammo_handgun)}
 
 if my_item =7 {instance_create_depth(x,y,depth,item_ammo_rifle)}
 if my_item =8 {instance_create_depth(x,y,depth,item_ammo_rifle)}

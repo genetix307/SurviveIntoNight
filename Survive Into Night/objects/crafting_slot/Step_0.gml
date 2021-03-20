@@ -11,7 +11,8 @@ if my_id = 6 {if store.metal >=8 and store.fiber >=2 {can_craft = 1} else {can_c
 if my_id = 7 {if store.pistol_frame >=1 and store.metal >=6 {can_craft = 1} else {can_craft = 0}} //9mm
 if my_id = 8 {if store.shotgun_frame >=1 and store.fiber >=1 and store.metal >=8 {can_craft = 1} else {can_craft = 0}} //12Gauge Pump
 if my_id = 9 {if store.rifle_frame >=1 and store.metal >=8 {can_craft = 1} else {can_craft = 0}} //AR15
-if my_id = 10 {if store.chemicals >=1 and store.sugar >=1 and store.fiber >=1 {can_craft = 1} else {can_craft = 0}} //Gunpowder
-if my_id = 11 {if store.metal >=3 and store.gun_powder >=6 {can_craft = 1} else {can_craft = 0}} //Handgun Ammo
-if my_id = 12 {if store.metal >=8 and store.gun_powder >=16 {can_craft = 1} else {can_craft = 0}} //Rifle Ammo
-if my_id = 13 {if store.metal >=2 and store.gun_powder >=4 and store.plastic >=1 {can_craft = 1} else {can_craft = 0}} //Shotgun Ammo
+if my_id = 10 {if store.metal >=3 and store.gun_powder >=8 {can_craft = 1} else {can_craft = 0}} //Grenade
+if my_id = 11 {if store.chemicals >=1 and store.sugar >=1 and store.fiber >=1 {can_craft = 1} else {can_craft = 0}} //Gunpowder
+if my_id = 12 {if store.metal >=3 and store.gun_powder >=6 {can_craft = 1} else {can_craft = 0}} //Handgun Ammo
+if my_id = 13 {if store.metal >=8 and store.gun_powder >=16 {can_craft = 1} else {can_craft = 0}} //Rifle Ammo
+if my_id = 14 {if store.metal >=2 and store.gun_powder >=4 and store.plastic >=1 {can_craft = 1} else {can_craft = 0}} //Shotgun Ammo

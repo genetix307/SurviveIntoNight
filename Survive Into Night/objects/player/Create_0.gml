@@ -3,8 +3,8 @@ caster_init_circle(16, 8);
 
 instance_create(x,y,obj_lightmap)
 instance_create(x,y,cursor)
-instance_create(x,y,hud)
 instance_create_depth(x,y,depth-3,obj_camera)
+instance_create(x,y,hud)
 
 if store.flashlight_on = 1 {instance_create(x,y,obj_light_flashlight)}
 use_hold = 0

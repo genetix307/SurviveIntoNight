@@ -18,10 +18,11 @@ player_y = 0
 show_fps = 1
 enemy_cap = 100
 gamePaused = 0
-build_version = "Early Access version 0.06"
+build_version = "Early Access version 0.08"
 control_mode = 0 //0 Gamepad, 1 keyboard_mouse
 drop_check = 0
 drop_dur = 0
+drop_ammo = 0
 
 //Initialize Vars --------------------------------------------------------------------------------------------------------
 //Permenant Resources

@@ -10,6 +10,7 @@ show_item = 0
 show_item_text = ""
 show_area = 0
 show_area_text = ""
+showDay = 0
 chat_open = 0
 chat_text = ""
 daytime_logo = 0

@@ -5,7 +5,9 @@ if device_mouse_x(0) = mouse_xx and device_mouse_y(0) = mouse_yy
 mouse_xx = device_mouse_x(0)
 mouse_yy = device_mouse_y(0)
 
-if gamepad_button_check_pressed(0,gp_start) and store.control_mode !=0 {store.control_mode = 0}
+//Detect control method after game started
+if (gamepad_button_check_pressed(0,gp_start) or gamepad_button_check_pressed(0,gp_face1) or gamepad_button_check_pressed(0,gp_face2)  or gamepad_button_check_pressed(0,gp_face3)  or gamepad_button_check_pressed(0,gp_face4)) and store.control_mode !=0 {store.control_mode = 0}
+if keyboard_check_pressed(vk_anykey) and store.control_mode !=1 {store.control_mode = 1}
 
 if sp < 0 {sp = 0}
 if sp > max_sp {sp = max_sp}

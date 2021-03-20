@@ -1,5 +1,5 @@
 function player_use_weapon() {
-	if can_attack = 0 and player.alarm[0] <= 0
+	if can_attack = 0 and player.alarm[0] <= 0 and store.gamePaused = 0 and hud.chat_open = 0 and hud.backpack_open = 0
 	{
 		
 	if player.current_weapon = 0 and player.use_hold = 0 and store.sp > 0 //Punch

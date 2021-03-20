@@ -19,19 +19,21 @@ if show_item_durability != 0 {draw_text_color(cx+670,cy+678,"Durability points: 
 if show_item_loaded != 0 {draw_text_color(cx+830,cy+678,"Ammo loaded: "+string(show_item_loaded),c_teal,c_teal,c_teal,c_teal,1)}
 
 //Show menu buttons
+if store.control_mode = 0 { //Gamepad
 draw_text_color(cx+1215,cy+630,"Move/Swap",c_white,c_silver,c_white,c_white,1)
 draw_sprite(spr_show_button_a,0,cx+1199,cy+638)
-
 draw_text_color(cx+1215,cy+650,"Drop Item",c_white,c_silver,c_white,c_white,1)
 draw_sprite(spr_show_button_y,0,cx+1199,cy+658)
-
 draw_text_color(cx+1215,cy+673,"Use Item",c_white,c_silver,c_white,c_white,1)
 draw_sprite(spr_show_button_rt,0,cx+1199,cy+681)
+if player.can_recycle = 1{draw_text_color(cx+1136,cy+673,"Recycle",c_white,c_silver,c_white,c_white,1); draw_sprite(spr_show_button_x,0,cx+1118,cy+681)}
+}
 
-if player.can_recycle = 1
-{
-draw_text_color(cx+1136,cy+673,"Recycle",c_white,c_silver,c_white,c_white,1)
-draw_sprite(spr_show_button_x,0,cx+1118,cy+681)
+if store.control_mode = 1 { //Keyboard
+draw_text_color(cx+1115,cy+626,"Left Click to Move/Swap",c_white,c_silver,c_white,c_white,1)
+draw_text_color(cx+1115,cy+640,"Right Click to Drop Item",c_white,c_silver,c_white,c_white,1)
+draw_text_color(cx+1115,cy+654,"Press E to Use Item",c_white,c_silver,c_white,c_white,1)
+if player.can_recycle = 1{draw_text_color(cx+1115,cy+670,"Press R toRecycle",c_white,c_silver,c_white,c_white,1)}
 }
 
 }

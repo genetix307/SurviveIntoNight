@@ -48,5 +48,12 @@ my_text = choose(
 "Here lies Kevin Crumb",
 "Here lies Tree Gelbman",
 "Here lies Danny Torrance",
-"Here lies Carole Ledoux"
+"Here lies Carole Ledoux",
+"Here lies David Dixon",
+"Here lies Noah Jackson",
+"Here lies Chris Millar",
+"Here lies Wes Aragon",
+"Here lies Aaron Taylor",
+"Here lies Queen B",
+"Here lies Pudge Wiggle"
 )

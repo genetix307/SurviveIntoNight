@@ -6,6 +6,7 @@ y = player.y
 
 if show_item > 0 {show_item -= .1}
 if show_area > 0 {show_area -= .02}
+if showDay > 0 {showDay -= .02}
 
 //Open Backpack
 if (gamepad_button_check_pressed(0,gp_face2) or keyboard_check_pressed(ord("I"))) and backpack_open = 0 and chat_open = 0 and store.gamePaused = 0

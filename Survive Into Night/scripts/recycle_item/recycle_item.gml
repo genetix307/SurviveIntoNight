@@ -22,6 +22,7 @@ if store.slot_item[my_id] = 19 {store.sugar+=2 store.plastic+=1} //Candy Bar
 if store.slot_item[my_id] = 20 {store.sugar+=3 store.water+=3 store.metal+=3 store.fiber+=3 store.chemicals+=3 store.plastic+=3} //Resource Box
 if store.slot_item[my_id] = 21 {store.water+=1 store.fiber+=1 store.sugar+=1} //Noodle Cup
 if store.slot_item[my_id] = 22 {store.metal+=1 store.fiber+=1} //Hammer
+if store.slot_item[my_id] = 23 {store.metal+=2 store.gun_powder+=4} //Grenade
 
 store.items_recycled += 1
 store.slot_item[my_id] = 0 

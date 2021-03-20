@@ -36,6 +36,14 @@ draw_set_font(font_show_area)
 	draw_text_color(cx+440,cy+10,show_area_text,c_red,c_red,c_red,c_red,show_area)	
 }
 
+//Show Day Big
+if showDay > 0
+{
+draw_set_font(font_showDay)
+	draw_text_color(cx+529,cy+95,show_area_text,c_black,c_black,c_black,c_black,showDay)	
+	draw_text_color(cx+524,cy+90,show_area_text,c_white,c_white,c_white,c_white,showDay)	
+}
+
 //Show Quick slots
 if backpack_open = 0 and store.gamePaused = 0
 {
