@@ -8,4 +8,5 @@ if hp <= 0 {audio_play_sound(sfx_bullet_hit,1,false) effect_create_above(ef_smok
 x += 0.1 * (x - (other.x));
 y += 0.1 * (y - (other.y));
 action_bounce(0, 1);
+
 }

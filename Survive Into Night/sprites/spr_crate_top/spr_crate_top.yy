@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_crate_top","path":"sprites/spr_crate_top/spr_crate_top.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_crate_top",
     "tags": [],
     "resourceType": "GMSequence",
   },

@@ -15,3 +15,5 @@ if keyboard_check_pressed(vk_anykey)
 }
 
 if image_yscale < 1 {image_yscale += .02}
+
+fullscreenCheck()

@@ -1,10 +1,11 @@
 // Genetix Studio
 draw_set_alpha(.7)
+draw_roundrect_color(cx+660,cy+20,cx+1278,cy+700,c_navy,c_navy,false)
 draw_roundrect_color(cx+660,cy+20,cx+1278,cy+700,c_dkgray,c_dkgrey,false)
-draw_roundrect_color(cx+660,cy+20,cx+1278,cy+700,c_lime,c_lime,true)
+draw_roundrect_color(cx+660,cy+20,cx+1278,cy+700,c_gray,c_gray,true)
 draw_set_alpha(.3)
-draw_roundrect_color(cx+660,cy+620,cx+1278,cy+700,c_black,c_black,false)
-draw_roundrect_color(cx+660,cy+620,cx+1278,cy+700,c_lime,c_lime,true)
+draw_roundrect_color(cx+660,cy+620,cx+1278,cy+700,c_dkgray,c_dkgray,false)
+draw_roundrect_color(cx+660,cy+620,cx+1278,cy+700,c_gray,c_gray,true)
 draw_set_alpha(1)
 
 draw_set_font(font_menu_header)
@@ -46,8 +47,13 @@ draw_sprite(spr_map,0,cx+18,cy+88)
 
 //Draw Current Task info
 draw_set_font(font_chat)
-draw_text_color(cx+184,cy+2,"Current Task",c_lime,c_green,c_lime,c_green,1)
-draw_text_ext_color(cx+188,cy+18,store.current_task,15,460,c_white,c_silver,c_white,c_silver,1)
+draw_text_color(cx+10,cy+534,"Current Task",c_lime,c_green,c_lime,c_green,1)
+draw_text_ext_color(cx+14,cy+551,store.current_task,15,460,c_white,c_silver,c_white,c_silver,1)
+
+//Draw Survival Tip
+draw_set_font(font_chat)
+draw_text_color(cx+10,cy+614,"Survival Tip",c_yellow,c_orange,c_yellow,c_orange,1)
+draw_text_ext_color(cx+14,cy+631,survivalTip,15,460,c_white,c_silver,c_white,c_silver,1)
 
 
 

@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "default_solid",
-    "path": "objects/default_solid/default_solid.yy",
+    "name": "default_object",
+    "path": "objects/default_object/default_object.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,6 +29,8 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"woodbench","path":"objects/woodbench/woodbench.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"woodbench","path":"objects/woodbench/woodbench.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"woodbench","path":"objects/woodbench/woodbench.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"default_weapon","path":"objects/default_weapon/default_weapon.yy",},"parent":{"name":"woodbench","path":"objects/woodbench/woodbench.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -11,3 +11,5 @@ instance_activate_object(obJ_light_ghosttrain)
 
 alarm[1] = 120
 
+//Set fullscreen
+fullscreenCheck()

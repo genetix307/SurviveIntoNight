@@ -1,11 +1,14 @@
 //Lighting Setup
 caster_init_circle(16, 8);
 
+//Save Game
+saveGame()
+
+//Initial setup
 instance_create(x,y,obj_lightmap)
 instance_create(x,y,cursor)
 instance_create_depth(x,y,depth-3,obj_camera)
 instance_create(x,y,hud)
-
 if store.flashlight_on = 1 {instance_create(x,y,obj_light_flashlight)}
 use_hold = 0
 play_bgm()
@@ -27,7 +30,6 @@ rd = point_direction(0,0,rh,-rv)
 haxis = gamepad_axis_value(0, gp_axislh);
 vaxis = gamepad_axis_value(0, gp_axislv);
 my_speed = 0
-//my_vibration = 0
 }
 
 hp = store.max_hp

@@ -28,6 +28,8 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"weapon_backstabber","path":"objects/weapon_backstabber/weapon_backstabber.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"default_enemy","path":"objects/default_enemy/default_enemy.yy",},"parent":{"name":"weapon_backstabber","path":"objects/weapon_backstabber/weapon_backstabber.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"parent":{"name":"weapon_backstabber","path":"objects/weapon_backstabber/weapon_backstabber.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"default_object","path":"objects/default_object/default_object.yy",},"parent":{"name":"weapon_backstabber","path":"objects/weapon_backstabber/weapon_backstabber.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"default_solid","path":"objects/default_solid/default_solid.yy",},"parent":{"name":"weapon_backstabber","path":"objects/weapon_backstabber/weapon_backstabber.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

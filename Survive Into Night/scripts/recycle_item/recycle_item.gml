@@ -23,6 +23,7 @@ if store.slot_item[my_id] = 20 {store.sugar+=3 store.water+=3 store.metal+=3 sto
 if store.slot_item[my_id] = 21 {store.water+=1 store.fiber+=1 store.sugar+=1} //Noodle Cup
 if store.slot_item[my_id] = 22 {store.metal+=1 store.fiber+=1} //Hammer
 if store.slot_item[my_id] = 23 {store.metal+=2 store.gun_powder+=4} //Grenade
+if store.slot_item[my_id] = 24 {store.pistol_frame+=1 store.metal+=3} //Cowboy Revolver
 
 store.items_recycled += 1
 store.slot_item[my_id] = 0 

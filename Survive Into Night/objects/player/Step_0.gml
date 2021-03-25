@@ -65,7 +65,6 @@ if dead = 0 {
 		if keyboard_check(ord("A")) {direction=180 speed = (3+my_speed)}
 		if keyboard_check(ord("S")) {direction=270 speed = (3+my_speed)}
 		if keyboard_check(ord("D")) {direction=0 speed = (3+my_speed)}
-		
 		if keyboard_check(ord("W")) and keyboard_check(ord("A")) {direction=135 speed = (3+my_speed)}
 		if keyboard_check(ord("A")) and keyboard_check(ord("S")) {direction=225 speed = (3+my_speed)}
 		if keyboard_check(ord("S")) and keyboard_check(ord("D")) {direction=315speed = (3+my_speed)}
@@ -74,7 +73,7 @@ if dead = 0 {
 		if speed < 0 {speed = 0}
 		}
 		
-		//Movement & Aiming
+		//Movement & Aiming - Gamepad
 		if store.control_mode = 0
 		{
 			if !gamepad_button_check(0,gp_shoulderlb) 

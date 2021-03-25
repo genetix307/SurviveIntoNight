@@ -26,4 +26,5 @@ if my_item =32 {instance_create_depth(x,y,depth,item_broken_rifle)}
 if my_item =34 {instance_create_depth(x,y,depth,item_grenade)}
 if my_item =35 {instance_create_depth(x,y,depth,item_grenade)}
 
+if my_item =36 {instance_create_depth(x,y,depth,item_cowboyRevolver)}
 

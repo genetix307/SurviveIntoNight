@@ -21,6 +21,7 @@ function player_use_weapon() {
 	{
 	sprite_index = spr_player_handgun_attack; image_index = 0
 	if store.slot_item[store.active_slot] = 3 {if store.slot_loaded[store.active_slot] > 0 {instance_create(x,y,weapon_bullet_9mm) gamepad_set_vibration(0, .4, .4); player.vibrate = 10 can_attack = 15 store.slot_loaded[store.active_slot]-=1} else {audio_play_sound(sfx_gun_empty,1,false) reload_weapon()}} //9mm Pistol
+	if store.slot_item[store.active_slot] = 24 {if store.slot_loaded[store.active_slot] > 0 {instance_create(x,y,weapon_bullet_revolver) gamepad_set_vibration(0, .8, .8); player.vibrate = 12 can_attack = 20 store.slot_loaded[store.active_slot]-=1} else {audio_play_sound(sfx_gun_empty,1,false) reload_weapon()}} //9mm Pistol
 	store.slot_durability[store.active_slot] -=1
 	if store.slot_durability[store.active_slot] <=0 {item_break()}
 	}
