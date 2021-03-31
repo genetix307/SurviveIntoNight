@@ -29,6 +29,7 @@
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"npc_nels_church","path":"objects/npc_nels_church/npc_nels_church.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"npc_nels_church","path":"objects/npc_nels_church/npc_nels_church.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"gate_church","path":"objects/gate_church/gate_church.yy",},"parent":{"name":"npc_nels_church","path":"objects/npc_nels_church/npc_nels_church.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"default_weapon","path":"objects/default_weapon/default_weapon.yy",},"parent":{"name":"npc_nels_church","path":"objects/npc_nels_church/npc_nels_church.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

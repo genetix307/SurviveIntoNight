@@ -52,9 +52,8 @@ ini_write_real( "save1", "tut_recycle", store.tut_recycle);
 ini_write_real( "save1", "tut_craft", store.tut_craft);
 ini_write_real( "save1", "tut_bells", store.tut_bells);
 //Item Slots
-total_slots = 41
 var i;
-for (i = 0; i<total_slots;i+=1)
+for (i = 0; i<store.total_slots;i+=1)
 {
 ini_write_real( "save1", "slot_item" + string(i), store.slot_item[i]);
 ini_write_string( "save1", "slot_name" + string(i), store.slot_name[i]);

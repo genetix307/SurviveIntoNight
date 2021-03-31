@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Story",
-    "path": "folders/Objects/Story.yy",
+    "name": "Tutorial",
+    "path": "folders/Objects/Story/Tutorial.yy",
   },
   "resourceVersion": "1.0",
   "name": "tutorial_d",

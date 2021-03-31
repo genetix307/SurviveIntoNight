@@ -28,6 +28,7 @@ if keyboard_check(vk_home) {
 if keyboard_check_pressed(ord("H")) {player_x = 768 player_y = 1080 room = myroom_church} //Home Sweet Home
 if keyboard_check_pressed(ord("P")) {store.current_task_index+=1} //Advance Story
 if keyboard_check_pressed(ord("T")) {hud.alarm[2] = 2} //Advance Story
+if keyboard_check_pressed(ord("L")) {instance_create_depth(cursor.x,cursor.y,player.depth,obj_light)} //Let there be light
 if keyboard_check_pressed(ord("W")) {instance_create_depth(player.x,player.y,0,item_12gaugepump) repeat 3 instance_create_depth(player.x,player.y,0,item_ammo_shotgun) } //I Got Shotgun
 if keyboard_check_pressed(ord("R")) { //The Junk Drawer
 sugar += 25; water += 25 metal += 25 fiber += 25 pistol_frame += 25 rifle_frame += 25 shotgun_frame += 25 chemicals += 25 plastic += 25 gun_powder += 25}

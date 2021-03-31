@@ -611,6 +611,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"gen_kitchen","path":"objects/gen_kitchen/gen_kitchen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1800.0,"y":168.0,"resourceVersion":"1.0","name":"inst_1BD2DB50","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"gen_outdoors_misc","path":"objects/gen_outdoors_misc/gen_outdoors_misc.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1656.0,"y":264.0,"resourceVersion":"1.0","name":"inst_5917F6F8","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"crate_ammo","path":"objects/crate_ammo/crate_ammo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1536.0,"y":264.0,"resourceVersion":"1.0","name":"inst_40F7B6C0","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"gen_zombie_kip","path":"objects/gen_zombie_kip/gen_zombie_kip.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2712.0,"y":672.0,"resourceVersion":"1.0","name":"inst_450E1506","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":24,"gridY":24,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"bg_tile_church","path":"tilesets/bg_tile_church/bg_tile_church.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":32,"SerialiseHeight":17,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -1234,6 +1235,7 @@
     {"name":"inst_1BD2DB50","path":"rooms/myroom_southchurch_path/myroom_southchurch_path.yy",},
     {"name":"inst_5917F6F8","path":"rooms/myroom_southchurch_path/myroom_southchurch_path.yy",},
     {"name":"inst_40F7B6C0","path":"rooms/myroom_southchurch_path/myroom_southchurch_path.yy",},
+    {"name":"inst_450E1506","path":"rooms/myroom_southchurch_path/myroom_southchurch_path.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
