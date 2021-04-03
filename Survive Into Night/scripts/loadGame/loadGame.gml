@@ -55,11 +55,11 @@ store.tut_bells = ini_read_real( "save1", "tut_bells",store.tut_bells);
 var i;
 for (i = 0; i<store.total_slots;i+=1)
 {
-	store.slot_item = ini_read_real( "save1", "slot_item" + string(i),store.slot_item[i]);
-	store.slot_name = ini_read_string( "save1", "slot_name" + string(i),store.slot_name[i]);
-	store.slot_durability = ini_read_real( "save1", "slot_durability" + string(i),store.slot_durability[i]);
-	store.slot_loaded = ini_read_real( "save1", "slot_loaded" + string(i),store.slot_loaded[i]);
-	store.slot_description = ini_read_string( "save1", "slot_description" + string(i),store.slot_description[i]);
+	store.slot_item = ini_read_real( "save1", "slot_item" + string(i),0);
+	store.slot_name = ini_read_string( "save1", "slot_name" + string(i),"");
+	store.slot_durability = ini_read_real( "save1", "slot_durability" + string(i),0);
+	store.slot_loaded = ini_read_real( "save1", "slot_loaded" + string(i),0);
+	store.slot_description = ini_read_string( "save1", "slot_description" + string(i),"");
 }
 
 //show_message("Game Loaded")

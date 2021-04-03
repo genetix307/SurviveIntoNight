@@ -814,6 +814,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"fence_white","path":"objects/fence_white/fence_white.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.51894,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":624.0,"y":2448.0,"resourceVersion":"1.0","name":"inst_40A0AA47","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"fence_white","path":"objects/fence_white/fence_white.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":89.94575,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":816.0,"y":2448.0,"resourceVersion":"1.0","name":"inst_5E42E60B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"gen_zombie_kip","path":"objects/gen_zombie_kip/gen_zombie_kip.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":600.0,"resourceVersion":"1.0","name":"inst_1995D89C","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"stuffed_animal","path":"objects/stuffed_animal/stuffed_animal.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":20.8338184,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":382.0,"y":523.0,"resourceVersion":"1.0","name":"inst_40F9ACCF","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":24,"gridY":24,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"bg_tile_church","path":"tilesets/bg_tile_church/bg_tile_church.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":34,"SerialiseHeight":27,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -1650,6 +1651,7 @@
     {"name":"inst_40A0AA47","path":"rooms/myroom_graveyard/myroom_graveyard.yy",},
     {"name":"inst_5E42E60B","path":"rooms/myroom_graveyard/myroom_graveyard.yy",},
     {"name":"inst_1995D89C","path":"rooms/myroom_graveyard/myroom_graveyard.yy",},
+    {"name":"inst_40F9ACCF","path":"rooms/myroom_graveyard/myroom_graveyard.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

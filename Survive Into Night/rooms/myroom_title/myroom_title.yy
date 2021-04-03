@@ -14,8 +14,8 @@
   ],
   "layers": [
     {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"store","path":"objects/store/store.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":288.0,"resourceVersion":"1.0","name":"inst_7E01FC2D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"title","path":"objects/title/title.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.117647,"scaleY":1.43243241,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_80A5F5FD","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"store","path":"objects/store/store.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":160.0,"resourceVersion":"1.0","name":"inst_C4CFCDC9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"genetix_logo","path":"objects/genetix_logo/genetix_logo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1098.0,"y":692.0,"resourceVersion":"1.0","name":"inst_715A175F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"menu_pressanybutton","path":"objects/menu_pressanybutton/menu_pressanybutton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":576.0,"resourceVersion":"1.0","name":"inst_34B52632","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Compatibility_Instances_Depth_0","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -27,9 +27,9 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_80A5F5FD","path":"rooms/myroom_title/myroom_title.yy",},
-    {"name":"inst_C4CFCDC9","path":"rooms/myroom_title/myroom_title.yy",},
     {"name":"inst_715A175F","path":"rooms/myroom_title/myroom_title.yy",},
     {"name":"inst_34B52632","path":"rooms/myroom_title/myroom_title.yy",},
+    {"name":"inst_7E01FC2D","path":"rooms/myroom_title/myroom_title.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

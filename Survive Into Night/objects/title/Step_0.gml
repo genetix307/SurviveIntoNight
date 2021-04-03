@@ -8,7 +8,7 @@ if gamepad_button_check_pressed(0,gp_face1) or gamepad_button_check_pressed(0,gp
 }
 
 //Keyboard
-if keyboard_check_pressed(vk_anykey)
+if keyboard_check_pressed(vk_anykey) or device_mouse_check_button(0,mb_any)
 {
 	store.control_mode = 1
 	room = myroom_mainmenu
