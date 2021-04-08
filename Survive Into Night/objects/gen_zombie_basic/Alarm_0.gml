@@ -5,8 +5,8 @@ my_gen = random(100)
 
 if distance_to_object(player) > 800 and instance_number(default_enemy) < store.enemy_cap
 {
-if my_gen > 25 {instance_create_depth(x,y,depth,zombie_basic)}
+if my_gen > 40 {instance_create_depth(x,y,depth,zombie_basic)}
 }
 }
 
-alarm[0] = 330
+alarm[0] = 600

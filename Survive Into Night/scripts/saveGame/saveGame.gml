@@ -35,6 +35,7 @@ ini_write_real( "save1", "thirst", store.thirst);
 ini_write_real( "save1", "zombies_slain", store.zombies_slain);
 ini_write_real( "save1", "devilsofnight_slain", store.devilsofnight_slain);
 ini_write_real( "save1", "newspapers_found", store.newspapers_found);
+ini_write_real( "save1", "games_found", store.games_found);
 ini_write_real( "save1", "daysSurvived", store.daysSurvived);
 //Game settings
 ini_write_real( "save1", "active_slot", store.active_slot);
@@ -55,6 +56,7 @@ ini_write_real( "save1", "tut_bells", store.tut_bells);
 var i;
 for (i = 0; i<store.total_slots;i+=1)
 {
+	show_debug_message("Array Start")
 ini_write_real( "save1", "slot_item" + string(i), store.slot_item[i]);
 ini_write_string( "save1", "slot_name" + string(i), store.slot_name[i]);
 ini_write_real( "save1", "slot_durability" + string(i), store.slot_durability[i]);

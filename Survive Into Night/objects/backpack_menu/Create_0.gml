@@ -42,7 +42,7 @@ if survivalTipIndex = 2 {survivalTip = "Every weapon will break after enough use
 if survivalTipIndex = 3 {survivalTip = "Sprinting is a good way to run away from the infected, but watch your stamina!"}
 if survivalTipIndex = 4 {survivalTip = "You can recycle any item at a recycling bench to break the item down into it’s basic materials."}
 if survivalTipIndex = 5 {survivalTip = "Recycle weapons that are about to break from low durability, they’re still worth the same amount of materials."}
-if survivalTipIndex = 6 {survivalTip = "The red marker on your map shows the area you’re currently at."}
+if survivalTipIndex = 6 {survivalTip = "The red marker on your map shows the area you are currently at."}
 if survivalTipIndex = 7 {survivalTip = "Food & Drinks you find out in the world can help restore stamina and thirst, but often will lower your MAX health a little."}
 if survivalTipIndex = 8 {survivalTip = "Make sure to drink plenty of water, if you’re thirst points get to low you’ll start dying."}
 if survivalTipIndex = 9 {survivalTip = "You can destroy most objects in the world, and often find loot from them."}

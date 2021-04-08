@@ -35,6 +35,7 @@ store.thirst = ini_read_real( "save1", "thirst",store.thirst);
 store.zombies_slain = ini_read_real( "save1", "zombies_slain",store.zombies_slain);
 store.devilsofnight_slain = ini_read_real( "save1", "devilsofnight_slain",store.devilsofnight_slain);
 store.newspapers_found = ini_read_real( "save1", "newspapers_found",store.newspapers_found);
+store.games_found = ini_read_real( "save1", "games_found",store.games_found);
 store.daysSurvived = ini_read_real( "save1", "daysSurvived",store.daysSurvived);
 //Game settings
 store.active_slot = ini_read_real( "save1", "active_slot",store.active_slot);
@@ -55,14 +56,13 @@ store.tut_bells = ini_read_real( "save1", "tut_bells",store.tut_bells);
 var i;
 for (i = 0; i<store.total_slots;i+=1)
 {
-	store.slot_item = ini_read_real( "save1", "slot_item" + string(i),0);
-	store.slot_name = ini_read_string( "save1", "slot_name" + string(i),"");
-	store.slot_durability = ini_read_real( "save1", "slot_durability" + string(i),0);
-	store.slot_loaded = ini_read_real( "save1", "slot_loaded" + string(i),0);
-	store.slot_description = ini_read_string( "save1", "slot_description" + string(i),"");
+	store.slot_item[i] = ini_read_real( "save1", "slot_item" + string(i),store.slot_item[i]);
+	store.slot_name[i] = ini_read_string( "save1", "slot_name" + string(i),store.slot_name[i]);
+	store.slot_durability[i] = ini_read_real( "save1", "slot_durability" + string(i),store.slot_durability[i]);
+	store.slot_loaded[i] = ini_read_real( "save1", "slot_loaded" + string(i),store.slot_loaded[i]);
+	store.slot_description[i] = ini_read_string( "save1", "slot_description" + string(i),store.slot_description[i]);
 }
 
 //show_message("Game Loaded")
 ini_close();
 }
-

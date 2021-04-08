@@ -3,7 +3,7 @@ enemy_create()
 image_speed = 0
 image_index = round(random(image_number))
 my_speed = .75+random(.75)
-hp = 300
+hp = 300 + store.day
 if store.day >5 {hp +=random(50)}
 can_attack = 0
 reload_time = 75

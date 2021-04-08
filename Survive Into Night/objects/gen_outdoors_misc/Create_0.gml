@@ -17,6 +17,7 @@ if my_item =11 {instance_create_depth(x,y,depth,item_woodboard)}
 if my_item =12 {instance_create_depth(x,y,depth,item_woodboard)}
 if my_item =13 {instance_create_depth(x,y,depth,item_woodboard)}
 if my_item =14 {instance_create_depth(x,y,depth,item_woodboard)}
+if my_item =16 {instance_create_depth(x,y,depth,retroGame)}
 
 if my_item =16 {instance_create_depth(x,y,depth,item_bandages)}
 if my_item =17 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_bandages)}

@@ -1,6 +1,7 @@
 alarm[0] = 30
 alarm[1] = 5
 alarm[2] = 900 //Pass Hours of day
+alarm[3] = 120 //Show Quest
 set_world = 1
 backpack_open = 0
 lightChange = 0
@@ -10,6 +11,8 @@ show_item = 0
 show_item_text = ""
 show_area = 0
 show_area_text = ""
+show_quest = -2
+show_quest_fade = 0
 quick_text = ""
 show_quick_text = 0
 showDay = 0

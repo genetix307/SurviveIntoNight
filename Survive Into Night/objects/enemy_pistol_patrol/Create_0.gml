@@ -2,7 +2,7 @@ enemy_create()
 
 my_speed = 2
 speed = my_speed
-my_range = 580
+my_range = 180
 hp = 40
 reload_max = 8
 reload = reload_max

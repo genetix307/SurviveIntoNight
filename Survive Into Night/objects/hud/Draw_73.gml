@@ -36,6 +36,15 @@ draw_set_font(font_show_area)
 	draw_text_color(cx+440,cy+10,show_area_text,c_red,c_red,c_red,c_red,show_area)	
 }
 
+//Show Task
+if show_quest > 0 and room != myroom_intro_area and room != myroom_intro_subway
+{
+draw_set_font(font_stats)
+draw_text_color(cx+2,cy+674,"Current Task",c_yellow,c_orange,c_yellow,c_orange,show_quest)
+draw_text_ext_color(cx+2,cy+689,store.current_task,15,360,c_white,c_silver,c_white,c_silver,show_quest)
+}
+
+
 //Show Day Big
 if showDay > 0
 {
@@ -47,15 +56,17 @@ draw_set_font(font_showDay)
 //Show Quick slots
 if backpack_open = 0 and store.gamePaused = 0
 {
+draw_set_font(font_stats)
 draw_sprite(spr_item_slot,store.slot_item[1],cx+1104,cy+694)
 draw_sprite(spr_item_slot,store.slot_item[2],cx+1154,cy+694)
 draw_sprite(spr_item_slot,store.slot_item[3],cx+1204,cy+694)
 draw_sprite(spr_item_slot,store.slot_item[4],cx+1254,cy+694)
 draw_set_alpha(.2)
-if store.slot_durability[1] <=2 and store.slot_durability[1] >0 {draw_rectangle_color(cx+1081,cy+670,cx+1127,cy+718,c_red,c_red,c_red,c_red,false)}
-if store.slot_durability[2] <=2 and store.slot_durability[2] >0 {draw_rectangle_color(cx+1131,cy+670,cx+1176,cy+718,c_red,c_red,c_red,c_red,false)}
-if store.slot_durability[3] <=2 and store.slot_durability[3] >0 {draw_rectangle_color(cx+1180,cy+670,cx+1226,cy+718,c_red,c_red,c_red,c_red,false)}
-if store.slot_durability[4] <=2 and store.slot_durability[4] >0 {draw_rectangle_color(cx+1230,cy+670,cx+1278,cy+718,c_red,c_red,c_red,c_red,false)}	
+if store.slot_durability[1] <=3 and store.slot_durability[1] >0 {draw_rectangle_color(cx+1081,cy+670,cx+1127,cy+718,c_red,c_red,c_red,c_red,false) draw_text_color(cx+1085,cy+654,"Weapon about to break",c_red,c_red,c_red,c_red,1)}
+if store.slot_durability[2] <=3 and store.slot_durability[2] >0 {draw_rectangle_color(cx+1131,cy+670,cx+1176,cy+718,c_red,c_red,c_red,c_red,false) draw_text_color(cx+1085,cy+654,"Weapon about to break",c_red,c_red,c_red,c_red,1)}
+if store.slot_durability[3] <=3 and store.slot_durability[3] >0 {draw_rectangle_color(cx+1180,cy+670,cx+1226,cy+718,c_red,c_red,c_red,c_red,false) draw_text_color(cx+1085,cy+654,"Weapon about to break",c_red,c_red,c_red,c_red,1)}
+if store.slot_durability[4] <=3 and store.slot_durability[4] >0 {draw_rectangle_color(cx+1230,cy+670,cx+1278,cy+718,c_red,c_red,c_red,c_red,false) draw_text_color(cx+1085,cy+654,"Weapon about to break",c_red,c_red,c_red,c_red,1)}	
+
 draw_set_alpha(1)
 if store.active_slot = 1 {draw_rectangle_color(cx+1081,cy+670,cx+1127,cy+718,c_orange,c_orange,c_orange,c_orange,true)}
 if store.active_slot = 2 {draw_rectangle_color(cx+1131,cy+670,cx+1176,cy+718,c_orange,c_orange,c_orange,c_orange,true)}
