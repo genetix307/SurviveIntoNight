@@ -15,4 +15,5 @@ function play_bgm() {
 	if room = myroom_hospital {audio_play_sound(bgm_creepy_indoors,1,true)}
 	if room = myroom_trainstation {audio_play_sound(bgm_ambient_nature,1,true) audio_play_sound(bgm_outdoors_haunting,1,true)}
 	if room = myroom_chemical_plant {audio_play_sound(bgm_ghostly,1,true)}
+	if room = myroom_citypark {audio_play_sound(bgm_ambient_nature,1,true) audio_play_sound(bgm_ambient_a,1,true)}
 }

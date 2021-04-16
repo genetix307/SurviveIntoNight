@@ -14,6 +14,6 @@ if keyboard_check_pressed(vk_anykey) or device_mouse_check_button(0,mb_any)
 	room = myroom_mainmenu
 }
 
-if image_yscale < 1 {image_yscale += .02}
+//if image_yscale < 1 {image_yscale += .02}
 
 fullscreenCheck()

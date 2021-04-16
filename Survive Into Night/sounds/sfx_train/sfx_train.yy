@@ -13,8 +13,8 @@
   "soundFile": "sfx_train.mp3",
   "duration": 29.99357,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "sfx_train",

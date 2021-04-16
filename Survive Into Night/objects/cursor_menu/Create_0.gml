@@ -1,3 +1,3 @@
 image_speed = .05
 
-deph = -100
+depth = -1000

@@ -1,5 +1,5 @@
 // Genetix Studio
-my_item = round(random(100))
+my_item = round(random(100)) +store.day
 
 if my_item =18 {instance_create_depth(x,y,depth,item_broken_handgun)}
 if my_item =19 {instance_create_depth(x,y,depth,item_broken_handgun)}

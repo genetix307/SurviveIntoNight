@@ -13,8 +13,8 @@
   "soundFile": "sfx_alarm_short",
   "duration": 1.467857,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "sfx_alarm_short",

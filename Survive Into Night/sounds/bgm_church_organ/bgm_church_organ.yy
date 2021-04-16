@@ -7,8 +7,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audiogroup_bgm",
+    "path": "audiogroups/audiogroup_bgm",
   },
   "soundFile": "bgm_church_organ.mp3",
   "duration": 131.5054,

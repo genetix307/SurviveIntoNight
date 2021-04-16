@@ -13,8 +13,8 @@
   "soundFile": "sfx_squeaky.mp3",
   "duration": 0.677,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "sfx_squeaky",

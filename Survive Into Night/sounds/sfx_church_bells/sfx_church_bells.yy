@@ -13,8 +13,8 @@
   "soundFile": "sfx_church_bells.mp3",
   "duration": 14.9209175,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "sfx_church_bells",

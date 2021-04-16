@@ -1,5 +1,5 @@
 // Genetix Studio
-my_item = round(random(30))
+my_item = round(random(20))
 
 if my_item =3 {instance_create_depth(x,y,depth,item_woodboard)}
 if my_item =4 {instance_create_depth(x,y,depth,item_woodboard)}

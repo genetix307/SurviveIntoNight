@@ -462,6 +462,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"quicktut_pickupitems","path":"objects/quicktut_pickupitems/quicktut_pickupitems.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":3.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":912.0,"y":336.0,"resourceVersion":"1.0","name":"inst_65736AB3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"railing_b","path":"objects/railing_b/railing_b.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":360.0,"y":2448.0,"resourceVersion":"1.0","name":"inst_3EFCEB5C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"railing_b","path":"objects/railing_b/railing_b.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":360.0,"y":1944.0,"resourceVersion":"1.0","name":"inst_15D090E0","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"powerlines","path":"objects/powerlines/powerlines.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.53125,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":624.0,"y":2401.0,"resourceVersion":"1.0","name":"inst_747CDAB8","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":24,"gridY":24,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"bg_tile_church","path":"tilesets/bg_tile_church/bg_tile_church.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":14,"SerialiseHeight":32,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -951,6 +952,7 @@
     {"name":"inst_65736AB3","path":"rooms/myroom_intro_subway/myroom_intro_subway.yy",},
     {"name":"inst_3EFCEB5C","path":"rooms/myroom_intro_subway/myroom_intro_subway.yy",},
     {"name":"inst_15D090E0","path":"rooms/myroom_intro_subway/myroom_intro_subway.yy",},
+    {"name":"inst_747CDAB8","path":"rooms/myroom_intro_subway/myroom_intro_subway.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

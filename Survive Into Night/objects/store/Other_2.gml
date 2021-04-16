@@ -1,15 +1,12 @@
 randomize()
 
 //Load audio groups
-if !audio_group_is_loaded(audiogroup_sfx)
-   {
-   audio_group_load(audiogroup_sfx);
-   } 
+if !audio_group_is_loaded(audiogroup_sfx) {audio_group_load(audiogroup_sfx);} 
+if !audio_group_is_loaded(audiogroup_bgm) {audio_group_load(audiogroup_bgm);} 
 
 //Init Permanenet Vars
 //Settings
 cursor_sensitivity = 10
-//paused = 0
 mouse_active = 0
 mouse_xx = 0
 mouse_yy = 0
@@ -18,11 +15,14 @@ player_y = 0
 show_fps = 0
 enemy_cap = 100
 gamePaused = 0
-build_version = "Early Access version 0.10"
+build_version = "Early Access version 0.12"
 control_mode = 0 //0 Gamepad, 1 keyboard_mouse
 drop_check = 0
 drop_dur = 0
 drop_ammo = 0
+holdTimeHud = 900
+sfx_volume = 1
+bgm_volume = 1
 
 //Initialize Vars --------------------------------------------------------------------------------------------------------
 //Permenant Resources

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_classified_folder",
-    "path": "sprites/spr_classified_folder/spr_classified_folder.yy",
+    "name": "spr_button_quit",
+    "path": "sprites/spr_button_quit/spr_button_quit.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Menu",
-    "path": "folders/Objects/Menu.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/Menu/Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "button_exitgame",

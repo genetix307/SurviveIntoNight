@@ -1,5 +1,5 @@
 // Genetix Studio
-my_item = round(random(100))
+my_item = round(random(100)) +store.day
 
 if my_item =1 {instance_create_depth(x,y,depth,item_cannedsoda)}
 if my_item =2 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_cannedsoda)}
@@ -47,3 +47,4 @@ if my_item =44 {instance_create_depth(x,y,depth,item_resourcebox)}
 if my_item =45 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_resourcebox)}
 
 if my_item =47 {instance_create_depth(x,y,depth,item_hammer)}
+if my_item =38 {instance_create_depth(x,y,depth,item_chemicalx)}

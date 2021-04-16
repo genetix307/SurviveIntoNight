@@ -13,8 +13,8 @@
   "soundFile": "sfx_zombie_bite.mp3",
   "duration": 0.389,
   "parent": {
-    "name": "zombie",
-    "path": "folders/Sounds/zombie.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "sfx_zombie_bite",

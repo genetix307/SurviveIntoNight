@@ -13,8 +13,8 @@
   "soundFile": "sfx_eating.mp3",
   "duration": 10.0882,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "sfx_eating",

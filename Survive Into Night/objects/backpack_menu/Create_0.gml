@@ -35,7 +35,7 @@ swap_loaded_b = 0
 swap_description_b = ""
 
 //Set SurvivalTip
-survivalTipIndex = round(random(9))
+survivalTipIndex = round(random(11))
 if survivalTipIndex = 0 {survivalTip = "If you don’t have any active items/weapons selected you can punch as a last resort."}
 if survivalTipIndex = 1 {survivalTip = "If you don’t have any active items/weapons selected you can punch as a last resort."}
 if survivalTipIndex = 2 {survivalTip = "Every weapon will break after enough use, keep an eye on your weapons durability points."}
@@ -46,5 +46,7 @@ if survivalTipIndex = 6 {survivalTip = "The red marker on your map shows the are
 if survivalTipIndex = 7 {survivalTip = "Food & Drinks you find out in the world can help restore stamina and thirst, but often will lower your MAX health a little."}
 if survivalTipIndex = 8 {survivalTip = "Make sure to drink plenty of water, if you’re thirst points get to low you’ll start dying."}
 if survivalTipIndex = 9 {survivalTip = "You can destroy most objects in the world, and often find loot from them."}
+if survivalTipIndex = 10 {survivalTip = "Each day that passes loot becomes harder to find, and the undead grow stronger."}
+if survivalTipIndex = 11 {survivalTip = "Your progress is automatically saved everytime you enter a new area."}
 
 

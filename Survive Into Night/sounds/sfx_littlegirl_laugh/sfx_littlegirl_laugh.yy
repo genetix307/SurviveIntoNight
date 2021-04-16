@@ -13,8 +13,8 @@
   "soundFile": "sfx_littlegirl_laugh.mp3",
   "duration": 4.2322,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "sfx_littlegirl_laugh",

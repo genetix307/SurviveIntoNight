@@ -43,5 +43,49 @@ hud.chat_open = 1
 hud.chat_text = "Talk to Billy about finding a motor for the Church generator. I need some time to build you a new survival utility."
 wait = 10; exit
 }
+////////////////////////
+if store.current_task_index = 30 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Perfect! This motor is exactly what we need to get all of the generators up and running for the Church & lab."
+store.current_task_index =31; exit
+}
+if store.current_task_index = 31 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Anyways, my latest invention is completed. The upgrade bench next to you will allow you to use the experience you've gained from releasing the Souls of the Undead to become stronger!"
+store.current_task_index =32; exit
+}
+if store.current_task_index = 32 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Make sure to check it out, it will greatly help you out as the undead grow stronger and loot becomes scarce. Every Undead you take down will provide a Soul to spend at the upgrade bench."
+store.current_task_index =33; exit
+}
+if store.current_task_index = 34 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Next we will need a lot of chemicals in order to fuel the generators and for me to resume my work to end the SIN virus. I know you've been running around a lot though recently..."
+store.current_task_index =34; exit
+}
+if store.current_task_index = 35 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "I appreciate that. Take your time and explore the area a little bit. When you have a chance bring back 60 chemicals. There is a chemical plant Southwest of here that should have a good supply."
+store.current_task = "Bring Dr. Nels 60 chemicals to fuel the generators & research. The chemical plant Southwest of the Church should have a good supply of chemicals."
+wait = 10 store.current_task_index =36; exit
+}
+if store.current_task_index = 36 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Get some rest, you deserve it. Bring back 80 chemicals to fuel the generators & lab when you have time. The chemical plant is a good place to look."
+wait = 10; exit
+}
 
 }

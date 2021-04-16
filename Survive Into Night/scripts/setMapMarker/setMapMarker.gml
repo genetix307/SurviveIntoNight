@@ -17,6 +17,7 @@ if room = myroom_southchurch_path {x=cx+189;y=cy+301}
 if room = myroom_suburbs {x=cx+217;y=cy+364}
 if room = myroom_downtown {x=cx+308;y=cy+364}
 if room = myroom_trainstation {x=cx+51;y=cy+315}
-if room = myroom_southwest_path {x=cx+168;y=cy+425}
-if room = myroom_chemical_plant {x=cx+99;y=cy+404}
+if room = myroom_southwest_path {x=cx+200;y=cy+435}
+if room = myroom_chemical_plant {x=cx+108;y=cy+424}
+if room = myroom_citypark {x=cx+320;y=cy+435}
 }

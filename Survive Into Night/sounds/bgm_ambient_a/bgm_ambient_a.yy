@@ -1,5 +1,5 @@
 {
-  "compression": 3,
+  "compression": 0,
   "volume": 1.0,
   "preload": true,
   "bitRate": 192,
@@ -7,8 +7,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audiogroup_bgm",
+    "path": "audiogroups/audiogroup_bgm",
   },
   "soundFile": "bgm_ambient_a",
   "duration": 265.382965,

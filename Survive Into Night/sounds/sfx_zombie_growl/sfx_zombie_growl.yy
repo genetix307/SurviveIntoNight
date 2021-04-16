@@ -13,8 +13,8 @@
   "soundFile": "sfx_zombie_growl.mp3",
   "duration": 1.541,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "sfx_zombie_growl",

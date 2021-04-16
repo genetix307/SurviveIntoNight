@@ -14,7 +14,7 @@
   "duration": 1.206633,
   "parent": {
     "name": "Voiceover",
-    "path": "folders/Sounds/Voiceover.yy",
+    "path": "folders/Sounds/SFX/Voiceover.yy",
   },
   "resourceVersion": "1.0",
   "name": "sfx_getoffme",

@@ -1,5 +1,5 @@
 depth = 1
-hp = 40
+hp = 10
 keep = random(100)
 if keep < 90 {instance_destroy()}
 

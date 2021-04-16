@@ -1,6 +1,6 @@
 alarm[0] = 30
 alarm[1] = 5
-alarm[2] = 900 //Pass Hours of day
+alarm[2] = store.holdTimeHud //Pass Hours of day
 alarm[3] = 120 //Show Quest
 set_world = 1
 backpack_open = 0

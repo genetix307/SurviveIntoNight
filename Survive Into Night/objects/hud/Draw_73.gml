@@ -107,6 +107,5 @@ if store.gamePaused = 0 and show_quick_text > 0 {
 	draw_rectangle(cx+320,cy+660,cx+960,cy+720,false)
 	draw_set_alpha(1)
 	draw_set_font(font_chat)
-	draw_text_ext_color(cx+330,cy+662,quick_text,18,630,c_white,c_white,c_white,c_white,1)
-	
+	draw_text_ext_color(cx+330,cy+662,quick_text,18,630,c_white,c_white,c_white,c_white,1)	
 }
