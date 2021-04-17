@@ -29,6 +29,7 @@ flashlight_battery = max_flashlight_battery
 max_thirst = 100
 thirst = max_thirst
 prayer_blessing = 0
+upgrade_maxhp = 1
 
 //Game Stats
 zombies_slain = 0

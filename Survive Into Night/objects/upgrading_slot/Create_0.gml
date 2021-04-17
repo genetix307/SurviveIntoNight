@@ -8,9 +8,9 @@ my_description = ""
 can_upgrade = 1
 image_speed = 0
 
-if my_id = 1 {x=cx+700 y=cy+60 my_name="Water Bottle" my_description="Refreshing spring water, not bottled from a spring. Quench Thirst +40\n\nCrafting Cost: 2x Water, 1x Plastic"}
-if my_id = 2 {x=cx+760 y=cy+60}
-if my_id = 3 {x=cx+820 y=cy+60}
+if my_id = 1 {x=cx+700 y=cy+60 my_name="Max Health Upgrade"; my_description="Increases Max Health points by 10.\n\nUpgrade Cost: "+string(25*store.upgrade_maxhp)+" Souls";}
+if my_id = 2 {x=cx+760 y=cy+60 my_name="Max Stamina Upgrade"; my_description="Increases Max Stamina points by 10.\n\nUpgrade Cost: "+string(25*store.upgrade_maxhp)+" Souls";}
+if my_id = 3 {x=cx+820 y=cy+60 my_name="Flashlight Upgrade"; my_description="Increases Flashlight Battery points by 10.\n\nUpgrade Cost: "+string(25*store.upgrade_battery)+" Souls";}
 if my_id = 4 {x=cx+880 y=cy+60}
 if my_id = 5 {x=cx+940 y=cy+60}
 if my_id = 6 {x=cx+1000 y=cy+60}

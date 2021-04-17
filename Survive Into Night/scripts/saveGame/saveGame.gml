@@ -31,6 +31,9 @@ ini_write_real( "save1", "max_flashlight_battery", store.max_flashlight_battery)
 ini_write_real( "save1", "flashlight_battery", store.flashlight_battery);
 ini_write_real( "save1", "max_thirst", store.max_thirst);
 ini_write_real( "save1", "thirst", store.thirst);
+ini_write_real( "save1", "upgrade_maxhp", store.upgrade_maxhp);
+ini_write_real( "save1", "upgrade_maxsp", store.upgrade_maxsp);
+ini_write_real( "save1", "upgrade_battery", store.upgrade_battery);
 //Accomplishments
 ini_write_real( "save1", "zombies_slain", store.zombies_slain);
 ini_write_real( "save1", "devilsofnight_slain", store.devilsofnight_slain);

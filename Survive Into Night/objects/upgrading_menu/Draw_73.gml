@@ -22,7 +22,7 @@ draw_sprite(spr_show_button_a,0,cx+1194,cy+638)
 }
 
 show_statusbars()
-show_materials()
+draw_text_color(cx+678,cy+450,string(store.souls)+"x Souls Available to purchase upgrades.",c_white,c_silver,c_white,c_white,1)
 
 
 

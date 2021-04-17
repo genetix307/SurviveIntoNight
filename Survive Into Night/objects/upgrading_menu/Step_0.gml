@@ -5,3 +5,5 @@ if (gamepad_button_check_released(0,gp_face2) or keyboard_check_released(ord("I"
 {
 	instance_destroy()
 }
+
+if store.gamePaused > 0 {instance_destroy()}

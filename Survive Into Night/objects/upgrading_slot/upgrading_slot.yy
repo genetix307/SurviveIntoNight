@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_craft_slot",
-    "path": "sprites/spr_craft_slot/spr_craft_slot.yy",
+    "name": "spr_upgrade_slot",
+    "path": "sprites/spr_upgrade_slot/spr_upgrade_slot.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,7 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"upgrading_slot","path":"objects/upgrading_slot/upgrading_slot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"upgrading_slot","path":"objects/upgrading_slot/upgrading_slot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,"parent":{"name":"upgrading_slot","path":"objects/upgrading_slot/upgrading_slot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"cursor_crafting","path":"objects/cursor_crafting/cursor_crafting.yy",},"parent":{"name":"upgrading_slot","path":"objects/upgrading_slot/upgrading_slot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"cursor_upgrading","path":"objects/cursor_upgrading/cursor_upgrading.yy",},"parent":{"name":"upgrading_slot","path":"objects/upgrading_slot/upgrading_slot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
