@@ -9,6 +9,13 @@ audio_sound_pitch(sfx_handgun,.7+random(.3))
 
 my_attack = 100
 
+//Check Headshot
+headshot = 0
+if (store.upgrade_headshot*5) > random(100)
+{
+	headshot = 1; my_attack = my_attack*4
+}
+
 x = x + lengthdir_x(20,player.image_angle-8)
 y = y + lengthdir_y(3,player.image_angle)
 

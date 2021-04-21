@@ -34,6 +34,9 @@ store.thirst = ini_read_real( "save1", "thirst",store.thirst);
 store.upgrade_maxhp = ini_read_real( "save1", "upgrade_maxhp",store.upgrade_maxhp);
 store.upgrade_maxsp = ini_read_real( "save1", "upgrade_maxsp",store.upgrade_maxsp);
 store.upgrade_battery = ini_read_real( "save1", "upgrade_battery",store.upgrade_battery);
+store.upgrade_headshot = ini_read_real( "save1", "upgrade_headshot",store.upgrade_headshot);
+store.upgrade_sprint = ini_read_real( "save1", "upgrade_sprint",store.upgrade_sprint);
+store.upgrade_loot = ini_read_real( "save1", "upgrade_loot",store.upgrade_loot);
 //Accomplishments
 store.zombies_slain = ini_read_real( "save1", "zombies_slain",store.zombies_slain);
 store.devilsofnight_slain = ini_read_real( "save1", "devilsofnight_slain",store.devilsofnight_slain);

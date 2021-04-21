@@ -49,7 +49,7 @@ store.current_task_index =14; exit
 if store.current_task_index = 15 and wait = 0
 {
 player.speed = 0
-hud.chat_open = 1
+hud.chat_open = 1; audio_play_sound(bgm_creepy_indoors,1,true)
 hud.chat_text = "My condolences for your loss... Now then, we must hurry and leave here, those thugs will be angry once they find out you've freed me from their captivity."
 store.current_task_index =16; exit
 }

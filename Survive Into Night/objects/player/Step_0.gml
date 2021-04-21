@@ -14,12 +14,12 @@ if dead = 0 {
 		if hud.backpack_open = 0 
 		{
 		if (gamepad_button_check(0,gp_shoulderrb) or mouse_check_button(mb_left)) {use_hold = 1 player_use_active_item()}
-		if (gamepad_button_check_pressed(0,gp_shoulderrb) or mouse_check_button(mb_left)) {use_hold = 0 player_use_active_item()}
+		if (gamepad_button_check_pressed(0,gp_shoulderrb) or mouse_check_button_pressed(mb_left)) {use_hold = 0 player_use_active_item()}
 		}
 		if hud.backpack_open = 1
 		{
 		if (gamepad_button_check(0,gp_shoulderrb) or keyboard_check(ord("E"))) {use_hold = 1 player_use_active_item()}
-		if (gamepad_button_check_pressed(0,gp_shoulderrb) or keyboard_check(ord("E")))  {use_hold = 0 player_use_active_item()}
+		if (gamepad_button_check_pressed(0,gp_shoulderrb) or keyboard_check_pressed(ord("E")))  {use_hold = 0 player_use_active_item()}
 		}
 
 	if hud.backpack_open = 0 {

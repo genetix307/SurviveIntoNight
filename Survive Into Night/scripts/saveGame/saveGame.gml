@@ -34,6 +34,9 @@ ini_write_real( "save1", "thirst", store.thirst);
 ini_write_real( "save1", "upgrade_maxhp", store.upgrade_maxhp);
 ini_write_real( "save1", "upgrade_maxsp", store.upgrade_maxsp);
 ini_write_real( "save1", "upgrade_battery", store.upgrade_battery);
+ini_write_real( "save1", "upgrade_headshot", store.upgrade_headshot);
+ini_write_real( "save1", "upgrade_sprint", store.upgrade_sprint);
+ini_write_real( "save1", "upgrade_loot", store.upgrade_loot);
 //Accomplishments
 ini_write_real( "save1", "zombies_slain", store.zombies_slain);
 ini_write_real( "save1", "devilsofnight_slain", store.devilsofnight_slain);
@@ -49,6 +52,7 @@ ini_write_real( "save1", "time_hour", store.time_hour);
 ini_write_string( "save1", "timeofday", store.timeofday);
 ini_write_real( "save1", "sfx_volume", store.sfx_volume);
 ini_write_real( "save1", "bgm_volume", store.bgm_volume);
+ini_write_real( "save1", "saveExists", store.saveExists);
 //Story & Quest
 ini_write_string( "save1", "current_task", store.current_task);
 ini_write_real( "save1", "current_task_index", store.current_task_index);

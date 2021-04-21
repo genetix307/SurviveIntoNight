@@ -30,6 +30,11 @@ max_thirst = 100
 thirst = max_thirst
 prayer_blessing = 0
 upgrade_maxhp = 1
+upgrade_maxsp = 1
+upgrade_battery = 1
+upgrade_headshot = 1
+upgrade_sprint = 1
+upgrade_loot = 1
 
 //Game Stats
 zombies_slain = 0

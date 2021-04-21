@@ -16,6 +16,8 @@ if my_id=2 {if store.souls >= 25*store.upgrade_maxsp {store.max_sp_perm += 10; s
 	store.upgrade_maxsp +=1;my_description="Increases Max Stamina points by 10.\n\nUpgrade Cost: "+string(25*store.upgrade_maxsp)+" Souls" upgrade_standard = 1}}
 if my_id=3 {if store.souls >= 25*store.upgrade_battery {store.max_flashlight_battery += 10; store.souls -= 25*store.upgrade_battery; 
 	store.upgrade_battery +=1;my_description="Increases Flashlight battery points by 10.\n\nUpgrade Cost: "+string(25*store.upgrade_battery)+" Souls" upgrade_standard = 1}}
+if my_id=4 {if store.souls >= 25*store.upgrade_headshot {store.upgrade_headshot +=1; store.souls -= 25*store.upgrade_headshot; 
+	my_description="Increases chance of getting a headshot by 5%.\n\nUpgrade Cost: "+string(25*store.upgrade_maxhp)+" Souls"; upgrade_standard = 1}} 
 
 }
 

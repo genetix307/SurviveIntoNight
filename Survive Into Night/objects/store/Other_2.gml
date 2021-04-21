@@ -23,6 +23,7 @@ drop_ammo = 0
 holdTimeHud = 900
 sfx_volume = 1
 bgm_volume = 1
+saveExists = 0
 
 //Initialize Vars --------------------------------------------------------------------------------------------------------
 //Permenant Resources
@@ -56,6 +57,9 @@ prayer_blessing = 0
 upgrade_maxhp = 1
 upgrade_maxsp = 1
 upgrade_battery = 1
+upgrade_headshot = 1
+upgrade_sprint = 1
+upgrade_loot = 1
 
 //Game Accomplishments
 zombies_slain = 0
@@ -110,6 +114,6 @@ tut_recycle = 0
 tut_craft = 0
 tut_bells = 0
 
-
-
-
+loadSystem()
+audio_group_set_gain(audiogroup_bgm, store.bgm_volume,0);
+audio_group_set_gain(audiogroup_sfx, store.sfx_volume,0);

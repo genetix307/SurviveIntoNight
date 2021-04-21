@@ -33,6 +33,7 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"weapon_bullet_12Gpump","path":"objects/weapon_bullet_12Gpump/weapon_bullet_12Gpump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"default_solid","path":"objects/default_solid/default_solid.yy",},"parent":{"name":"weapon_bullet_12Gpump","path":"objects/weapon_bullet_12Gpump/weapon_bullet_12Gpump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,"parent":{"name":"weapon_bullet_12Gpump","path":"objects/weapon_bullet_12Gpump/weapon_bullet_12Gpump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"default_enemy","path":"objects/default_enemy/default_enemy.yy",},"parent":{"name":"weapon_bullet_12Gpump","path":"objects/weapon_bullet_12Gpump/weapon_bullet_12Gpump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

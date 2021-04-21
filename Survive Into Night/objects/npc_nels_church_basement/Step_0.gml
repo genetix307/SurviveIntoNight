@@ -65,26 +65,34 @@ hud.chat_open = 1
 hud.chat_text = "Make sure to check it out, it will greatly help you out as the undead grow stronger and loot becomes scarce. Every Undead you take down will provide a Soul to spend at the upgrade bench."
 store.current_task_index =33; exit
 }
-if store.current_task_index = 34 and wait = 0
+if store.current_task_index = 33 and wait = 0
 {
 player.speed = 0
 hud.chat_open = 1
 hud.chat_text = "Next we will need a lot of chemicals in order to fuel the generators and for me to resume my work to end the SIN virus. I know you've been running around a lot though recently..."
 store.current_task_index =34; exit
 }
-if store.current_task_index = 35 and wait = 0
+if store.current_task_index = 34 and wait = 0
 {
 player.speed = 0
 hud.chat_open = 1
 hud.chat_text = "I appreciate that. Take your time and explore the area a little bit. When you have a chance bring back 60 chemicals. There is a chemical plant Southwest of here that should have a good supply."
 store.current_task = "Bring Dr. Nels 60 chemicals to fuel the generators & research. The chemical plant Southwest of the Church should have a good supply of chemicals."
-wait = 10 store.current_task_index =36; exit
+instance_create_depth(620,1270,depth,npc_rebecca_intro)
+wait = 10 store.current_task_index =35; exit
 }
-if store.current_task_index = 36 and wait = 0
+if store.current_task_index = 35 and wait = 0
 {
 player.speed = 0
 hud.chat_open = 1
-hud.chat_text = "Get some rest, you deserve it. Bring back 80 chemicals to fuel the generators & lab when you have time. The chemical plant is a good place to look."
+hud.chat_text = "Get some rest, you deserve it. Bring back 60 chemicals to fuel the generators & lab when you have time. The chemical plant is a good place to look."
+wait = 10; exit
+}
+if store.current_task_index = 39 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "I see you met my Daughter Rebecca, I hope she didn't threaten you - she can be very defensive. Get some rest, you deserve it. Bring back 60 chemicals to fuel the generators & lab when you have time. The chemical plant is a good place to look."
 wait = 10; exit
 }
 
