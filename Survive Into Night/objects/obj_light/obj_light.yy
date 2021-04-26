@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Lighting",
-    "path": "folders/Objects/Lighting.yy",
+    "path": "folders/Objects/Menu/Lighting.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_light",

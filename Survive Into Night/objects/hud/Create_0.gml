@@ -19,6 +19,7 @@ showDay = 0
 chat_open = 0
 chat_text = ""
 daytime_logo = 0
+show_title = 0
 
 staticLightCheck() //Check if room should have static light, dynamic by default
 

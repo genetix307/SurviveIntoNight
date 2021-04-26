@@ -10,6 +10,7 @@ if showDay > 0 {showDay -= .02}
 if show_quick_text > 0 {show_quick_text -=1}
 if show_quest < 5 and show_quest_fade = 0 {show_quest += .02} else {show_quest_fade = 1}
 if show_quest_fade > 0 and show_quest >= 0 {show_quest -= .02}
+if show_title > 0 {show_title -= .0075}
 
 //Open Backpack
 if (gamepad_button_check_pressed(0,gp_face2) or keyboard_check_pressed(ord("I"))) and backpack_open = 0 and chat_open = 0 and store.gamePaused = 0

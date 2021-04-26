@@ -109,3 +109,9 @@ if store.gamePaused = 0 and show_quick_text > 0 {
 	draw_set_font(font_chat)
 	draw_text_ext_color(cx+330,cy+662,quick_text,18,630,c_white,c_white,c_white,c_white,1)	
 }
+
+//Show Title
+if show_title > 0
+{
+	draw_sprite_ext(spr_title,0,cx+404,cy+20,1,1,0,c_white,show_title)
+}

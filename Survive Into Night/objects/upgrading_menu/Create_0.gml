@@ -8,7 +8,7 @@ x = cx+1100
 y = cy+20
 depth = hud.depth -5
 instance_create_depth(cx+640,cy+360,depth-3,cursor_upgrading)
-repeat 5 instance_create_depth(x,y,depth-2,upgrading_slot)
+repeat 6 instance_create_depth(x,y,depth-2,upgrading_slot)
 player.speed = 0
 
 show_item_name = ""

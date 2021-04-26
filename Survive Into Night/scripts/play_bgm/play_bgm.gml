@@ -1,5 +1,5 @@
 function play_bgm() {
-	if (room != myroom_intro_area and room != myroom_hospital_floor2) {audio_stop_all()}
+	if (room != myroom_intro_area and room != myroom_intro_subway_stairs and room != myroom_hospital_floor2) {audio_stop_all()}
 
 	if room = myroom_intro_subway {audio_play_sound(bgm_elevator,1,true)}
 	if room = myroom_intro_area {audio_play_sound(bgm_ambient_nature,1,true)}

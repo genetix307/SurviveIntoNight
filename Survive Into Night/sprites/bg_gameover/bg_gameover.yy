@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 759,
+  "bbox_right": 1279,
   "bbox_top": 0,
-  "bbox_bottom": 474,
+  "bbox_bottom": 719,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 760,
-  "height": 475,
+  "width": 1280,
+  "height": 720,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"df6e0801-69d5-48db-b36b-342ffb5acd8e","path":"sprites/bg_gameover/bg_gameover.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"df6e0801-69d5-48db-b36b-342ffb5acd8e","path":"sprites/bg_gameover/bg_gameover.yy",},"LayerId":{"name":"d95a204a-4bc2-4339-8567-d5b809666d48","path":"sprites/bg_gameover/bg_gameover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bg_gameover","path":"sprites/bg_gameover/bg_gameover.yy",},"resourceVersion":"1.0","name":"df6e0801-69d5-48db-b36b-342ffb5acd8e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2f2e7acb-643d-4f65-9b86-4301719baef4","path":"sprites/bg_gameover/bg_gameover.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2f2e7acb-643d-4f65-9b86-4301719baef4","path":"sprites/bg_gameover/bg_gameover.yy",},"LayerId":{"name":"3d38aa7a-49f7-4ffd-bea7-bb99cb7a8297","path":"sprites/bg_gameover/bg_gameover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bg_gameover","path":"sprites/bg_gameover/bg_gameover.yy",},"resourceVersion":"1.0","name":"2f2e7acb-643d-4f65-9b86-4301719baef4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"bg_gameover","path":"sprites/bg_gameover/bg_gameover.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"acd9ae05-f2aa-4273-b948-a1e1f85f5a9a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df6e0801-69d5-48db-b36b-342ffb5acd8e","path":"sprites/bg_gameover/bg_gameover.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d99a698f-e27e-4bc1-8587-07bfae66197f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f2e7acb-643d-4f65-9b86-4301719baef4","path":"sprites/bg_gameover/bg_gameover.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 380,
-    "yorigin": 237,
+    "xorigin": 640,
+    "yorigin": 360,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"bg_gameover","path":"sprites/bg_gameover/bg_gameover.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d95a204a-4bc2-4339-8567-d5b809666d48","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3d38aa7a-49f7-4ffd-bea7-bb99cb7a8297","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "tilesets",

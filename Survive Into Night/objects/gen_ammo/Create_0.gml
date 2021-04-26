@@ -1,5 +1,5 @@
 // Genetix Studio
-my_item = round(random(100)) +store.day
+my_item = round(random(100)) +store.day - (store.upgrade_loot*10)
 
 if my_item =1 {instance_create_depth(x,y,depth,item_ammo_handgun)}
 if my_item =2 {instance_create_depth(x,y,depth,item_ammo_handgun)}

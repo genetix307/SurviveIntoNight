@@ -24,8 +24,8 @@ if dead = 0 {
 
 	if hud.backpack_open = 0 {
 		//Sprint
-		if (gamepad_button_check_pressed(0,gp_shoulderl) or keyboard_check_pressed(vk_shift)) {store.sp -= .5}
-		if (gamepad_button_check(0,gp_shoulderl) or keyboard_check(vk_shift)) and distance_to_object(instance_nearest(x,y,default_solid)) > 4 and store.sp >3 {my_speed = 3 store.sp -= .075 reduce_max_sp()} else {my_speed = 0}
+		if (gamepad_button_check_pressed(0,gp_shoulderl) or keyboard_check_pressed(vk_shift)) {store.sp -= (.75 -store.upgrade_sprint/20)}
+		if (gamepad_button_check(0,gp_shoulderl) or keyboard_check(vk_shift)) and distance_to_object(instance_nearest(x,y,default_solid)) > 4 and store.sp >3 {my_speed = (3+store.upgrade_sprint/4) store.sp -= (.075-store.upgrade_sprint/200) reduce_max_sp()} else {my_speed = 0}
 
 		//Toggle flashlight
 		if gamepad_button_check_pressed(0,gp_shoulderlb) or keyboard_check_released(ord("F")) {
