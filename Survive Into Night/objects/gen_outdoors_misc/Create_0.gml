@@ -37,14 +37,12 @@ if my_item =34 {instance_create_depth(x,y,depth,item_cash)}
 if my_item =35 {instance_create_depth(x,y,depth,item_cash)}
 if my_item =36 {instance_create_depth(x,y,depth,item_cash)}
 if my_item =37 {instance_create_depth(x,y,depth,item_cash)}
-
+if my_item =38 {instance_create_depth(x,y,depth,item_chemicalx)}
 if my_item =39 {instance_create_depth(x,y,depth,item_candybar)}
 if my_item =40 {instance_create_depth(x,y,depth,item_candybar)}
 if my_item =41 {instance_create_depth(x,y,depth,item_candybar)}
 if my_item =42 {instance_create_depth(x,y,depth,item_noodlecup)}
-
 if my_item =44 {instance_create_depth(x,y,depth,item_resourcebox)}
 if my_item =45 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_resourcebox)}
-
 if my_item =47 {instance_create_depth(x,y,depth,item_hammer)}
-if my_item =38 {instance_create_depth(x,y,depth,item_chemicalx)}
+if my_item =48 {instance_create_depth(x,y,depth,item_grenade)}

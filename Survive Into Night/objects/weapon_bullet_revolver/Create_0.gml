@@ -24,6 +24,7 @@ image_angle = direction
 speed = 24
 
 instance_create(x,y,bullet_shell)
+instance_create(x,y,effect_gunfire)
 
 //screenshake
 obj_camera.shake = true

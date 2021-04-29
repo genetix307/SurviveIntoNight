@@ -701,6 +701,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"flower_box","path":"objects/flower_box/flower_box.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.05248,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":473.0,"y":1035.0,"resourceVersion":"1.0","name":"inst_4FE4A433","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"spider","path":"objects/spider/spider.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":456.0,"y":1848.0,"resourceVersion":"1.0","name":"inst_422CE450","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"spider","path":"objects/spider/spider.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":446.0,"y":1866.0,"resourceVersion":"1.0","name":"inst_259FD39A","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"fence_wood","path":"objects/fence_wood/fence_wood.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":89.28996,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":624.0,"y":2784.0,"resourceVersion":"1.0","name":"inst_529F4968","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"fence_wood","path":"objects/fence_wood/fence_wood.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":89.52453,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":912.0,"y":2784.0,"resourceVersion":"1.0","name":"inst_A915B2A","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":24,"gridY":24,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"bg_tile_church","path":"tilesets/bg_tile_church/bg_tile_church.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":17,"SerialiseHeight":30,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -1427,6 +1429,8 @@
     {"name":"inst_4FE4A433","path":"rooms/myroom_church/myroom_church.yy",},
     {"name":"inst_422CE450","path":"rooms/myroom_church/myroom_church.yy",},
     {"name":"inst_259FD39A","path":"rooms/myroom_church/myroom_church.yy",},
+    {"name":"inst_529F4968","path":"rooms/myroom_church/myroom_church.yy",},
+    {"name":"inst_A915B2A","path":"rooms/myroom_church/myroom_church.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

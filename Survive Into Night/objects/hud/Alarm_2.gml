@@ -41,10 +41,10 @@ if store.time_hour = 12 {with obj_lightmap lightmap_set_ambient(.98);}
 
 if store.timeofday = "AM"
 {
-if store.time_hour = 1 {with obj_lightmap lightmap_set_ambient(.15); instance_create(player.x,player.y,fog_maker)}
-if store.time_hour = 2 {with obj_lightmap lightmap_set_ambient(.18); instance_create(player.x,player.y,fog_maker) if instance_number(ghost_train)> 0 {with ghost_train alarm[0]=3; }}
-if store.time_hour = 3 {with obj_lightmap lightmap_set_ambient(.21); instance_create(player.x,player.y,fog_maker)}
-if store.time_hour = 4 {with obj_lightmap lightmap_set_ambient(.25); instance_create(player.x,player.y,fog_maker)}
+if store.time_hour = 1 {with obj_lightmap lightmap_set_ambient(.12); instance_create(player.x,player.y,fog_maker)}
+if store.time_hour = 2 {with obj_lightmap lightmap_set_ambient(.16); instance_create(player.x,player.y,fog_maker) if instance_number(ghost_train)> 0 {with ghost_train alarm[0]=3; }}
+if store.time_hour = 3 {with obj_lightmap lightmap_set_ambient(.2); instance_create(player.x,player.y,fog_maker)}
+if store.time_hour = 4 {with obj_lightmap lightmap_set_ambient(.24); instance_create(player.x,player.y,fog_maker)}
 if store.time_hour = 5 {with obj_lightmap lightmap_set_ambient(.35); instance_create(player.x,player.y,fog_maker)}
 if store.time_hour = 6 {with obj_lightmap lightmap_set_ambient(.6); instance_create(player.x,player.y,fog_maker) daytime_logo =1}
 if store.time_hour = 7 {with obj_lightmap lightmap_set_ambient(.72);}

@@ -1,4 +1,6 @@
 // Genetix Studio
+repeat 4 instance_create(x,y,effect_woodbreak)
+
 my_item = round(random(20))
 
 if my_item =3 {instance_create_depth(x,y,depth,item_woodboard)}

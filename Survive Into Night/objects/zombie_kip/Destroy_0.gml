@@ -1,5 +1,5 @@
-repeat 2 instance_create_depth(x,y,75,blood)
-repeat 8 instance_create_depth(x,y,70,gore)
+repeat 4 instance_create_depth(x,y,75,blood)
+repeat 10 instance_create_depth(x,y,70,gore)
 instance_create_depth(x,y,0,bloodSpray)
 player.alarm[3] = 5+random(30) //player taunt
 store.zombies_slain += 1

@@ -17,4 +17,5 @@ if room = myroom_trainstation {hud.show_area_text = "Haunted Train Station"}
 if room = myroom_southwest_path {hud.show_area_text = " Southwest Pass"}
 if room = myroom_chemical_plant {hud.show_area_text = " Chemical Plant"}
 if room = myroom_citypark {hud.show_area_text = "  City Park"}
+if room = myroom_babyGraves {hud.show_area_text = "The Baby Graves"}
 }

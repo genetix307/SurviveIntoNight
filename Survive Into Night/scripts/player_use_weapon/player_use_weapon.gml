@@ -38,7 +38,7 @@ function player_use_weapon() {
 	if player.current_weapon = 4 and player.use_hold = 0 //Shotgun
 	{
 	sprite_index = spr_player_shotgun_attack image_index = 0
-	if store.slot_item[store.active_slot] = 5 {if store.slot_loaded[store.active_slot] > 0 {repeat 8 instance_create(x,y,weapon_bullet_12Gpump); instance_create(x,y,bullet_shell) gamepad_set_vibration(0, 1, 1); player.vibrate = 12 can_attack = 20 store.slot_loaded[store.active_slot]-=1} else {audio_play_sound(sfx_gun_empty,1,false) reload_weapon()}} //12-gauge Pump Shotgun
+	if store.slot_item[store.active_slot] = 5 {if store.slot_loaded[store.active_slot] > 0 {repeat 8 instance_create(x,y,weapon_bullet_12Gpump); instance_create(x,y,bullet_shell) instance_create(x,y,effect_gunfire) gamepad_set_vibration(0, 1, 1); player.vibrate = 12 can_attack = 20 store.slot_loaded[store.active_slot]-=1} else {audio_play_sound(sfx_gun_empty,1,false) reload_weapon()}} //12-gauge Pump Shotgun
 	store.slot_durability[store.active_slot] -=1
 	if store.slot_durability[store.active_slot] <=0 {item_break()}
 	}

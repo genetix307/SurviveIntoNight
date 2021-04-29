@@ -1,4 +1,4 @@
-speed = 4 +random(6)
+speed = 4 +random(3)
 direction = random(360)
 my_spin = 20 +random(25)
 
