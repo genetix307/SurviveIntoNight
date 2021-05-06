@@ -17,4 +17,5 @@ function play_bgm() {
 	if room = myroom_chemical_plant {audio_play_sound(bgm_ghostly,1,true)}
 	if room = myroom_citypark {audio_play_sound(bgm_playground,1,true)}
 	if room = myroom_babyGraves {audio_play_sound(bgm_playground,1,true)}
+	if room = myroom_highway85 {audio_play_sound(bgm_ambient_a,1,true)}
 }

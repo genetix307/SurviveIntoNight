@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function showArea(){
 hud.show_area = 6
-if room = myroom_church {hud.show_area_text = "   The Church"}
+if room = myroom_church {hud.show_area_text = "    The Church"}
 if room = myroom_church_basement {hud.show_area_text = "Church Basement"}
 if room = myroom_southchurch_path {hud.show_area_text = "South Church Pathway"}
 if room = myroom_suburbs {hud.show_area_text = "  Old Suburbs"}
@@ -16,6 +16,7 @@ if room = myroom_church_basement {hud.show_area_text = "Church Basement"}
 if room = myroom_trainstation {hud.show_area_text = "Haunted Train Station"}
 if room = myroom_southwest_path {hud.show_area_text = " Southwest Pass"}
 if room = myroom_chemical_plant {hud.show_area_text = " Chemical Plant"}
-if room = myroom_citypark {hud.show_area_text = "  City Park"}
-if room = myroom_babyGraves {hud.show_area_text = "The Baby Graves"}
+if room = myroom_citypark {hud.show_area_text = "   City Park"}
+if room = myroom_babyGraves {hud.show_area_text = " The Baby Graves"}
+if room = myroom_highway85 {hud.show_area_text = "   Highway 85"}
 }

@@ -1,0 +1,5 @@
+draw_set_font(font_stats)
+draw_set_color(c_yellow)
+draw_set_alpha(image_alpha)
+draw_text(x,y,my_damage)
+draw_set_alpha(1)

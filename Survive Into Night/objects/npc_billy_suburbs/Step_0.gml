@@ -40,7 +40,7 @@ player.speed = 0
 hud.chat_open = 1
 hud.chat_text = "I was down exploring those old crypts below the Cemetery last week when a bunch of the damned dead showed up out of nowhere. Ran away safely, but left my lucky wrench down there. You bring it back to me and I'll help you find your lady."
 store.current_task_index =5
-store.current_task = "Find Billy's wrench that he left down in the Abandonded Crypts located below the Woodland Hills Cemetery."
+store.current_task = "Find Billy's wrench that he left down in the Abandoned Crypts located below the Woodland Hills Cemetery."
 wait = 10
 exit
 }

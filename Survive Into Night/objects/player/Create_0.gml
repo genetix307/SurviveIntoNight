@@ -14,7 +14,7 @@ use_hold = 0
 play_bgm()
 showArea()
 vibrate = 0
-depth = -25
+depth = -188//-25
 gamepad_set_vibration(0, 0, 0)
 
 //Setup Gamepad

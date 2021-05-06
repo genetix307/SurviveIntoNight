@@ -20,6 +20,9 @@ chat_open = 0
 chat_text = ""
 daytime_logo = 0
 show_title = 0
+show_fadein = 0
+
+if room = myroom_intro_subway show_fadein = 1
 
 staticLightCheck() //Check if room should have static light, dynamic by default
 

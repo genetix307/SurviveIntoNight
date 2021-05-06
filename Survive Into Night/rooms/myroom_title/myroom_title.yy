@@ -14,7 +14,6 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"store","path":"objects/store/store.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":288.0,"resourceVersion":"1.0","name":"inst_7E01FC2D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"genetix_logo","path":"objects/genetix_logo/genetix_logo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":1.6000998,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1098.0,"y":692.0,"resourceVersion":"1.0","name":"inst_715A175F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"menu_pressanybutton","path":"objects/menu_pressanybutton/menu_pressanybutton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":5.35798931,"scaleX":0.4934037,"scaleY":0.5151515,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":355.0,"y":137.0,"resourceVersion":"1.0","name":"inst_34B52632","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"title","path":"objects/title/title.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":5.12556458,"scaleX":1.5517242,"scaleY":1.47058821,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":22.0,"y":55.0,"resourceVersion":"1.0","name":"inst_1893602A","tags":[],"resourceType":"GMRInstance",},
@@ -28,7 +27,6 @@
   "instanceCreationOrder": [
     {"name":"inst_715A175F","path":"rooms/myroom_title/myroom_title.yy",},
     {"name":"inst_34B52632","path":"rooms/myroom_title/myroom_title.yy",},
-    {"name":"inst_7E01FC2D","path":"rooms/myroom_title/myroom_title.yy",},
     {"name":"inst_1893602A","path":"rooms/myroom_title/myroom_title.yy",},
   ],
   "inheritCreationOrder": false,

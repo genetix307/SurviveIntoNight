@@ -110,6 +110,14 @@ if store.gamePaused = 0 and show_quick_text > 0 {
 	draw_text_ext_color(cx+330,cy+662,quick_text,18,630,c_white,c_white,c_white,c_white,1)	
 }
 
+//Fade in
+if show_fadein > 0 {
+	draw_set_color(c_black)
+	draw_set_alpha(show_fadein)
+	draw_rectangle(0,0,room_width,room_height,false)
+	draw_set_alpha(1)
+}
+
 //Show Title
 if show_title > 0
 {

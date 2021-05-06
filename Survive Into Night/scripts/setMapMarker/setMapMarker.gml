@@ -21,4 +21,5 @@ if room = myroom_trainstation {x=cx+51;y=cy+315}
 if room = myroom_southwest_path {x=cx+200;y=cy+435}
 if room = myroom_chemical_plant {x=cx+108;y=cy+424}
 if room = myroom_citypark {x=cx+400;y=cy+435}
+if room = myroom_highway85 {x=cx+605;y=cy+315}
 }
