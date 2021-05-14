@@ -6,15 +6,15 @@ ammo_handgun = 0
 ammo_rifle = 0
 ammo_shotgun = 0
 sugar = 0
-water = 0
-metal = 0
+water = 3
+metal = 3
 fiber = 0
 pistol_frame = 0
 rifle_frame = 0
 shotgun_frame = 0
-chemicals = 0
-plastic = 0
-gun_powder = 0
+chemicals = 2
+plastic = 2
+gun_powder = 20
 souls = 0
 
 //Player Stats
@@ -36,11 +36,14 @@ upgrade_headshot = 1
 upgrade_sprint = 1
 upgrade_loot = 1
 
-//Game Stats
+//Game Accomplishments
 zombies_slain = 0
 devilsofnight_slain = 0
 newspapers_found = 0
+games_found = 0
 daysSurvived = 0
+items_crafted = 0
+items_recycled = 0
 
 active_slot = 1
 hold_slot = 1
@@ -85,7 +88,3 @@ have_key_hospital_f1 = 0
 tut_recycle = 0
 tut_craft = 0
 tut_bells = 0
-
-
-
-

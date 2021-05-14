@@ -36,8 +36,24 @@ function enemy_step() {
 	if collision_circle(x,y,300,default_weapon,false,true) and distance_to_object(player) < my_range { show_alert = 1.1 alert = 1 alarm[0] = 600}
 	}
 
+	//Shoot Weapon at zombie
+	if instance_number(default_zombie) > 0
+	{
+	if distance_to_object(instance_nearest(x,y,default_zombie)) < my_range/2 and can_shoot = 0 and clear_shot = 0 and reload > 0
+	{
+	direction = point_direction(x,y,instance_nearest(x,y,default_zombie).x,instance_nearest(x,y,default_zombie).y) 
+	if abs(image_angle - point_direction(x,y,instance_nearest(x,y,default_zombie).x,instance_nearest(x,y,default_zombie).y)) < 30
+	{
+	reload -= 1
+	if reload <= 0 {alarm[2] = 100} //Reload
+	if my_class = 0 {can_shoot = 60 instance_create(x,y,weapon_bullet_enemy)} //Pistol
+	if my_class = 1 {can_shoot = 5 instance_create(x,y,weapon_bullet_enemy)} //Rifle
+	if my_class = 2 {can_shoot = 60 instance_create(x,y,bullet_shell) repeat 7 instance_create(x,y,weapon_bullet_shotgun_enemy)} //Shotgun
+	}
+	}
+	}
 
-	//Shoot Weapon
+	//Shoot Weapon at player
 	if distance_to_object(player) < my_range and can_shoot = 0 and clear_shot = 0 and player.dead = 0 and reload > 0
 	{
 	direction = point_direction(x,y,player.x,player.y) 
@@ -51,10 +67,8 @@ function enemy_step() {
 	}
 	}
 
+	//Maintenance
 	if can_shoot > 0 {can_shoot -=1}
-
 	if show_alert > 0 {show_alert -= .02}
-
-
 
 }

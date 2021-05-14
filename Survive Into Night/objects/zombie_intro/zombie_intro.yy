@@ -11,8 +11,8 @@
   },
   "persistent": false,
   "parentObjectId": {
-    "name": "default_enemy",
-    "path": "objects/default_enemy/default_enemy.yy",
+    "name": "default_zombie",
+    "path": "objects/default_zombie/default_zombie.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -39,6 +39,7 @@
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"zombie_intro","path":"objects/zombie_intro/zombie_intro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"zombie_intro","path":"objects/zombie_intro/zombie_intro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"default_enemy","path":"objects/default_enemy/default_enemy.yy",},"parent":{"name":"zombie_intro","path":"objects/zombie_intro/zombie_intro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"default_weapon_don","path":"objects/default_weapon_don/default_weapon_don.yy",},"parent":{"name":"zombie_intro","path":"objects/zombie_intro/zombie_intro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

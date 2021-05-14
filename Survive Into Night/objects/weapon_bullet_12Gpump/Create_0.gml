@@ -6,7 +6,7 @@ alarm[1] = 28
 audio_play_sound(sfx_handgun,1,false)
 audio_sound_pitch(sfx_handgun,.8+random(.3))
 
-my_attack = 4
+my_attack = 4 + round(random_range(2,-2))
 
 //Check Headshot
 headshot = 0

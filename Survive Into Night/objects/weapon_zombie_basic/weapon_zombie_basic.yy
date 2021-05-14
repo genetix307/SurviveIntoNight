@@ -11,8 +11,8 @@
   },
   "persistent": false,
   "parentObjectId": {
-    "name": "default_weapon_enemy",
-    "path": "objects/default_weapon_enemy/default_weapon_enemy.yy",
+    "name": "default_weapon_zombie",
+    "path": "objects/default_weapon_zombie/default_weapon_zombie.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

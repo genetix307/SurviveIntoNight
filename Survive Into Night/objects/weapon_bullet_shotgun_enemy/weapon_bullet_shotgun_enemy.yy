@@ -11,8 +11,8 @@
   },
   "persistent": false,
   "parentObjectId": {
-    "name": "default_weapon_enemy",
-    "path": "objects/default_weapon_enemy/default_weapon_enemy.yy",
+    "name": "default_weapon_don",
+    "path": "objects/default_weapon_don/default_weapon_don.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

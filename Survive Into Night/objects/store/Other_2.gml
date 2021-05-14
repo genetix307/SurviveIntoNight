@@ -15,7 +15,7 @@ player_y = 0
 show_fps = 0
 enemy_cap = 100
 gamePaused = 0
-build_version = "Early Access version 0.14"
+build_version = "Early Access version 0.15"
 control_mode = 0 //0 Gamepad, 1 keyboard_mouse
 drop_check = 0
 drop_dur = 0
@@ -114,6 +114,7 @@ tut_recycle = 0
 tut_craft = 0
 tut_bells = 0
 
+//Init System vars
 loadSystem()
 audio_group_set_gain(audiogroup_bgm, store.bgm_volume,0);
 audio_group_set_gain(audiogroup_sfx, store.sfx_volume,0);

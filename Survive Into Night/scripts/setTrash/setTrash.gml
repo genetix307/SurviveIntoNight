@@ -14,4 +14,5 @@ if room = myroom_trainstation {repeat 28 instance_create(x,y,trash_pile)}
 if room = myroom_chemical_plant {repeat 20 instance_create(x,y,trash_pile)}
 if room = myroom_citypark {repeat 28 instance_create(x,y,trash_pile)}
 if room = myroom_highway85 {repeat 50 instance_create(x,y,trash_pile)}
+if room = myroom_stinestreet {repeat 35 instance_create(x,y,trash_pile)}
 }

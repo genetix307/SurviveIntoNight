@@ -14,5 +14,5 @@ draw_text_color(cx+828,cy+300,"Newspapers Founds x"+string(store.newspapers_foun
 draw_text_color(cx+828,cy+310,"Retro Games Founds x"+string(store.games_found),c_white,c_silver,c_white,c_white,1)
 draw_text_color(cx+828,cy+320,"Days Survived x"+string(store.day),c_white,c_silver,c_white,c_white,1)
 draw_text_color(cx+828,cy+330,"Items Crafted x"+string(store.items_crafted),c_white,c_silver,c_white,c_white,1)
-draw_text_color(cx+828,cy+4,"Items Recycled x"+string(store.items_recycled),c_white,c_silver,c_white,c_white,1)
+draw_text_color(cx+828,cy+340,"Items Recycled x"+string(store.items_recycled),c_white,c_silver,c_white,c_white,1)
 }
