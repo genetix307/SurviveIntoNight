@@ -7,12 +7,12 @@ function show_accomplishments(){
 	
 //Draw Ammo & Resources
 draw_set_font(font_stats)
-draw_text_color(cx+824,cy+268,"Accomplishments x",c_lime,c_lime,c_lime,c_lime,1)
-draw_text_color(cx+828,cy+280,"Zombies Slain x"+string(store.zombies_slain),c_white,c_silver,c_white,c_white,1)
-draw_text_color(cx+828,cy+290,"Devils of Night Slain x"+string(store.devilsofnight_slain),c_white,c_silver,c_white,c_white,1)
-draw_text_color(cx+828,cy+300,"Newspapers Founds x"+string(store.newspapers_found),c_white,c_silver,c_white,c_white,1)
-draw_text_color(cx+828,cy+310,"Retro Games Founds x"+string(store.games_found),c_white,c_silver,c_white,c_white,1)
-draw_text_color(cx+828,cy+320,"Days Survived x"+string(store.day),c_white,c_silver,c_white,c_white,1)
-draw_text_color(cx+828,cy+330,"Items Crafted x"+string(store.items_crafted),c_white,c_silver,c_white,c_white,1)
-draw_text_color(cx+828,cy+340,"Items Recycled x"+string(store.items_recycled),c_white,c_silver,c_white,c_white,1)
+draw_text_color(cx+824,cy+368,"Accomplishments x",c_lime,c_lime,c_lime,c_lime,1)
+draw_text_color(cx+828,cy+380,"Zombies Slain x"+string(store.zombies_slain),c_white,c_silver,c_white,c_white,1)
+draw_text_color(cx+828,cy+390,"Devils of Night Slain x"+string(store.devilsofnight_slain),c_white,c_silver,c_white,c_white,1)
+draw_text_color(cx+828,cy+400,"Newspapers Founds x"+string(store.newspapers_found),c_white,c_silver,c_white,c_white,1)
+draw_text_color(cx+828,cy+410,"Retro Games Founds x"+string(store.games_found),c_white,c_silver,c_white,c_white,1)
+draw_text_color(cx+828,cy+420,"Days Survived x"+string(store.day),c_white,c_silver,c_white,c_white,1)
+draw_text_color(cx+828,cy+430,"Items Crafted x"+string(store.items_crafted),c_white,c_silver,c_white,c_white,1)
+draw_text_color(cx+828,cy+440,"Items Recycled x"+string(store.items_recycled),c_white,c_silver,c_white,c_white,1)
 }

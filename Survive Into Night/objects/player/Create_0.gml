@@ -11,6 +11,7 @@ instance_create_depth(x,y,depth-3,obj_camera)
 instance_create(x,y,hud)
 if store.flashlight_on = 1 {instance_create(x,y,obj_light_flashlight)}
 use_hold = 0
+my_id = 0
 play_bgm()
 showArea()
 vibrate = 0

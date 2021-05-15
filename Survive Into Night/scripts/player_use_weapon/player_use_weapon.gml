@@ -27,10 +27,11 @@ function player_use_weapon() {
 	}
 
 
-	if player.current_weapon = 3 and player.use_hold = 1 //Assault Rifle
+	if player.current_weapon = 3 and player.use_hold = 1 //Assault Rifles
 	{
 	sprite_index = spr_player_rifle_attack image_index = 0
 	if store.slot_item[store.active_slot] = 4 {if store.slot_loaded[store.active_slot] > 0 {instance_create(x,y,weapon_bullet_AR15) gamepad_set_vibration(0, .6, .6); player.vibrate = 10 store.slot_durability[store.active_slot] -=1 can_attack = 6 store.slot_loaded[store.active_slot]-=1} else {if !audio_is_playing(sfx_gun_empty) {store.slot_durability[store.active_slot] -=1 audio_play_sound(sfx_gun_empty,1,false) reload_weapon()}}} //AR-15 Rifle
+	if store.slot_item[store.active_slot] = 26 {if store.slot_loaded[store.active_slot] > 0 {instance_create(x,y,weapon_bullet_AR7) gamepad_set_vibration(0, .55, .55); player.vibrate = 10 store.slot_durability[store.active_slot] -=1 can_attack = 6 store.slot_loaded[store.active_slot]-=1} else {if !audio_is_playing(sfx_gun_empty) {store.slot_durability[store.active_slot] -=1 audio_play_sound(sfx_gun_empty,1,false) reload_weapon()}}} //AR-7 Rifle
 	if store.slot_durability[store.active_slot] <=0 {item_break()}
 	}
 

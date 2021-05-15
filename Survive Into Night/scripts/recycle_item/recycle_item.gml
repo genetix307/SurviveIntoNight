@@ -24,6 +24,8 @@ if store.slot_item[my_id] = 21 {store.water+=1 store.fiber+=1 store.sugar+=1} //
 if store.slot_item[my_id] = 22 {store.metal+=1 store.fiber+=1} //Hammer
 if store.slot_item[my_id] = 23 {store.metal+=2 store.gun_powder+=4} //Grenade
 if store.slot_item[my_id] = 24 {store.pistol_frame+=1 store.metal+=3} //Cowboy Revolver
+if store.slot_item[my_id] = 25 {store.chemicals+=3} //ChemicalX
+if store.slot_item[my_id] = 26 {store.rifle_frame+=1 store.metal+=4} //AR7
 
 store.items_recycled += 1
 store.slot_item[my_id] = 0 

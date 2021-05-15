@@ -109,8 +109,8 @@ if store.current_task_index = 40 and wait = 0
 {
 player.speed = 0
 hud.chat_open = 1
-hud.chat_text = "I've got a lot to work on in the coming days. Go talk to Rebecca, she is always focused on a new task and might be able to help."
-store.current_task_index =41;
+hud.chat_text = "I've got a lot things to work on in the coming days. Go talk to Rebecca, she is always focused on a new task and might be able to help."
+store.current_task_index = 41;
 store.current_task = "Talk to Rebecca in the Church basement lab."
 wait = 10; exit
 }

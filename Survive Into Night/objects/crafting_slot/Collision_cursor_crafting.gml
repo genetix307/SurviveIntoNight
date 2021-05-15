@@ -25,6 +25,7 @@ if my_id=12 {if store.metal >=3 and store.gun_powder >=6 {instance_create_depth(
 if my_id=13 {if store.metal >=8 and store.gun_powder >=16 {instance_create_depth(player.x,player.y,20,item_ammo_rifle) store.metal -=8 store.gun_powder -=16 craft_standard = 1}} 
 if my_id=14 {if store.metal >=2 and store.gun_powder >=4 and store.plastic >=1 {instance_create_depth(player.x,player.y,20,item_ammo_shotgun) store.metal -=2 store.gun_powder -=4 store.plastic -=1 craft_standard = 1}} 
 if my_id=15 {if store.pistol_frame >=1 and store.metal >=8 {instance_create_depth(player.x,player.y,20,item_cowboyRevolver) store.pistol_frame -=1 store.metal -=8 craft_standard = 1}} 
+if my_id=16 {if store.rifle_frame >=1 and store.metal >=8 and store.chemicals >=1 {instance_create_depth(player.x,player.y,20,item_AR7LS) store.rifle_frame -=1 store.metal -=8 store.chemicals -=1 craft_standard = 1}} 
 }
 
 if craft_standard = 1

@@ -30,4 +30,9 @@ if my_item =37 {instance_create_depth(x,y,depth,item_grenade)}
 if my_item =38 {instance_create_depth(x,y,depth,item_grenade)}
 
 if my_item =40 {instance_create_depth(x,y,depth,item_cowboyRevolver)}
+if my_item =41 {instance_create_depth(x,y,depth,item_cowboyRevolver)}
+
+if my_item =42 {instance_create_depth(x,y,depth,item_AR7LS)}
+if my_item =43 {instance_create_depth(x,y,depth,item_AR7LS)}
+
 

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_wall_beige",
-    "path": "sprites/spr_wall_beige/spr_wall_beige.yy",
+    "name": "spr_ceil_beige",
+    "path": "sprites/spr_ceil_beige/spr_ceil_beige.yy",
   },
   "solid": false,
   "visible": true,

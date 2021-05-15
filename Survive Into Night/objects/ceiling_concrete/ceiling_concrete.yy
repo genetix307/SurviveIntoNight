@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_wall_concrete",
-    "path": "sprites/spr_wall_concrete/spr_wall_concrete.yy",
+    "name": "spr_ceil_concrete",
+    "path": "sprites/spr_ceil_concrete/spr_ceil_concrete.yy",
   },
   "solid": false,
   "visible": true,

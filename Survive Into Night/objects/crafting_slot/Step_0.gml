@@ -17,3 +17,4 @@ if my_id = 12 {if store.metal >=3 and store.gun_powder >=6 {can_craft = 1} else 
 if my_id = 13 {if store.metal >=8 and store.gun_powder >=16 {can_craft = 1} else {can_craft = 0}} //Rifle Ammo
 if my_id = 14 {if store.metal >=2 and store.gun_powder >=4 and store.plastic >=1 {can_craft = 1} else {can_craft = 0}} //Shotgun Ammo
 if my_id = 15 {if store.pistol_frame >=1 and store.metal >=8 {can_craft = 1} else {can_craft = 0}} //Cowboy Revolver
+if my_id = 16 {if store.rifle_frame >=1 and store.metal >=8 and store.chemicals >=1 {can_craft = 1} else {can_craft = 0}} //AR7

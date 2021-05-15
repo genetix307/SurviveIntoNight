@@ -1,9 +1,12 @@
 // Genetix Studio
+if backpack_menu.current_slot != store.slot_item[my_id] {audio_play_sound(sfx_click,1,false)}
+
 //Select Item
 backpack_menu.show_item_name = store.slot_name[my_id]
 backpack_menu.show_item_durability = store.slot_durability[my_id]
 backpack_menu.show_item_loaded = store.slot_loaded[my_id]
 backpack_menu.show_item_description = store.slot_description[my_id]
+backpack_menu.current_slot = store.slot_item[my_id]
 store.active_slot = my_id 
 
 //Swap items

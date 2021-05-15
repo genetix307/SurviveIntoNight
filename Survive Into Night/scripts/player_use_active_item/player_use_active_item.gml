@@ -17,6 +17,7 @@ if store.slot_item[store.active_slot] = 21 {audio_play_sound(sfx_drinking,1,fals
 if store.slot_item[store.active_slot] = 22 {player.current_weapon = 1 player_use_weapon()} //Hammer
 if store.slot_item[store.active_slot] = 23 {instance_create_depth(player.x,player.y,player.depth-1,weapon_grenade) clear_slot() store.sp -= 4} //Grenade
 if store.slot_item[store.active_slot] = 24 {player.current_weapon = 2 player_use_weapon()} //Cowboy Revolver
+if store.slot_item[store.active_slot] = 26 {player.current_weapon = 3 player_use_weapon()} //AR-7
 
 //Other
 if store.slot_item[store.active_slot] = 9 {if !audio_is_playing(sfx_cantusethat) {audio_play_sound(sfx_cantusethat,1,false)}}
