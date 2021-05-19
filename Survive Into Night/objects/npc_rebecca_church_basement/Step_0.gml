@@ -59,7 +59,7 @@ if store.current_task_index = 46 and wait = 0
 {
 player.speed = 0
 hud.chat_open = 1
-hud.chat_text = "It will be really dangerous - but if you get there and take them out, you should be able to grab one of their laptops. Once I have it I can hack into their security system and we can start thinking about our big plan."
+hud.chat_text = "It will be really dangerous - but if you get there and take them out, you should be able to grab one of their laptops. Once I have it I can hack their security system and we can start thinking about our big plan."
 store.current_task_index =47;
 store.current_task = "Raid the Devils of Night outpost on Stine Street and search the home for a laptop Rebecca can use."
 wait = 10 exit
