@@ -74,7 +74,7 @@ active_slot = 1
 hold_slot = 1
 flashlight_on = 1
 day = 1
-time_hour = 5
+time_hour = 4
 timeofday = "AM"
 
 //Item Slots (Slots 1-4 Quick Slots)

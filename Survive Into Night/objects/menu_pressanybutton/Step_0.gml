@@ -3,7 +3,7 @@ if grow = 0
 {
 image_xscale -= .005
 image_yscale -= .002
-if image_xscale < .6 {grow =1}
+if image_xscale < .8 {grow =1}
 }
 
 if grow = 1

@@ -1,0 +1,1 @@
+if store.current_task_index > 47 {instance_destroy()}

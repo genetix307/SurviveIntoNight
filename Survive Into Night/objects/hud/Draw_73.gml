@@ -119,7 +119,7 @@ if show_fadein > 0 {
 }
 
 //Show Title
-if show_title > 0
-{
-	draw_sprite_ext(spr_title,0,cx+404,cy+20,1,1,0,c_white,show_title)
-}
+//if show_title > 0
+//{
+//	draw_sprite_ext(spr_title,0,cx+404,cy+20,1,1,0,c_white,show_title)
+//}

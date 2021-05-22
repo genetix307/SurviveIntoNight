@@ -10,7 +10,7 @@ if showDay > 0 {showDay -= .02}
 if show_quick_text > 0 {show_quick_text -=1}
 if show_quest < 5 and show_quest_fade = 0 {show_quest += .02} else {show_quest_fade = 1}
 if show_quest_fade > 0 and show_quest >= 0 {show_quest -= .02}
-if show_title > 0 {show_title -= .0075}
+//if show_title > 0 {show_title -= .0075}
 if show_fadein > 0 {show_fadein -= .003}
 
 //Open Backpack
