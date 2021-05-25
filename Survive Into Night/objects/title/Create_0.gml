@@ -6,3 +6,6 @@ audio_play_sound(bgm_title,1,true)
 
 fullscreenCheck()
 alarm[0] = 15
+
+title_static = instance_create_depth(room_width/2,room_height/2,depth+5,effect_vhs)
+title_static.image_alpha = .05

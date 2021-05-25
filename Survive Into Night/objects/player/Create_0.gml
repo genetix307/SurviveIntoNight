@@ -51,5 +51,8 @@ mp_potential_settings(45, 5, 8, 0)
 //mp_potential_settings(90,3,72,1)
 image_speed = .5
 
+//Intro Move Up
+moveUp = 0
+if room = myroom_intro_subway {moveUp = 128}
 
 

@@ -110,4 +110,5 @@ if x > room_width {x-=4}
 if y < 0 {y +=4}
 if y > room_height {y-=4}
 
-
+//Intro Move Up
+if moveUp > 0 {moveUp -=1 y -= 1}

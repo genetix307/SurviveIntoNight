@@ -8,5 +8,5 @@ if image_alpha > 2.5 {store.player_x = 620 store.player_y = 2600 room = myroom_i
 
 if gamepad_button_check_released(0,gp_face3) or keyboard_check_pressed(vk_space)
 {
-	store.player_x = 620 store.player_y = 2600 room = myroom_intro_subway
+	store.player_x = 620 store.player_y = 2728 room = myroom_intro_subway
 }

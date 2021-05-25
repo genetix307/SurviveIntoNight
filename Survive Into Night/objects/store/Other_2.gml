@@ -15,7 +15,7 @@ player_y = 0
 show_fps = 0
 enemy_cap = 100
 gamePaused = 0
-build_version = "Early Access version 0.16"
+build_version = "Early Access version 0.17"
 control_mode = 0 //0 Gamepad, 1 keyboard_mouse
 drop_check = 0
 drop_dur = 0
@@ -24,6 +24,7 @@ holdTimeHud = 900
 sfx_volume = 1
 bgm_volume = 1
 saveExists = 0
+demo = 1
 
 //Initialize Vars --------------------------------------------------------------------------------------------------------
 //Permenant Resources

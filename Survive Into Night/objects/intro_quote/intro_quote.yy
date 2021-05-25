@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Story",
-    "path": "folders/Objects/Story.yy",
+    "name": "Intro",
+    "path": "folders/Objects/Story/Intro.yy",
   },
   "resourceVersion": "1.0",
   "name": "intro_quote",

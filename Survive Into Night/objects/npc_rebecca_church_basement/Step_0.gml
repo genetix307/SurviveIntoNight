@@ -51,7 +51,7 @@ if store.current_task_index = 45 and wait = 0
 {
 player.speed = 0
 hud.chat_open = 1
-hud.chat_text = "West of here on Stine Street is a large home that has become one of their outposts. I've seen an antenna there that indicates they are sending some kind of communications to the main compound. We need their equipment."
+hud.chat_text = "East of here on Stine Street is a large home that has become one of their outposts. I've seen an antenna there that indicates they are sending some kind of communications to the main compound. We need their equipment."
 store.current_task_index =46;
 exit
 }
@@ -59,7 +59,7 @@ if store.current_task_index = 46 and wait = 0
 {
 player.speed = 0
 hud.chat_open = 1
-hud.chat_text = "It will be really dangerous - but if you get there and take them out, you should be able to grab one of their laptops. Once I have it I can hack their security system and we can start thinking about our big plan."
+hud.chat_text = "It will be really dangerous - but if you get there and take them out, you should be able to grab one of their laptops. Once I have it I can hack their security system and we can start thinking about our big plan. Here take this radio, we may need to communicate while you're out."
 store.current_task_index =47;
 store.current_task = "Raid the Devils of Night outpost on Stine Street and search the home for a laptop Rebecca can use."
 wait = 10 exit

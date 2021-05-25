@@ -14,9 +14,9 @@ draw_text_color(cx+662,cy-2,"Backpack",c_white,c_silver,c_white,c_white,1)
 if show_item_name != ""
 {
 draw_set_font(font_stats)
-draw_sprite(spr_item_slot,current_slot,cx+1082,cy+321)
+draw_sprite(spr_item_slot,current_slot,cx+1085,cy+321)
 draw_text_color(cx+670,cy+282,show_item_name,c_lime,c_green,c_lime,c_lime,1)
-draw_text_color(cx+670,cy+300,show_item_description,c_white,c_silver,c_white,c_white,1)
+draw_text_ext_color(cx+670,cy+300,show_item_description,10,360,c_white,c_silver,c_white,c_white,1)
 if show_item_durability != 0 {draw_text_color(cx+670,cy+338,"Durability points: "+string(show_item_durability),c_red,c_red,c_red,c_red,1)}
 if show_item_loaded != 0 {draw_text_color(cx+830,cy+338,"Ammo loaded: "+string(show_item_loaded),c_teal,c_teal,c_teal,c_teal,1)}
 

@@ -25,5 +25,5 @@ instance_create(x,y,effect_gunfire)
 
 //screenshake
 obj_camera.shake = true
-obj_camera.shake_magnitude = 2.75
+obj_camera.shake_magnitude = 2.9
 obj_camera.alarm[0] = obj_camera.shake_time

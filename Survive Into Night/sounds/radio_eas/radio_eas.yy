@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_bgm",
   },
   "soundFile": "radio_eas.mp3",
-  "duration": 93.6801,
+  "duration": 79.31275,
   "parent": {
     "name": "Radio",
     "path": "folders/Sounds/BGM/Radio.yy",

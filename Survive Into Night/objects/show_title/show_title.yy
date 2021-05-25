@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Intro",
-    "path": "folders/Objects/Menu/Intro.yy",
+    "path": "folders/Objects/Story/Intro.yy",
   },
   "resourceVersion": "1.0",
   "name": "show_title",
