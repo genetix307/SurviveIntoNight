@@ -1,5 +1,5 @@
 // Genetix Studio
-draw_sprite(spr_title,0,cx+8,cy+8)
+draw_sprite(spr_title,0,cx+212,cy+8)
 draw_sprite(spr_show_controls,0,cx+640,cy+360)
 
 draw_set_font(font_menu_header)

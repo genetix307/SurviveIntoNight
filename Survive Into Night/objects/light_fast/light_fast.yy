@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Lighting",
-    "path": "folders/Objects/Menu/Lighting.yy",
+    "path": "folders/Objects/Environment/Lighting.yy",
   },
   "resourceVersion": "1.0",
   "name": "light_fast",

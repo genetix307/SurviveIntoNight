@@ -114,6 +114,55 @@ store.current_task_index = 41;
 store.current_task = "Talk to Rebecca in the Church basement lab."
 wait = 10; exit
 }
+/////////////////////////////////////////////////
+if store.current_task_index = 48 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Welcome back, one moment I'm finishing up an experiment quickly. Rebecca is waiting for you I believe."
+wait = 10; exit
+}
+/////////////////////////
+if store.current_task_index = 50 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "We are extaordinarily close to completing the potential solution for Subconcious Inhibitive Neuroma, I believe. There may be hope for this world yet my friend."
+store.current_task_index = 51;
+exit
+}
+if store.current_task_index = 51 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Now we need to collect fresh DNA from the infected in order to run the final test cases. I appreciate how much help you have been so far, I need to ask you for one more favor if you're up for it."
+store.current_task_index = 52;
+exit
+}
+if store.current_task_index = 52 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Take these ten glass vials. Find the Undead and when you take them down, collect a sample of their blood. Bring me back the vials when you've collected all ten samples."
+store.current_task_index = 53;
+exit
+}
+if store.current_task_index = 53 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Stay safe out there, the Undead and the Devils of Night are a growing threat every day."
+store.current_task_index = 54;
+store.current_task = "Collect 10 DNA samples from the infected Undead for Dr. Nelsons research"
+wait = 10; exit
+}
+if store.current_task_index = 54 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Stay safe out there, the Undead and the Devils of Night are a growing threat every day. Bring me back 10 DNA vials when possible."
+wait = 10; exit
+}
 
 
 }

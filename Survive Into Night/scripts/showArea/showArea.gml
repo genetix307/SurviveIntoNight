@@ -20,4 +20,5 @@ if room = myroom_citypark {hud.show_area_text = "   City Park"}
 if room = myroom_babyGraves {hud.show_area_text = " The Baby Graves"}
 if room = myroom_highway85 {hud.show_area_text = "   Highway 85"}
 if room = myroom_stinestreet {hud.show_area_text = "   Stine Street"}
+if room = myroom_compound_path {hud.show_area_text = "North Compound Path"}
 }

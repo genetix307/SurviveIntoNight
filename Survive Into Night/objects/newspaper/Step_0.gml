@@ -3,6 +3,7 @@ if (gamepad_button_check_released(0,gp_face1) or keyboard_check_released(vk_spac
 {
 player.speed = 0
 hud.chat_open = 1
+audio_play_sound(sfx_whatsthis,1,false)
 
 if store.newspapers_found = 0 {hud.chat_text = "Woodland Hills Gazette - December 18th, 2020\nA strange new disease has been discovered in a small city in the Eastern province. Medical experts are calling it Subconscious Inhibitive Neuroma or SIN for short. Victims of the disease may show aggressive behaviour and other symptoms."}
 if store.newspapers_found = 1 {hud.chat_text = "Woodland Hills Gazette - January 3rd, 2021\nHealth officials believe that the newly discovered disease Subconscious Inhibitive Neuroma known as SIN is spreading across the Southern Hemisphere. Those that have contracted SIN may show rabies like symptoms and are being placed into special care facilities."}

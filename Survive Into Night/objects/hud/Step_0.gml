@@ -32,3 +32,9 @@ if (gamepad_button_check_pressed(0,gp_face1) or keyboard_check_pressed(vk_space)
 	chat_open = 0
 }
 
+//Reduce Demo Time
+if store.demo = 1
+{
+	store.demo_time -= 1
+	if store.demo_time <= 0 {room = myroom_demo_end}
+}

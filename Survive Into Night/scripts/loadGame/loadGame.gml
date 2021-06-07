@@ -5,6 +5,8 @@ function loadGame(){
 ini_open("savegame.ini");
 
 //Vars to Load
+//Demo
+store.demo_time = ini_read_real( "save1", "demo_time",store.demo_time);
 //Resources
 store.ammo_handgun = ini_read_real( "save1", "ammo_handgun",store.ammo_handgun);
 store.ammo_rifle = ini_read_real( "save1", "ammo_rifle",store.ammo_rifle);
@@ -24,13 +26,16 @@ store.souls = ini_read_real( "save1", "souls",store.souls);
 store.max_hp_perm = ini_read_real( "save1", "max_hp_perm",store.max_hp_perm);
 store.max_hp = ini_read_real( "save1", "max_hp",store.max_hp);
 store.hp = ini_read_real( "save1", "hp",store.hp);
+if store.hp < 20 {store.hp = 20} //Mercy for low hp saves
 store.max_sp_perm = ini_read_real( "save1", "max_sp_perm",store.max_sp_perm);
 store.max_sp = ini_read_real( "save1", "max_sp",store.max_sp);
+if store.max_sp < 20 {store.max_sp = 20} //Mercy for low max sp saves
 store.sp = ini_read_real( "save1", "sp",store.sp);
 store.max_flashlight_battery = ini_read_real( "save1", "max_flashlight_battery",store.max_flashlight_battery);
 store.flashlight_battery = ini_read_real( "save1", "flashlight_battery",store.flashlight_battery);
 store.max_thirst = ini_read_real( "save1", "max_thirst",store.max_thirst);
 store.thirst = ini_read_real( "save1", "thirst",store.thirst);
+if store.thirst < 20 {store.thirst = 20} //Mercy for water death saves
 store.upgrade_maxhp = ini_read_real( "save1", "upgrade_maxhp",store.upgrade_maxhp);
 store.upgrade_maxsp = ini_read_real( "save1", "upgrade_maxsp",store.upgrade_maxsp);
 store.upgrade_battery = ini_read_real( "save1", "upgrade_battery",store.upgrade_battery);

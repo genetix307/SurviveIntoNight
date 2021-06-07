@@ -71,5 +71,38 @@ hud.chat_open = 1
 hud.chat_text = "Be careful, Stine Street is a dangerous place and their outpost will be guarded. Once we have the laptop, we can plan to take them down once and for all."
 wait = 10; exit
 }
+//////////////////////////////////////////////
+if store.current_task_index = 48 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Great work, with this laptop we should be able to open up the gate into the compound where the Devils of Night have been holding up. It looks like it still has some charge, I should have this working shortly."
+store.current_task_index =49;
+exit
+}
+if store.current_task_index = 49 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Give me a few hours, I'll start working on this right away. My Father wanted to talk to you about his research when you have a moment."
+store.current_task_index =50;
+store.current_task = "Give Rebecca time to work on the laptop, go talk to Dr. Nelson about his research."
+wait = 10; exit
+}
+if store.current_task_index = 50 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "I'm working on decrypting the passcodes they saved to their drives. Go talk to my Dad, he could use your help with his research."
+wait = 10; exit
+}
+/////////////////////////////////////////////////////////////////////////
+if store.current_task_index = 54 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Hey you, I'm still working on decrypting the passcodes the Devils of Night saved to their drives. Just a little bit longer okay?"
+wait = 10; exit
+}
 
 }

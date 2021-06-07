@@ -84,6 +84,7 @@ if backpack_open =1 or store.gamePaused = 1 {
 
 //Show Chat
 if chat_open =1 and store.gamePaused = 0 {
+	draw_sprite_ext(spr_effect_vhs,all,cx+640,cy+360,2,2,0,c_white,.2)
 	draw_set_color(c_blue)
 	draw_set_alpha(.75)
 	draw_rectangle(cx+320,cy+80,cx+960,cy+200,false)

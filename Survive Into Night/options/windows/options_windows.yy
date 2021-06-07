@@ -1,5 +1,5 @@
 {
-  "option_windows_display_name": "Survive Into Night",
+  "option_windows_display_name": "Survive Into Night Demo",
   "option_windows_executable_name": "${project_name}",
   "option_windows_version": "1.0.0.1",
   "option_windows_company_info": "Genetix Studio",
@@ -25,7 +25,7 @@
   "option_windows_installer_header": "installer/header.bmp",
   "option_windows_license": "installer/license.txt",
   "option_windows_nsis_file": "${base_options_dir}/windows/installer/nsis_script.nsi",
-  "option_windows_enable_steam": false,
+  "option_windows_enable_steam": true,
   "option_windows_disable_sandbox": false,
   "option_windows_steam_use_alternative_launcher": true,
   "option_windows_use_x64": false,
