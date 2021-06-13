@@ -59,6 +59,7 @@ ini_write_string( "save1", "timeofday", store.timeofday);
 ini_write_real( "save1", "sfx_volume", store.sfx_volume);
 ini_write_real( "save1", "bgm_volume", store.bgm_volume);
 ini_write_real( "save1", "saveExists", store.saveExists);
+ini_write_real( "save1", "wpf_highscore", store.wpf_highscore);
 //Story & Quest
 ini_write_string( "save1", "current_task", store.current_task);
 ini_write_real( "save1", "current_task_index", store.current_task_index);

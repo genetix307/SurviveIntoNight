@@ -61,6 +61,7 @@ store.time_hour = ini_read_real( "save1", "time_hour",store.time_hour);
 store.timeofday = ini_read_string( "save1", "timeofday",store.timeofday);
 store.sfx_volume = ini_read_real( "save1", "sfx_volume",store.sfx_volume);
 store.bgm_volume = ini_read_real( "save1", "bgm_volume",store.bgm_volume);
+store.wpf_highscore = ini_read_real( "save1", "wpf_highscore",store.wpf_highscore);
 //Story & Quest
 store.current_task = ini_read_string( "save1", "current_task",store.current_task);
 store.current_task_index = ini_read_real( "save1", "current_task_index",store.current_task_index);
