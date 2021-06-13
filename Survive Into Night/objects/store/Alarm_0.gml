@@ -35,6 +35,9 @@ upgrade_battery = 1
 upgrade_headshot = 1
 upgrade_sprint = 1
 upgrade_loot = 1
+//startX = 0
+//startY = 0
+//startRoom = ""
 
 //Game Accomplishments
 zombies_slain = 0
@@ -83,6 +86,7 @@ slot_description[i] = 0
 current_task = "Explore the nearby Church for signs of your girlfriend that was heading there a week before."
 current_task_index = 0
 have_key_hospital_f1 = 0
+dna_collected = 0
 
 //Tutorial
 tut_recycle = 0

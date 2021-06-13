@@ -39,6 +39,10 @@ ini_write_real( "save1", "upgrade_battery", store.upgrade_battery);
 ini_write_real( "save1", "upgrade_headshot", store.upgrade_headshot);
 ini_write_real( "save1", "upgrade_sprint", store.upgrade_sprint);
 ini_write_real( "save1", "upgrade_loot", store.upgrade_loot);
+//ini_write_real( "save1", "startX", store.startY);
+//ini_write_real( "save1", "startY", store.startX);
+//ini_write_real( "save1", "startRoom", store.startRoom);
+
 //Accomplishments
 ini_write_real( "save1", "zombies_slain", store.zombies_slain);
 ini_write_real( "save1", "devilsofnight_slain", store.devilsofnight_slain);
@@ -59,6 +63,7 @@ ini_write_real( "save1", "saveExists", store.saveExists);
 ini_write_string( "save1", "current_task", store.current_task);
 ini_write_real( "save1", "current_task_index", store.current_task_index);
 ini_write_real( "save1", "have_key_hospital_f1", store.have_key_hospital_f1);
+ini_write_real( "save1", "dna_collected", store.dna_collected);
 //Tutorial
 ini_write_real( "save1", "tut_recycle", store.tut_recycle);
 ini_write_real( "save1", "tut_craft", store.tut_craft);

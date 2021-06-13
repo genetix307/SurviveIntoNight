@@ -47,3 +47,5 @@ if my_item =43 {instance_create_depth(x,y,depth,item_noodlecup)}
 
 if my_item =45 {instance_create_depth(x,y,depth,item_hammer)}
 if my_item =46 {instance_create_depth(x,y,depth,item_hammer)}
+
+if my_item =47 {instance_create_depth(x,y,depth,item_cigar)}

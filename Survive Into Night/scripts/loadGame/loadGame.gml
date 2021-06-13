@@ -42,6 +42,10 @@ store.upgrade_battery = ini_read_real( "save1", "upgrade_battery",store.upgrade_
 store.upgrade_headshot = ini_read_real( "save1", "upgrade_headshot",store.upgrade_headshot);
 store.upgrade_sprint = ini_read_real( "save1", "upgrade_sprint",store.upgrade_sprint);
 store.upgrade_loot = ini_read_real( "save1", "upgrade_loot",store.upgrade_loot);
+//store.startX = ini_read_real( "save1", "startX",store.startX);
+//store.startY = ini_read_real( "save1", "startY",store.startY);
+//store.startRoom = ini_read_real( "save1", "startRoom",store.startRoom);
+
 //Accomplishments
 store.zombies_slain = ini_read_real( "save1", "zombies_slain",store.zombies_slain);
 store.devilsofnight_slain = ini_read_real( "save1", "devilsofnight_slain",store.devilsofnight_slain);
@@ -61,6 +65,7 @@ store.bgm_volume = ini_read_real( "save1", "bgm_volume",store.bgm_volume);
 store.current_task = ini_read_string( "save1", "current_task",store.current_task);
 store.current_task_index = ini_read_real( "save1", "current_task_index",store.current_task_index);
 store.have_key_hospital_f1 = ini_read_real( "save1", "have_key_hospital_f1",store.have_key_hospital_f1);
+store.dna_collected = ini_read_real( "save1", "dna_collected",store.dna_collected);
 //Tutorial
 store.tut_recycle = ini_read_real( "save1", "tut_recycle",store.tut_recycle);
 store.tut_craft = ini_read_real( "save1", "tut_craft",store.tut_craft);

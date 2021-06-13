@@ -1,6 +1,21 @@
 //Lighting Setup
 caster_init_circle(16, 8);
 
+x = store.player_x
+y = store.player_y
+//store.startX = x
+//store.startY = y
+//store.startRoom = room
+hp = store.max_hp
+can_attack = 0
+can_recycle = 0
+can_craft = 0
+can_upgrade = 0
+dead = 0
+image_speed = 0
+current_weapon = 0
+cursor_distance = 220
+
 //Save Game
 saveGame()
 
@@ -32,18 +47,6 @@ haxis = gamepad_axis_value(0, gp_axislh);
 vaxis = gamepad_axis_value(0, gp_axislv);
 my_speed = 0
 }
-
-hp = store.max_hp
-can_attack = 0
-can_recycle = 0
-can_craft = 0
-can_upgrade = 0
-dead = 0
-image_speed = 0
-current_weapon = 0
-cursor_distance = 220
-x = store.player_x
-y = store.player_y
 
 check_current_weapon()
 

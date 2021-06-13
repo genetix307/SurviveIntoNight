@@ -838,6 +838,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"gen_ghost","path":"objects/gen_ghost/gen_ghost.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":35.0,"y":951.0,"resourceVersion":"1.0","name":"inst_7E70C7BE","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"gen_ghost","path":"objects/gen_ghost/gen_ghost.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":57.0,"y":1489.0,"resourceVersion":"1.0","name":"inst_1FDCD0EA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"gen_ghost","path":"objects/gen_ghost/gen_ghost.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1408.0,"y":2762.0,"resourceVersion":"1.0","name":"inst_74105A69","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"arcade_machine","path":"objects/arcade_machine/arcade_machine.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1272.0,"y":2112.0,"resourceVersion":"1.0","name":"inst_21B1F1D3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":50,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":24,"gridY":24,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"bg_tile_church","path":"tilesets/bg_tile_church/bg_tile_church.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":17,"SerialiseHeight":30,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -1582,6 +1583,7 @@
     {"name":"inst_7E70C7BE","path":"rooms/myroom_church/myroom_church.yy",},
     {"name":"inst_1FDCD0EA","path":"rooms/myroom_church/myroom_church.yy",},
     {"name":"inst_74105A69","path":"rooms/myroom_church/myroom_church.yy",},
+    {"name":"inst_21B1F1D3","path":"rooms/myroom_church/myroom_church.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

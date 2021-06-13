@@ -4,6 +4,7 @@ instance_create_depth(x,y,0,bloodSpray)
 player.alarm[3] = 1+random(30) //player taunt
 store.zombies_slain += 1
 store.souls += 1
+collect_dna()
 
 //Drop Item
 my_item = round(random(150))
@@ -26,3 +27,4 @@ if my_item =15 {instance_create_depth(x,y,depth,item_butterknife)}
 if my_item =16 {instance_create_depth(x,y,depth,item_grenade)}
 if my_item =17 {instance_create_depth(x,y,depth,item_cash)}
 if my_item =18 {instance_create_depth(x,y,depth,item_water_bottle)}
+

@@ -32,8 +32,8 @@ draw_set_font(font_stats)
 if show_area > 0
 {
 draw_set_font(font_show_area)
-	draw_text_color(cx+442,cy+12,show_area_text,c_maroon,c_maroon,c_maroon,c_maroon,show_area)	
-	draw_text_color(cx+440,cy+10,show_area_text,c_red,c_red,c_red,c_red,show_area)	
+	draw_text_color(cx+446,cy+12,show_area_text,c_maroon,c_maroon,c_maroon,c_maroon,show_area)	
+	draw_text_color(cx+444,cy+10,show_area_text,c_red,c_red,c_red,c_red,show_area)	
 }
 
 //Show Task
@@ -124,3 +124,10 @@ if show_fadein > 0 {
 //{
 //	draw_sprite_ext(spr_title,0,cx+404,cy+20,1,1,0,c_white,show_title)
 //}
+
+//Show DNA Collected
+if store.current_task_index = 54 and store.gamePaused = 0
+{
+draw_set_font(font_chat)
+draw_text_color(cx+542,cy+56,"DNA Collected "+string(store.dna_collected)+" / 10",c_yellow,c_orange,c_yellow,c_orange,1)
+}

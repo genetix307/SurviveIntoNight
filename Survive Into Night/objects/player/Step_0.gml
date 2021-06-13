@@ -34,13 +34,13 @@ if dead = 0 {
 		}
 
 		//Alternate Active Slot
-		if (gamepad_button_check_pressed(0,gp_shoulderr) or mouse_wheel_up()) and player.alarm[0] <= 0 {
+		if (gamepad_button_check_pressed(0,gp_shoulderr) or mouse_wheel_down()) and player.alarm[0] <= 0 {
 		if store.active_slot < 4 {store.active_slot += 1} else {store.active_slot = 1}
 			player.current_weapon = 0
 			check_current_weapon()
 			}
 			
-		if mouse_wheel_down() and player.alarm[0] <= 0 {
+		if mouse_wheel_up() and player.alarm[0] <= 0 {
 			if store.active_slot >1 {store.active_slot -= 1} else {store.active_slot = 4}
 			player.current_weapon = 0
 			check_current_weapon()

@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_skel_circle",
+    "path": "sprites/spr_skel_circle/spr_skel_circle.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

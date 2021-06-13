@@ -15,7 +15,7 @@ player_y = 0
 show_fps = 0
 enemy_cap = 100
 gamePaused = 0
-build_version = "version 0.17"
+build_version = "version 0.18"
 control_mode = 0 //0 Gamepad, 1 keyboard_mouse
 drop_check = 0
 drop_dur = 0
@@ -62,6 +62,7 @@ upgrade_battery = 1
 upgrade_headshot = 1
 upgrade_sprint = 1
 upgrade_loot = 1
+startRoom = 0
 
 //Game Accomplishments
 zombies_slain = 0
@@ -110,6 +111,7 @@ slot_description[i] = 0
 current_task = "Explore the nearby Church for signs of your girlfriend that was heading there a week before."
 current_task_index = 0
 have_key_hospital_f1 = 0
+dna_collected = 0
 
 //Tutorial
 tut_recycle = 0
