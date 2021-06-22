@@ -7,4 +7,4 @@ my_name = "Gate Locked"
 //image_index = round(random(image_number))
 depth = 20
 
-//if store.have_key_hospital_f1 = 1 {instance_destroy()}
+if store.current_task_index >= 67 {instance_destroy()}

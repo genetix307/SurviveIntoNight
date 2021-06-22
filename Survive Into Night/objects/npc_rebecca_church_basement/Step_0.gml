@@ -104,5 +104,77 @@ hud.chat_open = 1
 hud.chat_text = "Hey you, I'm still working on decrypting the passcodes the Devils of Night saved to their drives. Just a little bit longer okay?"
 wait = 10; exit
 }
-
+if store.current_task_index = 55 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Hey you, I'm just about done with this okay?"
+wait = 10; exit
+}
+/////////////////////////////////////////////////////////////////////////
+if store.current_task_index = 58 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Alright, pretty sure I've cracked the encryption for the security gate at the compound. Take this flash drive, there will be a guard shack when you get to the Compound wall, and a computer there you can use to open up the gates."
+store.current_task_index =59;
+exit
+}
+if store.current_task_index = 59 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "The Compound is North East of here, you can get there heading up from Stine street. From what I can tell it will be heavily guarded."
+store.current_task_index =60;
+exit
+}
+if store.current_task_index = 60 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "I'm looking over their blueprints and shift schedules to find any weak points we can exploit. Once inside, you'll take out their leader Kip."
+store.current_task_index =61;
+exit
+}
+if store.current_task_index = 61 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Kip is a ruthless killer, and won't go down without a fight. Take him out and the Devils of Night will disband, and Woodland Hills will be a much safer place. Well besides all of the undead."
+store.current_task_index =62;
+exit
+}
+if store.current_task_index = 62 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "I think we are all ready, make sure to take your best weapons. I'll contact you by radio when you get closer to the Compound with any updates. And ummm..."
+store.current_task_index =63;
+exit
+}
+if store.current_task_index = 63 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "< Rebecca leans in and kisses you softly on the lips for a moment. >"
+store.current_task_index =64;
+exit
+}
+if store.current_task_index = 64 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "...Good luck out there, please make it back here safe okay?"
+store.current_task_index =65;
+store.current_task = "Head towards the Compound gates in the North East. Use the flash drive from Rebecca at the guard post to open the gates."
+wait=10 exit
+}
+if store.current_task_index = 65 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Stay safe okay? I'll radio you when you get close to the Compound gates."
+wait=10 exit
+}
+/////////////////////////////////////////////////////
 }

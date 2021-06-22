@@ -163,6 +163,37 @@ hud.chat_open = 1
 hud.chat_text = "Stay safe out there, the Undead and the Devils of Night are a growing threat every day. Bring me back 10 DNA vials when possible."
 wait = 10; exit
 }
-
-
+/////////////////////////////////////////////
+if store.current_task_index = 55 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "These DNA samples are perfect - I think we are all ready to begin testing the solution to Subconsious Inhibitive Neuroma. None of this would be possible without your help!"
+store.current_task_index = 56;
+exit
+}
+if store.current_task_index = 56 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "I'll get to work right away. I know you are preparing to head to the compound and fight against the Devils of Night, make sure to use the upgrade bench and take lots of healing items with you!"
+store.current_task_index = 57;
+exit
+}
+if store.current_task_index = 57 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Rebecca is ready to speak to you now I believe, we will see you soon. Please stay safe out there my friend."
+store.current_task = "Talk to Rebecca about getting access inside of the Compound to take out the Devils of Night."
+store.current_task_index = 58;
+wait =10; exit
+}
+if store.current_task_index = 58 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Stay safe out there, the Undead and the Devils of Night are a growing threat every day."
+wait = 10; exit
+}
 }
