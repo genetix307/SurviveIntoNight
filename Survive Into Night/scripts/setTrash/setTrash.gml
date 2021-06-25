@@ -16,4 +16,5 @@ if room = myroom_citypark {repeat 28 instance_create(x,y,trash_pile)}
 if room = myroom_highway85 {repeat 50 instance_create(x,y,trash_pile)}
 if room = myroom_stinestreet {repeat 35 instance_create(x,y,trash_pile)}
 if room = myroom_compound_path {repeat 15 instance_create(x,y,trash_pile)}
+if room = myroom_tradingpost {repeat 18 instance_create(x,y,trash_pile)}
 }

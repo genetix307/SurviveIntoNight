@@ -2,9 +2,10 @@ image_alpha = 0
 alarm[0] = 1
 alarm[1] = 28
 
-
-audio_play_sound(sfx_handgun,1,false)
-audio_sound_pitch(sfx_handgun,.8+random(.3))
+//if !audio_is_playing(sfx_shotgun) {
+audio_play_sound(sfx_shotgun,1,false)
+audio_sound_pitch(sfx_shotgun,.8+random(.3))
+//}
 
 my_attack = 4 + round(random_range(2,-2))
 

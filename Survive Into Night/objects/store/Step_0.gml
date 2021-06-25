@@ -24,7 +24,7 @@ if prayer_blessing > 0 {prayer_blessing -=1}
 if drop_check > 0 {drop_check -=1}
 
 //Cheats
-if keyboard_check(vk_home) {
+if keyboard_check(vk_home) and instance_number(player) > 0 {
 if keyboard_check_pressed(ord("G")) {player_x = 768 player_y = 1080 room = myroom_highway85}
 if keyboard_check_pressed(ord("H")) {player_x = 768 player_y = 1080 room = myroom_church} //Home Sweet Home
 if keyboard_check_pressed(ord("P")) {store.current_task_index+=1} //Advance Story

@@ -21,4 +21,5 @@ function play_bgm() {
 	if room = myroom_highway85 {audio_play_sound(bgm_ambient_a,1,true)}
 	if room = myroom_stinestreet {audio_play_sound(bgm_ambient_a,1,true)}
 	if room = myroom_compound_path {audio_play_sound(bgm_ambient_nature,1,true) audio_play_sound(bgm_ambient_a,1,true)}
+	if room = myroom_tradingpost {audio_play_sound(bgm_ambient_a,1,true)}
 }

@@ -96,7 +96,14 @@ if vibrate > 0 {vibrate -= 1 if vibrate <= 0 {gamepad_set_vibration(0, 0, 0)}}
 if hud.chat_open = 1 or store.gamePaused = 1 {speed=0}
 
 //Death
-if store.hp <= 0 {dead = 1 depth = 40000 alarm[2] = 150}
+if store.hp <= 0 {
+	dead = 1 depth = 40000 alarm[2] = 150
+	repeat 4 instance_create_depth(x,y,75,blood)
+	repeat 12 instance_create_depth(x,y,70,gore)
+	sprite_index = spr_player_dead
+	image_index = 0
+}
+
 }
 
 if dead > 0 {
