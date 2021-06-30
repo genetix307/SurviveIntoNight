@@ -6,7 +6,7 @@ function enemy_step() {
 	if image_angle > direction {image_angle -=5}
 
 	//Run at Player
-	if alert = 1 {mp_potential_step_object(player.x,player.y,my_speed,default_solid)}
+	if alert = 1 and hud.chat_open = 0 and store.gamePaused = 0 {mp_potential_step_object(player.x,player.y,my_speed,default_solid)}
 
 	//Run when damaged
 	if damaged > 10 {mp_potential_step_object(player.x,player.y,-8,default_solid)}
@@ -54,7 +54,7 @@ function enemy_step() {
 	}
 
 	//Shoot Weapon at player
-	if distance_to_object(player) < my_range and can_shoot = 0 and clear_shot = 0 and player.dead = 0 and reload > 0
+	if distance_to_object(player) < my_range and can_shoot = 0 and clear_shot = 0 and player.dead = 0 and hud.chat_open = 0 and reload > 0 and store.gamePaused = 0
 	{
 	direction = point_direction(x,y,player.x,player.y) 
 	if abs(image_angle - point_direction(x,y,player.x,player.y)) < 30
