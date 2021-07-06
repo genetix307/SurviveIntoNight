@@ -26,4 +26,5 @@ if room = myroom_stinestreet {x=cx+490;y=cy+324}
 if room = myroom_compound_path {x=cx+490;y=cy+240}
 if room = myroom_compound {x=cx+490;y=cy+180}
 if room = myroom_tradingpost {x=cx+529;y=cy+420}
+if room = myroom_comawhite {x=cx+177;y=cy+257}
 }

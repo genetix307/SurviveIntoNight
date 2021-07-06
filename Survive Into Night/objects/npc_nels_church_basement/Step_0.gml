@@ -196,4 +196,19 @@ hud.chat_open = 1
 hud.chat_text = "Stay safe out there, the Undead and the Devils of Night are a growing threat every day."
 wait = 10; exit
 }
+//////////////////////////////////////////////
+if store.current_task_index = 75 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "My solution, it works... You're no longer infected. We need to get this out to the NDC (National Disease Center) so they can help us in eradicating Subconcious Inhibitive Neuroma."
+wait=10 exit
+}
+if store.current_task_index = 76 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "We are stuck down here... with who knows how many of the infected above us. How do we get out of this one?"
+wait=10 exit
+}
 }

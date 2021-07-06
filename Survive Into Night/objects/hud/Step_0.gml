@@ -38,3 +38,14 @@ if store.demo = 1
 	store.demo_time -= 1
 	if store.demo_time <= 0 {room = myroom_demo_end}
 }
+
+//Fade to coma
+if fade_to_coma > 0
+{
+	show_fade_white +=.002
+	if show_fade_white > 1.1 {
+		store.player_x = 620
+		store.player_y = 4790
+		room = myroom_comawhite
+	}
+}

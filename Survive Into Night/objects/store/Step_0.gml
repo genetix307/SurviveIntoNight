@@ -28,6 +28,7 @@ if keyboard_check(vk_home) and instance_number(player) > 0 {
 if keyboard_check_pressed(ord("G")) {player_x = 768 player_y = 1080 room = myroom_highway85}
 if keyboard_check_pressed(ord("H")) {player_x = 768 player_y = 1080 room = myroom_church} //Home Sweet Home
 if keyboard_check_pressed(ord("P")) {store.current_task_index+=1} //Advance Story
+if keyboard_check_pressed(ord("B")) {store.current_task_index-=1} //De-Advance Story
 if keyboard_check_pressed(ord("T")) {hud.alarm[2] = 2} //Advance Time
 if keyboard_check_pressed(ord("S")) {store.souls+=10} //Advance Story
 if keyboard_check_pressed(ord("D")) {store.demo_time =1000 saveGame()} //Reset Demo Time

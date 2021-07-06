@@ -119,6 +119,14 @@ if show_fadein > 0 {
 	draw_set_alpha(1)
 }
 
+//Fade white
+if show_fade_white > 0 {
+	draw_set_color(c_white)
+	draw_set_alpha(show_fade_white)
+	draw_rectangle(0,0,room_width,room_height,false)
+	draw_set_alpha(1)
+}
+
 //Show Title
 //if show_title > 0
 //{
@@ -131,3 +139,6 @@ if store.current_task_index = 54 and store.gamePaused = 0
 draw_set_font(font_chat)
 draw_text_color(cx+542,cy+56,"DNA Collected "+string(store.dna_collected)+" / 10",c_yellow,c_orange,c_yellow,c_orange,1)
 }
+
+//Show Task Index
+//draw_text(player.x,player.y-40,store.current_task_index)

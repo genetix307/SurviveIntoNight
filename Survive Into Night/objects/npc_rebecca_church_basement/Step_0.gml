@@ -177,4 +177,37 @@ hud.chat_text = "Stay safe okay? I'll radio you when you get close to the Compou
 wait=10 exit
 }
 /////////////////////////////////////////////////////
+if store.current_task_index = 75 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Hey there, I'm glad you're okay... Do you think we'll make it out of here alive?"
+wait=10 exit
+}
+if store.current_task_index = 76 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Me and Dad rush out the side while you're fighting them off? It could work, but I'm not sure we could leave you down here fighting them alone like that..."
+store.current_task_index =77;
+exit
+}
+if store.current_task_index = 77 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "Are you sure? Even if we get out of this basement alive, where would we go that's any safer? All of Woodland Hills is about to be surrounded by the passing horde."
+store.current_task_index =78;
+exit
+}
+if store.current_task_index = 78 and wait = 0
+{
+player.speed = 0
+hud.chat_open = 1
+hud.chat_text = "You're right if anyone can help us out right now it's Billy. He said that he was setting up at the Gas station South East of here near the Highway I think. Let's go talk to Billy. As you soon as you clear the stairs we'll head upstairs and run out the side door. We'll meet you at Billy's."
+store.current_task_index =79;
+store.current_task = "Fight off the infected and go talk to Billy at his Trading Post gas station South East of the Church by the Highway"
+if instance_number(gate_barricade_churchbasement) >0 {with gate_barricade_churchbasement {instance_destroy()}}
+exit
+}
 }
