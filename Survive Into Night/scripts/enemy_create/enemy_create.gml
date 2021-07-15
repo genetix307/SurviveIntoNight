@@ -7,6 +7,8 @@ function enemy_create() {
 	clear_shot = 0
 	show_alert = 0
 	show_hit = 0
+	depth = player.depth +2
+
 
 
 //Set as Shadow Caster

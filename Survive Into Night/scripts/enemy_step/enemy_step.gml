@@ -24,9 +24,6 @@ function enemy_step() {
 	instance_destroy()
 	}
 
-	//Set depth
-	depth=-y;
-
 	//Check Clear Shot
 	if !collision_line(x,y,player.x,player.y,default_solid,false,true) {clear_shot = 0} else {clear_shot = 1}
 

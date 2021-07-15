@@ -30,7 +30,7 @@ if keyboard_check_pressed(ord("H")) {player_x = 768 player_y = 1080 room = myroo
 if keyboard_check_pressed(ord("P")) {store.current_task_index+=1} //Advance Story
 if keyboard_check_pressed(ord("B")) {store.current_task_index-=1} //De-Advance Story
 if keyboard_check_pressed(ord("T")) {hud.alarm[2] = 2} //Advance Time
-if keyboard_check_pressed(ord("S")) {store.souls+=10} //Advance Story
+if keyboard_check_pressed(ord("Z")) {store.souls+=10} //Gain Souls
 if keyboard_check_pressed(ord("D")) {store.demo_time =1000 saveGame()} //Reset Demo Time
 if keyboard_check_pressed(ord("L")) {instance_create_depth(cursor.x,cursor.y,player.depth,obj_light)} //Let there be light
 if keyboard_check_pressed(ord("W")) {instance_create_depth(player.x,player.y,0,item_12gaugepump) repeat 3 instance_create_depth(player.x,player.y,0,item_ammo_shotgun) } //I Got Shotgun

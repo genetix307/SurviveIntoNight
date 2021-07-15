@@ -27,6 +27,12 @@ if dead = 0 {
 		if (gamepad_button_check_pressed(0,gp_shoulderl) or gamepad_button_check_pressed(0,gp_stickl) or keyboard_check_pressed(vk_shift)) {store.sp -= (.75 -store.upgrade_sprint/20)}
 		if (gamepad_button_check(0,gp_shoulderl) or gamepad_button_check(0,gp_stickl) or keyboard_check(vk_shift)) and distance_to_object(instance_nearest(x,y,default_solid)) > 4 and store.sp >3 {my_speed = (3+store.upgrade_sprint/4) store.sp -= (.075-store.upgrade_sprint/200) reduce_max_sp()} else {my_speed = 0}
 
+		//Fart :)
+		if gamepad_button_check(0,gp_stickr) {
+			audio_play_sound(sfx_fart,1,false)
+			audio_sound_pitch(sfx_fart,.8+random(.3))
+			}
+
 		//Toggle flashlight
 		if gamepad_button_check_pressed(0,gp_shoulderlb) or keyboard_check_released(ord("F")) {
 		if instance_number(obj_light_flashlight) = 0 {instance_create_depth(x,y,depth,obj_light_flashlight) store.flashlight_on = 1 audio_play_sound(sfx_lightswitch,1,false)} 

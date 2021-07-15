@@ -3,7 +3,7 @@ if hud.backpack_open = 0 and store.gamePaused = 0
 draw_self()
 
 //LaserSight
-if store.slot_item[store.active_slot] = 26
+if store.slot_item[store.active_slot] = 26 and hud.chat_open = 0
 {
 	
 	xx = player.x + lengthdir_x(32,player.image_angle-19)

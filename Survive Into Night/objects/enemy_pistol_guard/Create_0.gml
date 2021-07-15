@@ -7,6 +7,7 @@ my_range = 580
 reload_max = 8
 reload = reload_max
 my_class = 0
+depth=-5;
 
 dodge_distance = 100 +random(40)
 dodge_chance = 7

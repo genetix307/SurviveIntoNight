@@ -57,7 +57,7 @@ if store.current_task_index = 16 and wait = 0
 {
 player.speed = 0
 hud.chat_open = 1
-hud.chat_text = "Yes, the Church sounds like a safe place for us to reconvene. I'll head that way shortly- We can meet back up there when you're ready and make a plan. I know that you must want vengeance for your girlfriend, but we'll need to be careful approaching the Devils of Night."
+hud.chat_text = "Yes, the Church sounds like a safe place for us to reconvene. I'll head that way shortly - We can meet back up there when you're ready and make a plan. I know that you must want vengeance for your girlfriend, but we'll need to be careful approaching the Devils of Night."
 store.current_task = "Meet with Dr. Nelson back at the Church where you can plan your next move against the Devils Of Night gang safely."
 wait = 10; store.current_task_index =17; exit
 }
