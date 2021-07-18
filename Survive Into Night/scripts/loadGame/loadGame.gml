@@ -52,6 +52,8 @@ store.devilsofnight_slain = ini_read_real( "save1", "devilsofnight_slain",store.
 store.newspapers_found = ini_read_real( "save1", "newspapers_found",store.newspapers_found);
 store.games_found = ini_read_real( "save1", "games_found",store.games_found);
 store.daysSurvived = ini_read_real( "save1", "daysSurvived",store.daysSurvived);
+store.trees_cutdown = 0 = ini_read_real( "save1", "trees_cutdown = 0",store.trees_cutdown = 0);
+
 //Game settings
 store.active_slot = ini_read_real( "save1", "active_slot",store.active_slot);
 store.hold_slot = ini_read_real( "save1", "hold_slot",store.hold_slot);

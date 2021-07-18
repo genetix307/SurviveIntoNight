@@ -15,7 +15,8 @@ if store.games_found = 7 {hud.chat_text = "You found an old video game on the gr
 if store.games_found = 8 {hud.chat_text = "You found an old video game on the ground called Darkwood.\nReleased in 2017."}
 if store.games_found = 9 {hud.chat_text = "You found an old video game on the ground called Amnesia: The Dark Descent.\nReleased in 2010."}
 if store.games_found = 10 {hud.chat_text = "You found an old video game on the ground called Alan Wake.\nReleased in 2010 on the Xbox 360."}
-if store.games_found = 11 {hud.chat_text = "You found a really old video game on the ground called Mystery House.\nReleased in 1982. Hopefully someday you'll have the time to sit down and play all of these games..."}
+if store.games_found = 11 {hud.chat_text = "You found a really old video game on the ground called Mystery House.\nReleased in 1982. Hopefully someday you'll have the time to sit down and play all of these games..."
+	if !steam_get_achievement("True Gamer") steam_set_achievement("True Gamer");}
 
 store.games_found +=1
 instance_destroy()

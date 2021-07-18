@@ -49,6 +49,8 @@ ini_write_real( "save1", "devilsofnight_slain", store.devilsofnight_slain);
 ini_write_real( "save1", "newspapers_found", store.newspapers_found);
 ini_write_real( "save1", "games_found", store.games_found);
 ini_write_real( "save1", "daysSurvived", store.daysSurvived);
+ini_write_real( "save1", "trees_cutdown", store.trees_cutdown);
+
 //Game settings
 ini_write_real( "save1", "active_slot", store.active_slot);
 ini_write_real( "save1", "hold_slot", store.hold_slot);

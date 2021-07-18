@@ -12,7 +12,7 @@ if room = myroom_abandonedcrypts {x=cx+217;y=cy+146}
 if room = myroom_graveyard {x=cx+186;y=cy+159}
 if room = myroom_eastchurch_path {x=cx+236;y=cy+260}
 if room = myroom_hospital {x=cx+353;y=cy+276}
-if room = myroom_babyGraves {x=cx+344;y=cy+140}
+if room = myroom_babyGraves {x=cx+336;y=cy+120}
 if room = myroom_hospital_floor2 {x=cx+353;y=cy+276}
 if room = myroom_southchurch_path {x=cx+189;y=cy+301}
 if room = myroom_suburbs {x=cx+217;y=cy+364}

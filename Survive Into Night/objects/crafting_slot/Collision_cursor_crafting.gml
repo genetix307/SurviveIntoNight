@@ -32,4 +32,5 @@ if craft_standard = 1
 {
 	 audio_play_sound(sfx_metalclank,1,false)
 	 store.items_crafted += 1
+	 if store.items_crafted >= 10 { if !steam_get_achievement("Craft Master") steam_set_achievement("Craft Master");}
 }

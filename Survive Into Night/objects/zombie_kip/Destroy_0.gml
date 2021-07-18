@@ -6,6 +6,9 @@ store.zombies_slain += 1
 store.souls += 1
 collect_dna()
 
+if store.zombies_slain = 1 { if !steam_get_achievement("First Timer") steam_set_achievement("First Timer");}
+if store.zombies_slain >= 100 { if !steam_get_achievement("Zombie Slayer") steam_set_achievement("Zombie Slayer");}
+
 //Drop Item
 my_item = round(random(25))
 

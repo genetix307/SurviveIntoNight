@@ -47,6 +47,7 @@ games_found = 0
 daysSurvived = 0
 items_crafted = 0
 items_recycled = 0
+trees_cutdown = 0
 
 active_slot = 1
 hold_slot = 1

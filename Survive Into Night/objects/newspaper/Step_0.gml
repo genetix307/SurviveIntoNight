@@ -28,7 +28,9 @@ if store.newspapers_found = 19 {hud.chat_text = "Woodland Hills Gazette - Decemb
 if store.newspapers_found = 20 {hud.chat_text = "Woodland Hills Gazette - January 7th, 2022\nMayor Kip Chavez has contracted the SIN disease and was last seen grunting and wandering around the local cemetery. Police say that local funding for their operations has been nearly cut off altogher. Violent crime is on the rise."}
 if store.newspapers_found = 21 {hud.chat_text = "Woodland Hills Gazette - January 18th, 2022\nAs society breaks down it is recommended that families continue to stay indoors and remain 6 feet apart from anyone not living in the same home - Unless working out at any gyms that remain open."}
 if store.newspapers_found = 22 {hud.chat_text = "Woodland Hills Gazette - February 2nd, 2022\nVictims of the SIN disease are being compared to 'Zombies' by many as they roam freely and attack anyone that they come into contact with. As they infect others, their numbers grow."}
-if store.newspapers_found = 23 {hud.chat_text = "Woodland Hills Gazette - March 16th, 2022\nI am the last writer left of the Woodland Hills Gazette and am heading North to a rumoured safe zone. It has been a pleasure writing to you as we've seen our world turned upside down this last year. Please take care!"}
+if store.newspapers_found = 23 {hud.chat_text = "Woodland Hills Gazette - March 16th, 2022\nI am the last writer left of the Woodland Hills Gazette and am heading North to a rumoured safe zone. It has been a pleasure writing to you as we've seen our world turned upside down this last year. Please take care!"
+	 if !steam_get_achievement("Read All About It") steam_set_achievement("Read All About It");
+	}
 
 store.newspapers_found +=1
 instance_destroy()
