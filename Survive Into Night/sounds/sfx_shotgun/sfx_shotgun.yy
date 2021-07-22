@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_sfx",
   },
   "soundFile": "sfx_shotgun.mp3",
-  "duration": 1.363367,
+  "duration": 1.023776,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",

@@ -9,3 +9,6 @@ if mouse_check_button_pressed(mb_left)
 	audio_play_sound(sfx_button_click,1,false)
 	game_end()
 }
+
+image_xscale = .7
+image_yscale = .7
