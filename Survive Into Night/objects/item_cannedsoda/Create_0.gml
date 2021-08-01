@@ -15,4 +15,4 @@ my_slot = 1
 my_name = "Canned Soda"
 my_durability = 0
 my_loaded = 0
-my_description = "Refreshing sugary bevarage. Max SP+10, Quench Thirst +6, Max HP-2\nBreaks down into: 1x Sugar, 2x Water, 1x Metal"
+my_description = "Refreshing sugary beverage. Max SP+10, Quench Thirst +6, Max HP-2\nBreaks down into: 1x Sugar, 2x Water, 1x Metal"

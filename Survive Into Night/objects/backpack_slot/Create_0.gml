@@ -50,3 +50,5 @@ if my_id = 37 {x=cx+1060 y=cy+240}
 if my_id = 38 {x=cx+1120 y=cy+240}
 if my_id = 39 {x=cx+1180 y=cy+240}
 if my_id = 40 {x=cx+1240 y=cy+240}
+
+if my_id > 40 {instance_destroy()}

@@ -3,9 +3,6 @@ caster_init_circle(16, 8);
 
 x = store.player_x
 y = store.player_y
-//store.startX = x
-//store.startY = y
-//store.startRoom = room
 hp = store.max_hp
 can_attack = 0
 can_recycle = 0

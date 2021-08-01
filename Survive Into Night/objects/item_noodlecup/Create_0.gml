@@ -15,5 +15,5 @@ my_slot = 21
 my_name = "Noodle Cup"
 my_durability = 0
 my_loaded = 0
-my_description = "Surprisingly satisfying cup of noodles & broth. Max SP+20, Max HP-3\nBreaks down into: 1x Water, 1x Fiber, 1x Sugar"
+my_description = "Surprisingly satisfying cup of noodles & broth. Max SP+20, Quench Thirst +2, Max HP-3\nBreaks down into: 1x Water, 1x Fiber, 1x Sugar"
 

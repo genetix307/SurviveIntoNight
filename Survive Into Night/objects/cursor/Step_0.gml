@@ -4,10 +4,10 @@ if store.control_mode = 0
 	y = player.y + lengthdir_y(player.cursor_distance,player.image_angle)
 }
 
-if store.control_mode = 1
+if store.control_mode = 1 
 {
-	x = device_mouse_x(0)
-	y = device_mouse_y(0)
+		x = device_mouse_x(0)
+		y = device_mouse_y(0)
 }
 
 image_speed = .05

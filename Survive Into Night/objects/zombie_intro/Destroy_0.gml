@@ -1,5 +1,6 @@
 repeat 3 instance_create_depth(x,y,75,blood)
 repeat 6 instance_create_depth(x,y,70,gore)
+instance_create_depth(x,y,68,gore_head)
 instance_create_depth(x,y,0,bloodSpray)
 instance_create_depth(x,y,0,bloodBurst)
 player.alarm[3] = 1+random(30) //player taunt

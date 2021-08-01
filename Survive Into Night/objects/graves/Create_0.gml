@@ -14,8 +14,8 @@ my_text = choose(
 "Here lies Adalas Flynn",
 "Here lies Wade Watts",
 "Here lies Ronald Frump",
-"Here lies Kipoliz Chavez",
-"Here lies Robert Stine",
+"Here lies Kipolis Chavez",
+"Here lies Robert L. Stine",
 "Here lies Richard Bachman",
 "Here lies Thaddeous Bluff",
 "Here lies Ellen Ripley",
@@ -58,5 +58,15 @@ my_text = choose(
 "Here lies Pudge Wiggle",
 "Here lies Rhoda Penmark",
 "Here lies Reece Shearsmith",
-"Here lies Steve Pemberton"
+"Here lies Steve Pemberton",
+"Here lies Shirley Jackson",
+"Here lies Clive Barker",
+"Here lies Stephen King",
+"Here lies Dean Koontz",
+"Here lies Riley Gombart",
+"Here lies Jason Voorhees",
+"Here lies Jim Lahey",
+"Here lies Jeff Dahmer",
+"Here lies Theodore Bundy",
+"Here lies John Wayne Gacy"
 )

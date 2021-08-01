@@ -38,17 +38,18 @@ swap_description_b = ""
 
 //Set SurvivalTip
 survivalTipIndex = round(random(11))
-if survivalTipIndex = 0 {survivalTip = "If you don’t have any active items/weapons selected you can punch as a last resort."}
-if survivalTipIndex = 1 {survivalTip = "If you don’t have any active items/weapons selected you can punch as a last resort."}
+if survivalTipIndex = 0 {survivalTip = "If you don’t have any weapons you can punch as a last resort."}
+if survivalTipIndex = 1 {survivalTip = "If you don’t have any weapons you can punch as a last resort."}
 if survivalTipIndex = 2 {survivalTip = "Every weapon will break after enough use, keep an eye on your weapons durability points."}
 if survivalTipIndex = 3 {survivalTip = "Sprinting is a good way to run away from the infected, but watch your stamina!"}
 if survivalTipIndex = 4 {survivalTip = "You can recycle any item at a recycling bench to break the item down into it’s basic materials."}
 if survivalTipIndex = 5 {survivalTip = "Recycle weapons that are about to break from low durability, they’re still worth the same amount of materials."}
-if survivalTipIndex = 6 {survivalTip = "The red marker on your map shows the area you are currently at."}
+if survivalTipIndex = 6 {survivalTip = "The red marker on your map shows the area you are currently at in the world."}
 if survivalTipIndex = 7 {survivalTip = "Food & Drinks you find out in the world can help restore stamina and thirst, but often will lower your MAX health a little."}
 if survivalTipIndex = 8 {survivalTip = "Make sure to drink plenty of water, if you’re thirst points get to low you’ll start dying."}
 if survivalTipIndex = 9 {survivalTip = "You can destroy most objects in the world, and often find loot from them."}
 if survivalTipIndex = 10 {survivalTip = "Each day that passes loot becomes harder to find, and the undead grow stronger."}
 if survivalTipIndex = 11 {survivalTip = "Your progress is automatically saved everytime you enter a new area."}
+if survivalTipIndex = 12 {survivalTip = "When the Church bells ring for the evening, find somewhere safe to stay for the night as a large number of undead will come out."}
 
 

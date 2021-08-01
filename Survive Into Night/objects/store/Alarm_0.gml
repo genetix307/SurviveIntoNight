@@ -49,7 +49,7 @@ items_crafted = 0
 items_recycled = 0
 trees_cutdown = 0
 
-active_slot = 1
+active_slot = 0
 hold_slot = 1
 flashlight_on = 1
 day = 1

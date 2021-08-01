@@ -12,9 +12,10 @@ if show_quest < 5 and show_quest_fade = 0 {show_quest += .02} else {show_quest_f
 if show_quest_fade > 0 and show_quest >= 0 {show_quest -= .02}
 //if show_title > 0 {show_title -= .0075}
 if show_fadein > 0 {show_fadein -= .003}
+if kill_combo > 0 {kill_combo -= 1}
 
 //Open Backpack
-if (gamepad_button_check_pressed(0,gp_face2) or keyboard_check_pressed(ord("I"))) and backpack_open = 0 and chat_open = 0 and store.gamePaused = 0
+if (gamepad_button_check_pressed(0,gp_face2) or keyboard_check_pressed(ord("I")) or keyboard_check_pressed(vk_tab)) and backpack_open = 0 and chat_open = 0 and store.gamePaused = 0
 {
 	store.hold_slot = store.active_slot
 	instance_create_depth(x,y,depth-1,backpack_menu)

@@ -56,22 +56,27 @@ draw_set_font(font_showDay)
 //Show Quick slots
 if backpack_open = 0 and store.gamePaused = 0
 {
+draw_set_alpha(.8)
+draw_sprite(spr_quickslot_wrap,0,cx+838,cy+724)
+draw_set_alpha(1)
 draw_set_font(font_stats)
-draw_sprite(spr_item_slot,store.slot_item[1],cx+1104,cy+694)
-draw_sprite(spr_item_slot,store.slot_item[2],cx+1154,cy+694)
-draw_sprite(spr_item_slot,store.slot_item[3],cx+1204,cy+694)
-draw_sprite(spr_item_slot,store.slot_item[4],cx+1254,cy+694)
+draw_sprite(spr_slot_punch,0,cx+1023,cy+686)
+draw_sprite(spr_item_slot,store.slot_item[1],cx+1081,cy+686)
+draw_sprite(spr_item_slot,store.slot_item[2],cx+1136,cy+686)
+draw_sprite(spr_item_slot,store.slot_item[3],cx+1192,cy+686)
+draw_sprite(spr_item_slot,store.slot_item[4],cx+1250,cy+686)
 draw_set_alpha(.2)
-if store.slot_durability[1] <=3 and store.slot_durability[1] >0 {draw_rectangle_color(cx+1081,cy+670,cx+1127,cy+718,c_red,c_red,c_red,c_red,false) draw_text_color(cx+1085,cy+654,"Weapon about to break",c_red,c_red,c_red,c_red,1)}
-if store.slot_durability[2] <=3 and store.slot_durability[2] >0 {draw_rectangle_color(cx+1131,cy+670,cx+1176,cy+718,c_red,c_red,c_red,c_red,false) draw_text_color(cx+1085,cy+654,"Weapon about to break",c_red,c_red,c_red,c_red,1)}
-if store.slot_durability[3] <=3 and store.slot_durability[3] >0 {draw_rectangle_color(cx+1180,cy+670,cx+1226,cy+718,c_red,c_red,c_red,c_red,false) draw_text_color(cx+1085,cy+654,"Weapon about to break",c_red,c_red,c_red,c_red,1)}
-if store.slot_durability[4] <=3 and store.slot_durability[4] >0 {draw_rectangle_color(cx+1230,cy+670,cx+1278,cy+718,c_red,c_red,c_red,c_red,false) draw_text_color(cx+1085,cy+654,"Weapon about to break",c_red,c_red,c_red,c_red,1)}	
+if store.slot_durability[1] <=3 and store.slot_durability[1] >0 {draw_rectangle_color(cx+1057,cy+662,cx+1105,cy+710,c_red,c_red,c_red,c_red,false) draw_text_color(cx+1085,cy+636,"Weapon about to break",c_red,c_red,c_red,c_red,1)}
+if store.slot_durability[2] <=3 and store.slot_durability[2] >0 {draw_rectangle_color(cx+1116,cy+662,cx+1160,cy+710,c_red,c_red,c_red,c_red,false) draw_text_color(cx+1085,cy+636,"Weapon about to break",c_red,c_red,c_red,c_red,1)}
+if store.slot_durability[3] <=3 and store.slot_durability[3] >0 {draw_rectangle_color(cx+1168,cy+662,cx+1216,cy+710,c_red,c_red,c_red,c_red,false) draw_text_color(cx+1085,cy+636,"Weapon about to break",c_red,c_red,c_red,c_red,1)}
+if store.slot_durability[4] <=3 and store.slot_durability[4] >0 {draw_rectangle_color(cx+1226,cy+662,cx+1274,cy+710,c_red,c_red,c_red,c_red,false) draw_text_color(cx+1085,cy+636,"Weapon about to break",c_red,c_red,c_red,c_red,1)}	
 
 draw_set_alpha(1)
-if store.active_slot = 1 {draw_rectangle_color(cx+1081,cy+670,cx+1127,cy+718,c_orange,c_orange,c_orange,c_orange,true)}
-if store.active_slot = 2 {draw_rectangle_color(cx+1131,cy+670,cx+1176,cy+718,c_orange,c_orange,c_orange,c_orange,true)}
-if store.active_slot = 3 {draw_rectangle_color(cx+1180,cy+670,cx+1226,cy+718,c_orange,c_orange,c_orange,c_orange,true)}
-if store.active_slot = 4 {draw_rectangle_color(cx+1230,cy+670,cx+1278,cy+718,c_orange,c_orange,c_orange,c_orange,true)}
+if store.active_slot = 0 {draw_rectangle_color(cx+999,cy+662,cx+1046,cy+709,c_orange,c_orange,c_orange,c_orange,true)}
+if store.active_slot = 1 {draw_rectangle_color(cx+1057,cy+662,cx+1104,cy+709,c_orange,c_orange,c_orange,c_orange,true)}
+if store.active_slot = 2 {draw_rectangle_color(cx+1114,cy+662,cx+1159,cy+709,c_orange,c_orange,c_orange,c_orange,true)}
+if store.active_slot = 3 {draw_rectangle_color(cx+1168,cy+662,cx+1215,cy+709,c_orange,c_orange,c_orange,c_orange,true)}
+if store.active_slot = 4 {draw_rectangle_color(cx+1226,cy+662,cx+1273,cy+709,c_orange,c_orange,c_orange,c_orange,true)}
 }
 
 //Menu veil
@@ -142,3 +147,9 @@ draw_text_color(cx+542,cy+56,"DNA Collected "+string(store.dna_collected)+" / 10
 
 //Show Task Index
 //draw_text(player.x,player.y-40,store.current_task_index)
+
+//Draw screenshake borders
+//draw_line_color(room_width-640,0,room_width-640,room_height,c_purple,c_yellow)
+//draw_line_color(0,room_height-360,room_width,room_height-360,c_purple,c_yellow)
+//draw_line_color(640,0,640,room_height,c_purple,c_yellow)
+//draw_line_color(0,360,room_width,360,c_purple,c_yellow)

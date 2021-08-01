@@ -28,7 +28,7 @@ if dead = 0 {
 		if (gamepad_button_check(0,gp_shoulderl) or gamepad_button_check(0,gp_stickl) or keyboard_check(vk_shift)) and distance_to_object(instance_nearest(x,y,default_solid)) > 4 and store.sp >3 {my_speed = (3+store.upgrade_sprint/4) store.sp -= (.075-store.upgrade_sprint/200) reduce_max_sp()} else {my_speed = 0}
 
 		//Fart :)
-		if gamepad_button_check(0,gp_stickr) {
+		if gamepad_button_check(0,gp_stickr) or keyboard_check_released(ord("T")) {
 			audio_play_sound(sfx_fart,1,false)
 			audio_sound_pitch(sfx_fart,.8+random(.3))
 			}
@@ -41,13 +41,13 @@ if dead = 0 {
 
 		//Alternate Active Slot
 		if (gamepad_button_check_pressed(0,gp_shoulderr) or mouse_wheel_down()) and player.alarm[0] <= 0 {
-		if store.active_slot < 4 {store.active_slot += 1} else {store.active_slot = 1}
+		if store.active_slot < 4 {store.active_slot += 1} else {store.active_slot = 0}
 			player.current_weapon = 0
 			check_current_weapon()
 			}
 			
 		if mouse_wheel_up() and player.alarm[0] <= 0 {
-			if store.active_slot >1 {store.active_slot -= 1} else {store.active_slot = 4}
+			if store.active_slot >0 {store.active_slot -= 1} else {store.active_slot = 4}
 			player.current_weapon = 0
 			check_current_weapon()
 		}
@@ -99,7 +99,7 @@ if dead = 0 {
 
 if can_attack > 0 {can_attack -= 1}
 if vibrate > 0 {vibrate -= 1 if vibrate <= 0 {gamepad_set_vibration(0, 0, 0)}}
-if hud.chat_open = 1 or store.gamePaused = 1 {speed=0}
+if hud.chat_open = 1 or store.gamePaused = 1 or instance_number(backpack_menu) > 0 or instance_number(crafting_menu) > 0 {speed=0}
 
 //Death
 if store.hp <= 0 {

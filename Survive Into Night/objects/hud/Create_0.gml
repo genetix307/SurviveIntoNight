@@ -23,6 +23,7 @@ daytime_logo = 0
 show_fadein = 0
 fade_to_coma = 0
 show_fade_white = 0
+kill_combo = 0
 
 if room = myroom_intro_subway show_fadein = 1
 

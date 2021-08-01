@@ -20,7 +20,7 @@ draw_text(cx+100,cy+3,string(round(store.hp))+"/"+string(round(store.max_hp)))
 draw_set_color(c_white)
 draw_text(cx+3,cy+2,"Health")
 draw_text(cx+98,cy+2,string(round(store.hp))+"/"+string(round(store.max_hp)))       
-draw_sprite(spr_stat_cap,0,cx+153,cy+8)
+draw_sprite(spr_stat_cap_new,0,cx,cy+8)
 
 //Draw SP bar
 draw_set_alpha(.75)
@@ -37,7 +37,7 @@ draw_text(cx+100,cy+18,string(round(store.sp))+"/"+string(round(store.max_sp)))
 draw_set_color(c_white)
 draw_text(cx+3,cy+17,"Stamina")
 draw_text(cx+98,cy+17,string(round(store.sp))+"/"+string(round(store.max_sp)))       
-draw_sprite(spr_stat_cap,0,cx+153,cy+23)
+draw_sprite(spr_stat_cap_new,1,cx,cy+23)
 
 //Draw Thirst bar
 draw_set_alpha(.75)
@@ -54,7 +54,7 @@ draw_text(cx+100,cy+33,string(round(store.thirst))+"/"+string(round(store.max_th
 draw_set_color(c_white)
 draw_text(cx+3,cy+32,"Thirst")
 draw_text(cx+98,cy+32,string(round(store.thirst))+"/"+string(round(store.max_thirst)))       
-draw_sprite(spr_stat_cap,0,cx+153,cy+38)
+draw_sprite(spr_stat_cap_new,2,cx,cy+38)
 
 //Draw Flashlight Battery bar
 draw_set_alpha(.75)
@@ -66,12 +66,12 @@ draw_rectangle(cx+1,cy+47,cx+153,cy+60,true)
 draw_rectangle_colour(cx+3,cy+48,cx+((store.flashlight_battery/store.max_flashlight_battery)*150)+3,cy+59,c_orange,c_yellow,c_orange,c_orange,false)
 draw_set_alpha(1)
 draw_set_color(c_black)
-draw_text(cx+4,cy+48,"Flashlight")
-draw_text(cx+100,cy+48,string(round(store.flashlight_battery))+"/"+string(round(store.max_flashlight_battery)))               
+draw_text(cx+4,cy+47,"Flashlight")
+draw_text(cx+100,cy+47,string(round(store.flashlight_battery))+"/"+string(round(store.max_flashlight_battery)))               
 draw_set_color(c_white)
-draw_text(cx+3,cy+48,"Flashlight")
+draw_text(cx+3,cy+47,"Flashlight")
 draw_text(cx+98,cy+47,string(round(store.flashlight_battery))+"/"+string(round(store.max_flashlight_battery)))       
-draw_sprite(spr_stat_cap,0,cx+153,cy+53)
+draw_sprite(spr_stat_cap_new,3,cx,cy+53)
 
 //Draw date and time
 draw_set_color(c_aqua)
