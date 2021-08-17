@@ -1,4 +1,6 @@
 // Genetix Studio
+repeat 4 instance_create(x,y,effect_trashbreak)
+
 repeat 1+round(random(3)) {
 	instance_create_depth(x,y,0,item_woodboard)
 	}

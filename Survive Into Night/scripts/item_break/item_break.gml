@@ -5,4 +5,5 @@ function item_break(){
 	if player.current_weapon = 3 {instance_create_depth(player.x,player.y,0,item_broken_rifle)}
 	if player.current_weapon = 4 {instance_create_depth(player.x,player.y,0,item_broken_shotgun)}
 audio_play_sound(sfx_item_break,1,false) store.slot_item[store.active_slot] = 0 store.slot_name[store.active_slot] = "" store.slot_durability[store.active_slot] = 0 store.slot_loaded[store.active_slot] = 0 player.current_weapon = 0
+store.active_slot = 0 //Switch to fists
 }

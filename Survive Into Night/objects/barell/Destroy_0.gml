@@ -1,3 +1,5 @@
+repeat 4 instance_create(x,y,effect_trashbreak)
+
 my_item = round(random(30))
 
 if my_item =1 {instance_create_depth(x,y,depth,item_metalScrap)}

@@ -1,15 +1,16 @@
 function enemy_step() {
 	if damaged > 0 {damaged -=1}
+	if frozen > 0 {frozen -=1 image_speed = 0}
 
 	//set Image Angle
 	if image_angle < direction {image_angle +=5}
 	if image_angle > direction {image_angle -=5}
 
 	//Run at Player
-	if alert = 1 and hud.chat_open = 0 and store.gamePaused = 0 {mp_potential_step_object(player.x,player.y,my_speed,default_solid)}
+	if alert = 1 and hud.chat_open = 0 and store.gamePaused = 0 and frozen = 0 {mp_potential_step_object(player.x,player.y,my_speed,default_solid)}
 
 	//Run when damaged
-	if damaged > 10 {mp_potential_step_object(player.x,player.y,-8,default_solid)}
+	if damaged > 10 and frozen = 0  {mp_potential_step_object(player.x,player.y,-8,default_solid)}
 
 	//Dodge
 	if dodge_chance >= random(10)
@@ -34,7 +35,7 @@ function enemy_step() {
 	}
 
 	//Shoot Weapon at zombie
-	if instance_number(default_zombie) > 0
+	if instance_number(default_zombie) > 0  and frozen = 0 
 	{
 	if distance_to_object(instance_nearest(x,y,default_zombie)) < my_range/2 and can_shoot = 0 and clear_shot = 0 and reload > 0
 	{
@@ -51,7 +52,7 @@ function enemy_step() {
 	}
 
 	//Shoot Weapon at player
-	if distance_to_object(player) < my_range and can_shoot = 0 and clear_shot = 0 and player.dead = 0 and hud.chat_open = 0 and reload > 0 and store.gamePaused = 0
+	if distance_to_object(player) < my_range and can_shoot = 0 and clear_shot = 0 and player.dead = 0 and hud.chat_open = 0 and reload > 0 and store.gamePaused = 0 and frozen = 0 
 	{
 	direction = point_direction(x,y,player.x,player.y) 
 	if abs(image_angle - point_direction(x,y,player.x,player.y)) < 30

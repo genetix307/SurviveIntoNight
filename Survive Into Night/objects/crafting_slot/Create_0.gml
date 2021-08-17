@@ -24,8 +24,8 @@ if my_id = 13 {x=cx+820 y=cy+120  my_name="Rifle Ammo" my_description="32 Rounds
 if my_id = 14 {x=cx+880 y=cy+120 my_name="Shotgun Ammo" my_description="8 Rounds standard shells for all types of pump, under over, and other shotguns\nCrafting Cost: 2x Metal, 4x Gunpowder, 1x Plastic "}
 if my_id = 15 {x=cx+940 y=cy+120 my_name="Cowboy Revolver" my_description="Heavy pistol used for clearing a room. Attack Points: 100\nCrafting Cost: 1x Pistol Frame, 8x Metal"}
 if my_id = 16 {x=cx+1000 y=cy+120 my_name="AR7 LaserSight" my_description="Fully Automatic rifle with a laser sighted scope. Attack Points: 13\nCrafting Cost: 1x Rifle Frame, 8x Metal, 1x Chemicals"}
-if my_id = 17 {x=cx+1060 y=cy+120}
-if my_id = 18 {x=cx+1120 y=cy+120}
+if my_id = 17 {x=cx+1060 y=cy+120 my_name="Freeze Ray Blaster" my_description = "Futuristic weapon decided to expel a blast of liquid nitrogen to freeze enemies in place.\nCrafting Cost: 8x Metal, 8x Chemicals, 3x Plastic"}
+if my_id = 18 {x=cx+1120 y=cy+120 my_name="Boomerang" my_description = "Finely crafted wooden weapon used for slashing zombies from a distance. Attack Points: 3\nCrafting Cost: 4x Fiber"} 
 if my_id = 19 {x=cx+1180 y=cy+120}
 if my_id = 20 {x=cx+1240 y=cy+120}
 if my_id = 21 {x=cx+700 y=cy+180}

@@ -19,6 +19,8 @@ if store.slot_item[store.active_slot] = 23 {instance_create_depth(player.x,playe
 if store.slot_item[store.active_slot] = 24 {player.current_weapon = 2 player_use_weapon()} //Cowboy Revolver
 if store.slot_item[store.active_slot] = 26 {player.current_weapon = 3 player_use_weapon()} //AR-7
 if store.slot_item[store.active_slot] = 27 {audio_play_sound(sfx_smoking,1,false); store.sp = store.max_sp; store.max_hp -= 1 clear_slot() } //Cigar
+if store.slot_item[store.active_slot] = 28 {player.current_weapon = 5 player_use_weapon()} //Freeze Ray
+if store.slot_item[store.active_slot] = 29 {player_use_weapon()} //Boomerang
 
 //Other
 if store.slot_item[store.active_slot] = 9 {if !audio_is_playing(sfx_cantusethat) {audio_play_sound(sfx_cantusethat,1,false)}}

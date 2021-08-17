@@ -43,8 +43,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Story",
-    "path": "folders/Objects/Story.yy",
+    "name": "NPC",
+    "path": "folders/Objects/NPC.yy",
   },
   "resourceVersion": "1.0",
   "name": "zombie_gf",

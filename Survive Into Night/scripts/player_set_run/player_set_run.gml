@@ -22,6 +22,11 @@ function player_set_run() {
 	{
 	sprite_index = spr_player_shotgun_run
 	}
+	
+	if player.current_weapon = 5 //Freeze Ray
+	{
+	sprite_index = spr_player_rifle_run
+	}
 
 
 

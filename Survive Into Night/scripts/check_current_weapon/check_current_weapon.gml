@@ -6,4 +6,6 @@ if store.slot_item[store.active_slot] = 2 or store.slot_item[store.active_slot] 
 if store.slot_item[store.active_slot] = 3 or store.slot_item[store.active_slot] = 24 {player.current_weapon = 2 player.cursor_distance = 220} //Set Handguns
 if store.slot_item[store.active_slot] = 4 or store.slot_item[store.active_slot] = 26 {player.current_weapon = 3 player.cursor_distance = 320} //Set Rifles
 if store.slot_item[store.active_slot] = 5 {player.current_weapon = 4 player.cursor_distance = 160} //Set Shotguns
+
+if store.slot_item[store.active_slot] = 28 {player.current_weapon = 5 player.cursor_distance = 260} //Set Freeze Ray
 }

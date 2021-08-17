@@ -4,6 +4,7 @@ instance_create_depth(x,y,0,bloodSpray)
 store.zombies_slain += 1
 store.souls += 1
 audio_stop_all()
+saveGame()
 
 if store.current_task_index < 15 {
 	store.current_task = "Talk to Dr. Nelson at the Hospital 2nd Floor."

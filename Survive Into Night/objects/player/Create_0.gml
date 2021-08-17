@@ -13,6 +13,8 @@ image_speed = 0
 current_weapon = 0
 cursor_distance = 220
 
+if store.gamePaused = 1 {store.gamePaused = 0}
+
 //Save Game
 saveGame()
 

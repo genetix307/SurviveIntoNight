@@ -7,4 +7,6 @@ hud.chat_open = 1
 hud.chat_text = "Looks like a key. Label says Hospital Staircase to floor 2."
 store.have_key_hospital_f1 =1
 instance_destroy()
+
+saveGame()
 }

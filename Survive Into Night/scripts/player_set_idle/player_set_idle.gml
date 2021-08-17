@@ -23,6 +23,11 @@ function player_set_idle() {
 	{
 	sprite_index = spr_player_shotgun_idle
 	}
+	
+	if player.current_weapon = 5 //Freeze Ray
+	{
+	sprite_index = spr_player_rifle_idle
+	}
 
 
 

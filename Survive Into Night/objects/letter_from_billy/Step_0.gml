@@ -8,4 +8,6 @@ hud.chat_text = "The smell from the dead at this Church is getting worse. I'm he
 store.current_task_index = 1
 store.current_task = "Find and talk to a man named Billy in one of the homes in the Old Suburbs that are South of the Church."
 instance_destroy()
+
+saveGame()
 }

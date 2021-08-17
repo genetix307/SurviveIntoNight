@@ -291,6 +291,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"southwestpass_to_suburbs","path":"objects/southwestpass_to_suburbs/southwestpass_to_suburbs.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.5,"scaleY":0.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1296.0,"y":0.0,"resourceVersion":"1.0","name":"inst_2ADF9D84","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"southwestpass_to_citypark","path":"objects/southwestpass_to_citypark/southwestpass_to_citypark.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.25,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2701.0,"y":810.0,"resourceVersion":"1.0","name":"inst_75AA5A5E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ufo","path":"objects/ufo/ufo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1248.0,"y":2016.0,"resourceVersion":"1.0","name":"inst_2CABB88C","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"dead_body","path":"objects/dead_body/dead_body.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-169.065063,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2049.0,"y":530.0,"resourceVersion":"1.0","name":"inst_32DC38F0","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":48,"gridY":48,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"bg_tile_church","path":"tilesets/bg_tile_church/bg_tile_church.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":29,"SerialiseHeight":16,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -593,6 +594,7 @@
     {"name":"inst_2BF393DB","path":"rooms/myroom_southwest_path/myroom_southwest_path.yy",},
     {"name":"inst_75AA5A5E","path":"rooms/myroom_southwest_path/myroom_southwest_path.yy",},
     {"name":"inst_2CABB88C","path":"rooms/myroom_southwest_path/myroom_southwest_path.yy",},
+    {"name":"inst_32DC38F0","path":"rooms/myroom_southwest_path/myroom_southwest_path.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

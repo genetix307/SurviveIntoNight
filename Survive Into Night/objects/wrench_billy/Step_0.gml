@@ -8,4 +8,5 @@ hud.chat_text = "This must be Billy's lucky wrench. Have to bring it back to him
 store.current_task_index = 6
 store.current_task = "Head back to the Suburbs and give Billy his lucky wrench."
 instance_destroy()
+saveGame()
 }

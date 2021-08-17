@@ -3,6 +3,7 @@ repeat 10 instance_create_depth(x,y,70,gore)
 instance_create_depth(x,y,68,gore_head)
 instance_create_depth(x,y,0,bloodSpray)
 instance_create_depth(x,y,0,bloodBurst)
+if frozen > 0 {repeat 4 instance_create(x,y,effect_icebreak)}
 player.alarm[3] = 5+random(30) //player taunt
 hud.kill_combo +=15
 store.zombies_slain += 1

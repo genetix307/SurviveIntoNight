@@ -6,7 +6,7 @@ if distance_to_object(player) < 120
 }
 
 if (gamepad_button_check_released(0,gp_face1) or keyboard_check_released(vk_space)) and distance_to_object(player) < 8
-{
+{saveGame()
 if store.current_task_index = 39 and wait = 0
 {
 player.speed = 0

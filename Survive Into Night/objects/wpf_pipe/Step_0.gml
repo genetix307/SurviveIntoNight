@@ -12,6 +12,7 @@ if whenpigsfly_hud.gameState = 1
 		if whenpigsfly_hud.gameScore > store.wpf_highscore {store.wpf_highscore = whenpigsfly_hud.gameScore}
 		scored =1 
 		audio_play_sound(sfx_wpf_score,1,false)
+		if whenpigsfly_hud.gameScore >= 50 { if !steam_get_achievement("When Pigs Fly") steam_set_achievement("When Pigs Fly");}
 		}
 }
 

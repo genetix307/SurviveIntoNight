@@ -8,4 +8,6 @@ hud.chat_text = "This looks like the laptop that Rebecca needs to hack the Devil
 store.current_task_index = 48
 store.current_task = "Head back to the Church basement and bring the laptop to Rebecca."
 instance_destroy()
+
+saveGame()
 }

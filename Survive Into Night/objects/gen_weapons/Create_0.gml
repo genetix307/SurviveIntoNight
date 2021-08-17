@@ -11,6 +11,8 @@ if my_item =6 {instance_create_depth(x,y,depth,item_12gaugepump)}
 if my_item =10 {instance_create_depth(x,y,depth,item_AR15)}
 if my_item =11 {instance_create_depth(x,y,depth,item_AR15)}
 
+if my_item =12 {instance_create_depth(x,y,depth,item_boomerang)}
+
 if my_item =20 {instance_create_depth(x,y,depth,item_broken_handgun)}
 if my_item =21 {instance_create_depth(x,y,depth,item_broken_handgun)}
 if my_item =22 {instance_create_depth(x,y,depth,item_broken_handgun)}
@@ -34,5 +36,7 @@ if my_item =41 {instance_create_depth(x,y,depth,item_cowboyRevolver)}
 
 if my_item =42 {instance_create_depth(x,y,depth,item_AR7LS)}
 if my_item =43 {instance_create_depth(x,y,depth,item_AR7LS)}
+
+
 
 

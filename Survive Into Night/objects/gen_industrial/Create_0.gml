@@ -28,3 +28,5 @@ if my_item =34 {instance_create_depth(x,y,depth,item_resourcebox)}
 if my_item =35 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_resourcebox)}
 
 if my_item =37 {instance_create_depth(x,y,depth,item_hammer)}
+if my_item =38 {instance_create_depth(x,y,depth,item_freezeray)}
+if my_item =39 {instance_create_depth(x,y,depth,item_freezeray)}

@@ -37,3 +37,12 @@ if keyboard_check_pressed(ord("W")) {instance_create_depth(player.x,player.y,0,i
 if keyboard_check_pressed(ord("R")) { //The Junk Drawer
 sugar += 25; water += 25 metal += 25 fiber += 25 pistol_frame += 25 rifle_frame += 25 shotgun_frame += 25 chemicals += 25 plastic += 25 gun_powder += 25}
 }
+
+//Steam Screenshot
+if steam_is_screenshot_requested()
+    {
+    var file = "SurviveIntoNIght_" + string(global.scrn_num) + ".png";
+    screen_save(file)
+    steam_send_screenshot(file, window_get_width(), window_get_height());
+    global.scrn_num += 1;
+    } 

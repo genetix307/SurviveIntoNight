@@ -5,7 +5,7 @@ obj_camera.shake = true
 obj_camera.shake_magnitude = 1
 obj_camera.alarm[0] = obj_camera.shake_time
 
-my_item = round(random(120))
+my_item = round(random(80))
 
 if my_item =1 {instance_create_depth(x,y,depth,item_cannedsoda)}
 if my_item =2 {instance_create_depth(x,y,depth,item_batteries)}

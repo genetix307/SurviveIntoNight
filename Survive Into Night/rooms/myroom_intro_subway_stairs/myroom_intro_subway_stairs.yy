@@ -202,6 +202,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"quicktut_pauseControls","path":"objects/quicktut_pauseControls/quicktut_pauseControls.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":3.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":168.0,"y":360.0,"resourceVersion":"1.0","name":"inst_37536B24","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"zombie_intro","path":"objects/zombie_intro/zombie_intro.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":351.0,"resourceVersion":"1.0","name":"inst_5D4B15DB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"item_hammer","path":"objects/item_hammer/item_hammer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":307.0,"y":292.0,"resourceVersion":"1.0","name":"inst_7B274F02","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"dead_body","path":"objects/dead_body/dead_body.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":134.710541,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1179.0,"y":304.0,"resourceVersion":"1.0","name":"inst_383D0041","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":24,"gridY":24,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"bg_tile_church","path":"tilesets/bg_tile_church/bg_tile_church.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":14,"SerialiseHeight":8,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -407,6 +408,7 @@
     {"name":"inst_37536B24","path":"rooms/myroom_intro_subway_stairs/myroom_intro_subway_stairs.yy",},
     {"name":"inst_5D4B15DB","path":"rooms/myroom_intro_subway_stairs/myroom_intro_subway_stairs.yy",},
     {"name":"inst_7B274F02","path":"rooms/myroom_intro_subway_stairs/myroom_intro_subway_stairs.yy",},
+    {"name":"inst_383D0041","path":"rooms/myroom_intro_subway_stairs/myroom_intro_subway_stairs.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

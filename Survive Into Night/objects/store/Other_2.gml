@@ -15,7 +15,7 @@ player_y = 0
 show_fps = 0
 enemy_cap = 100
 gamePaused = 0
-build_version = "version 1.01"
+build_version = "version 1.03"
 control_mode = 0 //0 Gamepad, 1 keyboard_mouse
 drop_check = 0
 drop_dur = 0
@@ -26,6 +26,7 @@ bgm_volume = 1
 saveExists = 0
 demo = 0
 demo_time = 60000
+global.scrn_num =1
 
 //Initialize Vars --------------------------------------------------------------------------------------------------------
 //Permenant Resources
@@ -80,7 +81,7 @@ flashlight_on = 1
 day = 1
 time_hour = 4
 timeofday = "AM"
-wpf_highscore = 88
+wpf_highscore = 0
 
 //Item Slots (Slots 1-4 Quick Slots)
 total_slots = 41

@@ -8,3 +8,9 @@ if (gamepad_button_check_released(0,gp_face2) or keyboard_check_released(ord("I"
 	check_current_weapon()
 	instance_destroy()
 }
+
+if store.gamePaused = 1
+{
+	check_current_weapon()
+	instance_destroy()
+}

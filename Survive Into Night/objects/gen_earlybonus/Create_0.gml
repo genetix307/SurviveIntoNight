@@ -1,7 +1,7 @@
 // Genetix Studio
 if store.day >=3 {instance_destroy()}
 else {
-my_item = round(random(100))
+my_item = round(random(90))
 
 if my_item =1 {instance_create_depth(x,y,depth,item_cannedsoda)}
 if my_item =2 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_cannedsoda)}

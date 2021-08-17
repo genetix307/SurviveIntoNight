@@ -7,6 +7,15 @@ function player_use_weapon() {
 	sprite_index = spr_player_attack; image_index = 0
 	instance_create(x,y,weapon_punch) can_attack = 15 store.sp -= 4
 	}
+	
+	if store.slot_item[store.active_slot] = 29 and player.use_hold = 0 and store.sp > 0 and instance_number(weapon_boomerang) = 0 //Boomerang
+	{
+	sprite_index = spr_player_attack; image_index = 0
+	player.cursor_distance = 400
+	instance_create(x,y,weapon_boomerang) store.sp -= 3
+	store.slot_durability[store.active_slot] -=1
+	if store.slot_durability[store.active_slot] <=0 {item_break()}
+	}
 		
 	if player.current_weapon = 1 and player.use_hold = 0 and store.sp > 0 //Knives
 	{
@@ -40,6 +49,14 @@ function player_use_weapon() {
 	{
 	sprite_index = spr_player_shotgun_attack image_index = 0
 	if store.slot_item[store.active_slot] = 5 {if store.slot_loaded[store.active_slot] > 0 {repeat 8 instance_create(x,y,weapon_bullet_12Gpump); instance_create(x,y,bullet_shell) instance_create(x,y,effect_gunfire) gamepad_set_vibration(0, 1, 1); player.vibrate = 12 can_attack = 20 store.slot_loaded[store.active_slot]-=1} else {audio_play_sound(sfx_gun_empty,1,false) reload_weapon()}} //12-gauge Pump Shotgun
+	store.slot_durability[store.active_slot] -=1
+	if store.slot_durability[store.active_slot] <=0 {item_break()}
+	}
+	
+	if player.current_weapon = 5 and player.use_hold = 1 //Freeze Ray
+	{
+	sprite_index = spr_player_rifle_attack; image_index = 0
+	if store.slot_item[store.active_slot] = 28 {instance_create(x,y,weapon_bullet_ice) can_attack = 16} //Freeze Ray
 	store.slot_durability[store.active_slot] -=1
 	if store.slot_durability[store.active_slot] <=0 {item_break()}
 	}

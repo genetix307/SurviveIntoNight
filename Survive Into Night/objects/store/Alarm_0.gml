@@ -55,6 +55,7 @@ flashlight_on = 1
 day = 1
 time_hour = 5
 timeofday = "AM"
+wpf_highscore = 0
 
 //Item Slots (Slots 1-4 Quick Slots)
 total_slots = 41

@@ -10,6 +10,7 @@ my_range = 48
 attack_range = 1
 stunned = 0
 hesitate = random(10)
+frozen = 0
 
 speed = my_speed
 if 1 > random(20) {speed = 0}

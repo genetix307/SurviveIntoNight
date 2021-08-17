@@ -8,4 +8,6 @@ hud.chat_text = "This looks like the generator motor Billy mentioned, I need to 
 store.current_task_index = 30
 store.current_task = "Head back to the Church basement and bring the generator motor to Dr. Nelson."
 instance_destroy()
+
+saveGame()
 }
