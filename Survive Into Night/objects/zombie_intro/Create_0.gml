@@ -1,7 +1,7 @@
 enemy_create()
 
 image_speed =0
-image_index = round(random(image_number))
+//image_index = round(random(image_number))
 my_speed = .2
 hp = 50
 can_attack = 0

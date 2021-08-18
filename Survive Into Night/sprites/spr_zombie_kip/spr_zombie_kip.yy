@@ -1,6 +1,6 @@
 {
-  "bboxMode": 1,
-  "collisionKind": 0,
+  "bboxMode": 0,
+  "collisionKind": 4,
   "type": 0,
   "origin": 9,
   "preMultiplyAlpha": false,
@@ -27,21 +27,33 @@
     {"compositeImage":{"FrameId":{"name":"1a3b8d68-2cbd-433a-9117-beaf10a637d8","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"1a3b8d68-2cbd-433a-9117-beaf10a637d8","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"LayerId":{"name":"ea52b320-d6ac-43ef-83a7-e5bb6a0c190e","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_zombie_kip","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"resourceVersion":"1.0","name":"1a3b8d68-2cbd-433a-9117-beaf10a637d8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f30fb292-8534-475a-bb9a-479ac4e07805","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f30fb292-8534-475a-bb9a-479ac4e07805","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"LayerId":{"name":"ea52b320-d6ac-43ef-83a7-e5bb6a0c190e","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_zombie_kip","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"resourceVersion":"1.0","name":"f30fb292-8534-475a-bb9a-479ac4e07805","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9c238760-1c18-469f-8e44-82de32c08251","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9c238760-1c18-469f-8e44-82de32c08251","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"LayerId":{"name":"ea52b320-d6ac-43ef-83a7-e5bb6a0c190e","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_zombie_kip","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"resourceVersion":"1.0","name":"9c238760-1c18-469f-8e44-82de32c08251","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8452e23c-f84e-4637-a350-2a6adee1b82f","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8452e23c-f84e-4637-a350-2a6adee1b82f","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"LayerId":{"name":"ea52b320-d6ac-43ef-83a7-e5bb6a0c190e","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_zombie_kip","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"resourceVersion":"1.0","name":"8452e23c-f84e-4637-a350-2a6adee1b82f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_zombie_kip","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b86841ef-aff3-42ea-a64b-9ab1339aac14","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1a3b8d68-2cbd-433a-9117-beaf10a637d8","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f7b144db-29db-4f3c-be93-6122e669eae6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f30fb292-8534-475a-bb9a-479ac4e07805","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f551580d-3ba2-4e1f-8dcc-f524770e1c6e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9c238760-1c18-469f-8e44-82de32c08251","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f8efc802-cf61-478e-a1e8-dfc88661575f","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8452e23c-f84e-4637-a350-2a6adee1b82f","path":"sprites/spr_zombie_kip/spr_zombie_kip.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -68,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ea52b320-d6ac-43ef-83a7-e5bb6a0c190e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Sprites/NPC.yy",
+    "name": "Undead",
+    "path": "folders/Sprites/NPC/Undead.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_zombie_kip",

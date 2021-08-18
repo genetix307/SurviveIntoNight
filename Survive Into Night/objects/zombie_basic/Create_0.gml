@@ -1,7 +1,7 @@
 enemy_create()
 
 image_speed = 0
-image_index = round(random(image_number))
+sprite_index = choose(spr_zombie_A,spr_zombie_B,spr_zombie_C,spr_zombie_D,spr_zombie_E,spr_zombie_F,spr_zombie_G,spr_zombie_H)
 my_speed = 1+random(1)
 hp = 50+random(25) + store.day
 if store.day >5 {hp +=random(30)}

@@ -34,8 +34,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Items.yy",
+    "name": "Craftable",
+    "path": "folders/Objects/Items/Craftable.yy",
   },
   "resourceVersion": "1.0",
   "name": "item_freezeray",

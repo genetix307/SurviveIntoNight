@@ -1,7 +1,7 @@
 function enemy_create() {
 	direction = point_direction(x,y,player.x,player.y)
 	damaged = 0
-	image_speed = .2
+	image_speed = .5
 	alert = 0
 	can_shoot = 0
 	clear_shot = 0

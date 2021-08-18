@@ -1,5 +1,5 @@
 // Genetix Studio
-if fade = 0 {image_alpha += .005}
+if fade = 0 {image_alpha += .007}
 if image_alpha > 1 {fade = 1}
 
 if fade = 1 {image_alpha -= .0055}

@@ -1,13 +1,13 @@
 function enemy_step_zombie() {
 	if damaged > 0 {damaged -=1}
-		if frozen > 0 {frozen -=1 image_speed = 0}
+		if frozen > 0 {frozen -=1 image_speed = 0 speed = 0}
 
 	//set Image Angle
 	if image_angle < direction {image_angle +=5}
 	if image_angle > direction {image_angle -=5}
 	
 	//Wander
-	if alert = 0 and stunned <= 0 and store.gamePaused = 0 {if 10 > random(50) {direction = direction +random_range(-.5,.5) speed = my_speed}}
+	if alert = 0 and stunned <= 0 and store.gamePaused = 0 {if 10 > random(50) {direction = direction +random_range(-.5,.5) speed = my_speed image_speed = .15}}
 
 	//Wait for chat
 	if hud.chat_open != 0 or store.gamePaused != 0 {speed = 0}
@@ -19,7 +19,7 @@ function enemy_step_zombie() {
 	if alert = 1 and stunned <= 0 and frozen = 0 {
 	xx = player.x + lengthdir_x(24,player.image_angle)
 	yy = player.y + lengthdir_y(24,player.image_angle)
-	if hud.chat_open = 0 and store.gamePaused = 0 {mp_potential_step_object(xx,yy,my_speed,default_solid)}}
+	if hud.chat_open = 0 and store.gamePaused = 0 {image_speed = .25 mp_potential_step_object(xx,yy,my_speed,default_solid)}}
 	
 	//Hesitate
 	if alert = 1 and stunned <= 0 and distance_to_object(player)< my_range/2 and distance_to_object(player) > my_range/3 and hesitate> 8  {mp_potential_step_object(player.x,player.y,-(my_speed+.3),default_solid)}

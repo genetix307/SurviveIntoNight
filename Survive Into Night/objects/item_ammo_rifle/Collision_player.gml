@@ -5,3 +5,9 @@ store.ammo_rifle += 32
 instance_destroy()
 }
 
+if alarm[0] > 0 //Pickup automatically when crafting
+{
+audio_play_sound(sfx_click,1,false)
+store.ammo_rifle +=32
+instance_destroy()
+}

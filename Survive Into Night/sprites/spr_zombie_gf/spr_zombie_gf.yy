@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7c95df33-bed6-4cb1-9926-9a2d5166f386","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Sprites/NPC.yy",
+    "name": "Undead",
+    "path": "folders/Sprites/NPC/Undead.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_zombie_gf",
