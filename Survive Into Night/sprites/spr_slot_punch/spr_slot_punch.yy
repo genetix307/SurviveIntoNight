@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4e41e0fd-e719-4abd-a8e8-f8b420502574","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Menu",
-    "path": "folders/Sprites/Menu.yy",
+    "name": "In Game",
+    "path": "folders/Sprites/Menu/In Game.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_slot_punch",

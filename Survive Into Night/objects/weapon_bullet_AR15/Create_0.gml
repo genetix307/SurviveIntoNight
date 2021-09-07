@@ -9,9 +9,10 @@ my_attack = 17 + round(random_range(4,-4))
 
 //Check Headshot
 headshot = 0
-if (store.upgrade_headshot*5) > random(100)
+if (store.upgrade_headshot*5) > random(store.critical_base_chance)
 {
 	headshot = 1; my_attack = my_attack*4
+	if store.headshots >= 50 { if !steam_get_achievement("Headshot Master") steam_set_achievement("Headshot Master");}
 }
 
 x = x + lengthdir_x(20,player.image_angle-8)

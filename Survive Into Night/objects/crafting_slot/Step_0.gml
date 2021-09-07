@@ -20,3 +20,6 @@ if my_id = 15 {if store.pistol_frame >=1 and store.metal >=8 {can_craft = 1} els
 if my_id = 16 {if store.rifle_frame >=1 and store.metal >=8 and store.chemicals >=1 {can_craft = 1} else {can_craft = 0}} //AR7
 if my_id = 17 {if store.metal >=8 and store.chemicals >=8 and store.plastic >=3 {can_craft = 1} else {can_craft = 0}} //Freeze Ray
 if my_id = 18 {if store.fiber >=4 {can_craft = 1} else {can_craft = 0}} //Boomerang
+if my_id = 19 {if store.metal >=8 and store.chemicals >=4 {can_craft = 1} else {can_craft = 0}} //Chainsaw
+if my_id = 20 {if store.chemicals >=2 and store.plastic >=2 {can_craft = 1} else {can_craft = 0}} //Medkit
+if my_id = 21 {if store.chemicals >=2 and store.fiber >=2 and store.water >=1 and store.plastic >=1 {can_craft = 1} else {can_craft = 0}} //Silent Green

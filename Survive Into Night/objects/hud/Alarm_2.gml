@@ -12,7 +12,8 @@ if store.thirst =20 or store.thirst=21 {	hud.chat_open = 1 hud.chat_text = "Star
 if store.thirst =8 or store.thirst=9 {	hud.chat_open = 1 hud.chat_text = "Feeling dehydrated, if I don't quench my thirst soon I might not make it..."}
 if store.thirst =1 or store.thirst=2 {	hud.chat_open = 1 hud.chat_text = "Feel like I'm going to die of thirst..."}
 if store.day > 1 {store.thirst -= 1}
-if store.sp < 30 and store.thirst > 8 {store.thirst -=1}
+if store.class = 0 {store.thirst -= .1}
+if store.sp < 30 and store.thirst > 10 {store.thirst -=1}
 
 if store.time_hour = 12 
 	{

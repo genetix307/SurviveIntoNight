@@ -19,4 +19,11 @@ if my_item =32 {instance_create_depth(x,y,depth,item_broken_rifle)}
 if my_item =33 {instance_create_depth(x,y,depth,item_broken_rifle)}
 if my_item =34 {instance_create_depth(x,y,depth,item_broken_rifle)}
 
+if store.class = 1
+{
+if my_item =40 {instance_create_depth(x,y,depth,item_broken_handgun)}
+if my_item =41 {instance_create_depth(x,y,depth,item_broken_shotgun)}
+if my_item =42 {instance_create_depth(x,y,depth,item_broken_rifle)}
+}
+
 

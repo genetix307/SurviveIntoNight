@@ -92,8 +92,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b7de524f-8f92-4057-aab5-4bbd11cf827b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Menu",
-    "path": "folders/Sprites/Menu.yy",
+    "name": "In Game",
+    "path": "folders/Sprites/Menu/In Game.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_upgrade_slot",

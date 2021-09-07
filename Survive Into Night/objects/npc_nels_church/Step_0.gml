@@ -24,5 +24,5 @@ if store.current_task_index = 17 {x =xx y =yy}
 
 if store.current_task_index = 18 and hud.chat_open = 0 and speed = 0
 {
-speed = 3 direction = 270
+speed = 3 direction = 270 image_angle = 270
 }

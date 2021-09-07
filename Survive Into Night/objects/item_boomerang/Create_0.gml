@@ -15,6 +15,7 @@ alarm[0] = 3
 my_slot = 29
 my_name = "Boomerang"
 my_durability = 12
+if store.class = 2 {my_durability +=2}
 my_loaded = 0
 my_description = "Finely crafted wooden weapon used for slashing zombies from a distance. Attack Points: 3\nBreaks down into: 1x Fiber"
 

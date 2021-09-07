@@ -37,6 +37,21 @@ if my_item =41 {instance_create_depth(x,y,depth,item_cowboyRevolver)}
 if my_item =42 {instance_create_depth(x,y,depth,item_AR7LS)}
 if my_item =43 {instance_create_depth(x,y,depth,item_AR7LS)}
 
+if my_item =45 {instance_create_depth(x,y,depth,item_chainsaw)}
+if my_item =46 {instance_create_depth(x,y,depth,item_chainsaw)}
+if my_item =47 {instance_create_depth(x,y,depth,item_chainsaw)}
+if my_item =48 {instance_create_depth(x,y,depth,item_freezeray)}
+if my_item =49 {instance_create_depth(x,y,depth,item_boomerang)}
+
+if store.class = 1
+{
+if my_item =54 {instance_create_depth(x,y,depth,item_9mmPistol)}
+if my_item =55 {instance_create_depth(x,y,depth,item_12gaugepump)}
+if my_item =56 {instance_create_depth(x,y,depth,item_AR15)}
+if my_item =57 {instance_create_depth(x,y,depth,item_grenade)}
+if my_item =58 {instance_create_depth(x,y,depth,item_cowboyRevolver)}
+}
+
 
 
 

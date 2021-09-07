@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dfc975b6-b270-4a1e-b412-23c28f3ca01f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Menu",
-    "path": "folders/Sprites/Menu.yy",
+    "name": "In Game",
+    "path": "folders/Sprites/Menu/In Game.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_show_controls",

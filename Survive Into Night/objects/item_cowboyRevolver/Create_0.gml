@@ -15,6 +15,7 @@ alarm[0] = 3
 my_slot = 24
 my_name = "Cowboy Revolver"
 my_durability = 18
+if store.class = 2 {my_durability +=2}
 my_loaded = 0
 if store.drop_check > 0 and store.drop_dur > 0 {my_durability = store.drop_dur; my_loaded = store.drop_ammo; store.drop_dur = 0;}
 my_description = "Heavy pistol used for clearing a room. Attack Points: 100\nBreaks down into: 1x Pistol Frame, 3x Metal"

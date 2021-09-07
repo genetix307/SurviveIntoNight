@@ -28,6 +28,11 @@ function player_set_idle() {
 	{
 	sprite_index = spr_player_rifle_idle
 	}
+	
+	if player.current_weapon = 6 //Chainsaw
+	{
+	sprite_index = spr_player_idle
+	}
 
 
 

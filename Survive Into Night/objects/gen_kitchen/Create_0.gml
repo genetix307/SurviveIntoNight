@@ -49,3 +49,13 @@ if my_item =45 {instance_create_depth(x,y,depth,item_hammer)}
 if my_item =46 {instance_create_depth(x,y,depth,item_hammer)}
 
 if my_item =47 {instance_create_depth(x,y,depth,item_cigar)}
+if my_item =48 {instance_create_depth(x,y,depth,item_cigar)}
+
+if store.class = 1
+{
+if my_item =51 {instance_create_depth(x,y,depth,item_butterknife)}
+if my_item =52 {instance_create_depth(x,y,depth,item_fork)}
+if my_item =53 {instance_create_depth(x,y,depth,item_candybar)}
+if my_item =54 {instance_create_depth(x,y,depth,item_hammer)}
+if my_item =55 {instance_create_depth(x,y,depth,item_cigar)}
+}

@@ -28,6 +28,7 @@ max_flashlight_battery = 100
 flashlight_battery = max_flashlight_battery
 max_thirst = 100
 thirst = max_thirst
+critical_base_chance = 100
 prayer_blessing = 0
 upgrade_maxhp = 1
 upgrade_maxsp = 1
@@ -35,13 +36,12 @@ upgrade_battery = 1
 upgrade_headshot = 1
 upgrade_sprint = 1
 upgrade_loot = 1
-//startX = 0
-//startY = 0
-//startRoom = ""
+//class = 0
 
 //Game Accomplishments
 zombies_slain = 0
 devilsofnight_slain = 0
+headshots = 0
 newspapers_found = 0
 games_found = 0
 daysSurvived = 0
@@ -94,3 +94,29 @@ dna_collected = 0
 tut_recycle = 0
 tut_craft = 0
 tut_bells = 0
+
+//Class Setup
+	if store.class = 0 //Brute
+	{ 
+	  store.max_hp_perm = 115 store.max_hp = 115 store.hp = 115
+	  store.max_sp_perm = 115 store.max_sp = 115 store.sp = 115 
+	}
+	if store.class = 1 //Explorer
+	{ 
+	  store.max_flashlight_battery = 115 store.flashlight_battery = 115 
+	}
+	if store.class = 2 //Arms Master
+	{ 
+		store.critical_base_chance = 90
+	}
+	if store.class = 3 //Crafter
+	{ 
+	store.critical_base_chance = 110
+	store.sugar +=1
+	store.water +=1
+	store.metal +=1
+	store.fiber +=1
+	store.chemicals +=1
+	store.plastic +=1
+	store.gun_powder +=4
+	}

@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"23030051-23b6-45ef-bd5a-7bb1ef39a608","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Menu",
-    "path": "folders/Sprites/Menu.yy",
+    "name": "In Game",
+    "path": "folders/Sprites/Menu/In Game.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_stat_cap_new",

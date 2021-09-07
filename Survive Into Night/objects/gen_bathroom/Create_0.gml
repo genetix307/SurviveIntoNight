@@ -27,3 +27,13 @@ if my_item =34 {instance_create_depth(x,y,depth,item_resourcebox)}
 if my_item =35 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_resourcebox)}
 
 if my_item =37 {instance_create_depth(x,y,depth,item_hammer)}
+
+if store.class = 1
+
+{
+if my_item =40 {instance_create_depth(x,y,depth,item_cleaningspray)}
+if my_item =41 {instance_create_depth(x,y,depth,item_cleaningspray)}
+if my_item =42 {instance_create_depth(x,y,depth,item_bandages)}
+if my_item =43 {instance_create_depth(x,y,depth,item_water_bottle)}
+if my_item =44 {instance_create_depth(x,y,depth,item_hammer)}
+}

@@ -9,8 +9,8 @@ exit
 }
 
 direction = other.direction
-speed = other.speed + random(.75)
-player.speed = 1
+player.speed = .4
+speed = other.speed + random(.5)
 
-friction = .2
+friction = .3
 if !audio_is_playing(sfx_push) {audio_play_sound(sfx_push,1,false)}

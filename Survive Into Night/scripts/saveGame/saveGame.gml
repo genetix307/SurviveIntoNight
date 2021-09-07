@@ -33,12 +33,14 @@ ini_write_real( "save1", "max_flashlight_battery", store.max_flashlight_battery)
 ini_write_real( "save1", "flashlight_battery", store.flashlight_battery);
 ini_write_real( "save1", "max_thirst", store.max_thirst);
 ini_write_real( "save1", "thirst", store.thirst);
+ini_write_real( "save1", "critical_base_chance", store.critical_base_chance);
 ini_write_real( "save1", "upgrade_maxhp", store.upgrade_maxhp);
 ini_write_real( "save1", "upgrade_maxsp", store.upgrade_maxsp);
 ini_write_real( "save1", "upgrade_battery", store.upgrade_battery);
 ini_write_real( "save1", "upgrade_headshot", store.upgrade_headshot);
 ini_write_real( "save1", "upgrade_sprint", store.upgrade_sprint);
 ini_write_real( "save1", "upgrade_loot", store.upgrade_loot);
+ini_write_real( "save1", "class", store.class);
 //ini_write_real( "save1", "startX", store.startY);
 //ini_write_real( "save1", "startY", store.startX);
 //ini_write_real( "save1", "startRoom", store.startRoom);
@@ -46,6 +48,7 @@ ini_write_real( "save1", "upgrade_loot", store.upgrade_loot);
 //Accomplishments
 ini_write_real( "save1", "zombies_slain", store.zombies_slain);
 ini_write_real( "save1", "devilsofnight_slain", store.devilsofnight_slain);
+ini_write_real( "save1", "headshots", store.headshots);
 ini_write_real( "save1", "newspapers_found", store.newspapers_found);
 ini_write_real( "save1", "games_found", store.games_found);
 ini_write_real( "save1", "daysSurvived", store.daysSurvived);

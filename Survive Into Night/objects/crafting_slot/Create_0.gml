@@ -26,9 +26,9 @@ if my_id = 15 {x=cx+940 y=cy+120 my_name="Cowboy Revolver" my_description="Heavy
 if my_id = 16 {x=cx+1000 y=cy+120 my_name="AR7 LaserSight" my_description="Fully Automatic rifle with a laser sighted scope. Attack Points: 13\nCrafting Cost: 1x Rifle Frame, 8x Metal, 1x Chemicals"}
 if my_id = 17 {x=cx+1060 y=cy+120 my_name="Freeze Ray Blaster" my_description = "Futuristic weapon decided to expel a blast of liquid nitrogen to freeze enemies in place.\nCrafting Cost: 8x Metal, 8x Chemicals, 3x Plastic"}
 if my_id = 18 {x=cx+1120 y=cy+120 my_name="Boomerang" my_description = "Finely crafted wooden weapon used for slashing zombies from a distance. Attack Points: 3\nCrafting Cost: 4x Fiber"} 
-if my_id = 19 {x=cx+1180 y=cy+120}
-if my_id = 20 {x=cx+1240 y=cy+120}
-if my_id = 21 {x=cx+700 y=cy+180}
+if my_id = 19 {x=cx+1180 y=cy+120 my_name="Chainsaw" my_description = "Metal teeth & Gasoline, the Undead never Saw it coming. Attack Points: 8\nCrafting Cost: 8x Metal, 4x Chemicals"}
+if my_id = 20 {x=cx+1240 y=cy+120 my_name="Medkit" my_description = "Military grade kit for healing & recovering from wounds. Max HP +=30, HP+=30\nCrafting Cost: 2x Chemicals, 2x Plastic"}
+if my_id = 21 {x=cx+700 y=cy+180 my_name="Silent Green" my_description = "Meal supplement made of organic materials... Fully Restores Max SP, Quench Thirst +5\nCrafting Cost: 2x Chemicals, 2x Fiber 1x Water, 1x Plastic"}
 if my_id = 22 {x=cx+760 y=cy+180}
 if my_id = 23 {x=cx+820 y=cy+180}
 if my_id = 24 {x=cx+880 y=cy+180}

@@ -15,6 +15,7 @@ alarm[0] = 3
 my_slot = 7
 my_name = "The Backstabber"
 my_durability = 20
+if store.class = 2 {my_durability +=2}
 if store.drop_check > 0 and store.drop_dur > 0 {my_durability = store.drop_dur; store.drop_dur = 0;}
 my_loaded = 0
 my_description = "Strong sharp knife for stabbing your foes in the back. Attack Points: 70\nBreaks down into: 2x Metal, 1x Fiber"

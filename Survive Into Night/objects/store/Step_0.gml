@@ -11,7 +11,8 @@ if keyboard_check_pressed(vk_anykey) and store.control_mode !=1 {store.control_m
 
 if sp < 0 {sp = 0}
 if sp > max_sp {sp = max_sp}
-if sp < max_sp {sp +=.05}
+if sp < max_sp and store.class != 2 {sp +=.05}
+if sp < max_sp and store.class = 2 {sp +=.04}
 if max_sp > max_sp_perm {max_sp = max_sp_perm}
 if hp > max_hp {hp = max_hp}
 if hp < 0 {hp = 0}

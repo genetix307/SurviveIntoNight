@@ -28,6 +28,7 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"npc_billy_suburbs","path":"objects/npc_billy_suburbs/npc_billy_suburbs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"npc_billy_suburbs","path":"objects/npc_billy_suburbs/npc_billy_suburbs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"default_weapon","path":"objects/default_weapon/default_weapon.yy",},"parent":{"name":"npc_billy_suburbs","path":"objects/npc_billy_suburbs/npc_billy_suburbs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"player","path":"objects/player/player.yy",},"parent":{"name":"npc_billy_suburbs","path":"objects/npc_billy_suburbs/npc_billy_suburbs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

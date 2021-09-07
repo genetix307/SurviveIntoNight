@@ -43,6 +43,9 @@ if player.can_recycle = 1{draw_text_color(cx+1115,cy+336,"Press R to Recycle",c_
 show_statusbars()
 show_materials()
 show_accomplishments()
+show_class()
+
+
 
 draw_sprite(spr_map,0,cx+18,cy+88)
 

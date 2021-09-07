@@ -16,6 +16,14 @@ function player_use_weapon() {
 	store.slot_durability[store.active_slot] -=1
 	if store.slot_durability[store.active_slot] <=0 {item_break()}
 	}
+	
+	if store.slot_item[store.active_slot] = 30 and player.use_hold = 1 and store.sp > 0 and instance_number(weapon_chainsaw) = 0 //Chainsaw
+	{
+	sprite_index = spr_player_attack; image_index = 0
+	instance_create(x,y,weapon_chainsaw)
+	store.slot_durability[store.active_slot] -=1
+	if store.slot_durability[store.active_slot] <=0 {item_break()}
+	}
 		
 	if player.current_weapon = 1 and player.use_hold = 0 and store.sp > 0 //Knives
 	{

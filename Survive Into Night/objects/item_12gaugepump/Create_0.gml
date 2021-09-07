@@ -15,6 +15,7 @@ alarm[0] = 3
 my_slot = 5
 my_name = "12-gauge Pump Shotgun"
 my_durability = 20
+if store.class = 2 {my_durability +=2}
 my_loaded = 0
 if store.drop_check > 0 and store.drop_dur > 0 {my_durability = store.drop_dur; my_loaded = store.drop_ammo; store.drop_dur = 0;}
 my_description = "Short Range pump action shotgun. Attack Points: 5\nBreaks down into: 1x Shotgun Frame, 1 Fiber, 4x Metal"

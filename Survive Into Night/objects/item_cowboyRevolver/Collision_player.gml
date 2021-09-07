@@ -4,7 +4,7 @@ pickup_item(my_slot,my_name,my_durability,my_loaded,my_description) //Slot,Name,
 //instance_destroy()
 }
 
-if alarm[0] > 0 //Pickup automatically when crafting
+if alarm[0] > 0 and instance_number(crafting_menu) > 0  //Pickup automatically when crafting
 {
 pickup_item(my_slot,my_name,my_durability,my_loaded,my_description) 
 }

@@ -28,6 +28,10 @@ if my_id=15 {if store.pistol_frame >=1 and store.metal >=8 {instance_create_dept
 if my_id=16 {if store.rifle_frame >=1 and store.metal >=8 and store.chemicals >=1 {instance_create_depth(player.x,player.y,20,item_AR7LS) store.rifle_frame -=1 store.metal -=8 store.chemicals -=1 craft_standard = 1}} 
 if my_id=17 {if store.metal >=8 and store.chemicals >=8 and store.plastic >=3 {instance_create_depth(player.x,player.y,20,item_freezeray) store.metal -=8 store.chemicals -=8 store.plastic -=3 craft_standard = 1}}
 if my_id=18 {if store.fiber >=4 {instance_create_depth(player.x,player.y,20,item_boomerang) store.fiber -=4 craft_standard = 1}}
+if my_id=19 {if store.metal>=8 and store.chemicals >=4 {instance_create_depth(player.x,player.y,20,item_chainsaw) store.metal -=8 store.chemicals -=4 craft_standard = 1}}
+
+if my_id=20 {if store.chemicals >=2 and store.plastic >=2 {instance_create_depth(player.x,player.y,20,item_medkit) store.chemicals -=2 store.plastic -=2 craft_standard = 1}} 
+if my_id=21 {if store.chemicals >=2 and store.fiber >=2 and store.water >=1 and store.plastic >=1 {instance_create_depth(player.x,player.y,20,item_silentgreen) store.chemicals -=2 store.fiber -=2 store.water -=1 store.plastic -=1 craft_standard = 1}} 
 }
 
 if craft_standard = 1

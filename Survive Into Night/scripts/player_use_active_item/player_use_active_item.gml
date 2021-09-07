@@ -21,6 +21,9 @@ if store.slot_item[store.active_slot] = 26 {player.current_weapon = 3 player_use
 if store.slot_item[store.active_slot] = 27 {audio_play_sound(sfx_smoking,1,false); store.sp = store.max_sp; store.max_hp -= 1 clear_slot() } //Cigar
 if store.slot_item[store.active_slot] = 28 {player.current_weapon = 5 player_use_weapon()} //Freeze Ray
 if store.slot_item[store.active_slot] = 29 {player_use_weapon()} //Boomerang
+if store.slot_item[store.active_slot] = 30 {player.current_weapon = 6 player_use_weapon()} //Chainsaw
+if store.slot_item[store.active_slot] = 31 {audio_play_sound(sfx_tape,1,false); store.max_hp += 30; store.hp +=30 clear_slot() } //Medkit
+if store.slot_item[store.active_slot] = 32 {audio_play_sound(sfx_drinking,1,false); store.max_sp = store.max_sp_perm; store.max_hp +=5 store.thirst +=5; clear_slot() } //Silent Green
 
 //Other
 if store.slot_item[store.active_slot] = 9 {if !audio_is_playing(sfx_cantusethat) {audio_play_sound(sfx_cantusethat,1,false)}}

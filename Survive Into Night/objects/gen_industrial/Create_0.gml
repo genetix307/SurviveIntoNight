@@ -23,10 +23,12 @@ if my_item =18 {instance_create_depth(x,y,depth,item_energydrink)}
 if my_item =20 {instance_create_depth(x,y,depth,item_chemicalx)}
 if my_item =21 {instance_create_depth(x,y,depth,item_chemicalx)}
 if my_item =22 {instance_create_depth(x,y,depth,item_chemicalx)}
-
 if my_item =34 {instance_create_depth(x,y,depth,item_resourcebox)}
 if my_item =35 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_resourcebox)}
-
 if my_item =37 {instance_create_depth(x,y,depth,item_hammer)}
 if my_item =38 {instance_create_depth(x,y,depth,item_freezeray)}
 if my_item =39 {instance_create_depth(x,y,depth,item_freezeray)}
+if my_item =43 {instance_create_depth(x,y,depth,item_chainsaw)}
+
+if my_item =44 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_medkit)}
+if my_item =45 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_silentgreen)}

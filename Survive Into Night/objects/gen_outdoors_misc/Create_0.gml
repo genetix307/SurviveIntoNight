@@ -22,6 +22,7 @@ if my_item =16 {instance_create_depth(x,y,depth,retroGame)}
 if my_item =16 {instance_create_depth(x,y,depth,item_bandages)}
 if my_item =17 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_bandages)}
 if my_item =20 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_medicine)}
+if my_item =18 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_chainsaw)}
 if my_item =21 {instance_create_depth(x,y,depth,item_medicine)}
 
 if my_item =25 {instance_create_depth(x,y,depth,item_cash)}
@@ -51,3 +52,14 @@ if my_item =50 {instance_create_depth(x,y,depth,item_cigar)}
 if my_item =51 {instance_create_depth(x,y,depth,item_cigar)}
 if my_item =52 {instance_create_depth(x,y,depth,item_cigar)}
 if my_item =53 {instance_create_depth(x,y,depth,item_water_bottle)}
+if my_item =54 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_medkit)}
+if my_item =55 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_silentgreen)}
+
+if store.class = 1
+{
+if my_item =60 {instance_create_depth(x,y,depth,item_cannedsoda)}
+if my_item =61 {instance_create_depth(x,y,depth,item_candybar)}
+if my_item =62 {instance_create_depth(x,y,depth,item_cash)}
+if my_item =63 {instance_create_depth(x,y,depth,item_batteries)}
+if my_item =64 {instance_create_depth(x,y,depth,item_woodboard)}	
+}

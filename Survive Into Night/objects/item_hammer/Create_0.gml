@@ -14,6 +14,7 @@ alarm[0] = 3
 my_slot = 22
 my_name = "Hammer"
 my_durability = 16
+if store.class = 2 {my_durability +=2}
 if store.drop_check > 0 and store.drop_dur > 0 {my_durability = store.drop_dur; store.drop_dur = 0;}
 my_loaded = 0
 my_description = "Common tool for housework, and smashing Zombies heads in. Attack Points: 40\nBreaks down into: 1x Metal, 1x Fiber"

@@ -2,6 +2,7 @@ image_alpha = -.1
 
 audio_stop_all()
 audio_play_sound(bgm_title,1,true)
+audio_play_sound(sfx_title_voice,1,false)
 //image_yscale = 0
 
 fullscreenCheck()

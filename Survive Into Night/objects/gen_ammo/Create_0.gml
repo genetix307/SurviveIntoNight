@@ -17,4 +17,14 @@ if my_item =11 {instance_create_depth(x,y,depth,item_ammo_shotgun)}
 if my_item =12 {instance_create_depth(x,y,depth,item_ammo_shotgun)}
 if my_item =13 and store.prayer_blessing > 0 {instance_create_depth(x,y,depth,item_ammo_shotgun)}
 
+if store.class = 1
+{
+if my_item =21 {instance_create_depth(x,y,depth,item_ammo_handgun)}
+if my_item =22 {instance_create_depth(x,y,depth,item_ammo_handgun)}
+if my_item =23 {instance_create_depth(x,y,depth,item_ammo_rifle)}
+if my_item =24 {instance_create_depth(x,y,depth,item_ammo_rifle)}
+if my_item =25 {instance_create_depth(x,y,depth,item_ammo_shotgun)}
+if my_item =26 {instance_create_depth(x,y,depth,item_ammo_shotgun)}
+}
+
 
