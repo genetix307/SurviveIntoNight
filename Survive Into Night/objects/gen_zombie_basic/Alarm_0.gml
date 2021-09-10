@@ -10,7 +10,7 @@ if my_gen > 25 {instance_create_depth(x,y,0,zombie_basic)}
 }
 
 //11pm Horde
-if distance_to_object(player) > 640 and store.timeofday = "PM" and store.time_hour =11
+if distance_to_object(player) > 720 and store.timeofday = "PM" and store.time_hour =11
 {
  repeat 4 instance_create_depth(x,y,0,zombie_basic)
 }

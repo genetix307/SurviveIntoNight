@@ -12,5 +12,6 @@ if i = 5 {audio_play_sound(sfx_gotosleep,1,false)}
 if i = 6 {audio_play_sound(sfx_gotohell,1,false)}
 }
 
-if hud.kill_combo > 18 and !audio_is_playing(sfx_heavy_breath) {audio_play_sound(sfx_heavy_breath,1,false)}
+//Heavy Breathing
+if hud.kill_combo > 12 and store.sp < 90 and !audio_is_playing(sfx_heavy_breath) {audio_play_sound(sfx_heavy_breath,1,false)}
 }

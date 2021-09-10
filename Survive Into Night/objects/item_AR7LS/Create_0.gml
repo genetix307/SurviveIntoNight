@@ -14,7 +14,7 @@ alarm[0] = 3
 //Slot,Name,durability,loaded,description
 my_slot = 26
 my_name = "AR-7LS"
-my_durability = 50
+my_durability = 54
 if store.class = 2 {my_durability +=4}
 my_loaded = 0
 if store.drop_check > 0 and store.drop_dur > 0 {my_durability = store.drop_dur; my_loaded = store.drop_ammo; store.drop_dur = 0;}
