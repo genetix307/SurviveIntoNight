@@ -15,7 +15,7 @@ player_y = 0
 show_fps = 0
 enemy_cap = 100
 gamePaused = 0
-build_version = "version 1.06"
+build_version = "version 1.07"
 control_mode = 0 //0 Gamepad, 1 keyboard_mouse
 drop_check = 0
 drop_dur = 0
@@ -27,6 +27,7 @@ saveExists = 0
 demo = 0
 demo_time = 60000
 global.scrn_num =1
+horde_mode = 0
 
 //Initialize Vars --------------------------------------------------------------------------------------------------------
 //Permenant Resources

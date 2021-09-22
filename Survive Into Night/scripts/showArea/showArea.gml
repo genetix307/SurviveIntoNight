@@ -24,4 +24,6 @@ if room = myroom_compound_path {hud.show_area_text = "North Compound Path"}
 if room = myroom_compound {hud.show_area_text = "The Compound"}
 if room = myroom_tradingpost {hud.show_area_text = "Trading Post"}
 if room = myroom_comawhite {hud.show_area_text = "            ????"}
+
+if room = myroom_horde {hud.show_area_text = "The Horde is Coming"}
 }

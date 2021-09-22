@@ -16,13 +16,14 @@ cursor_distance = 220
 if store.gamePaused = 1 {store.gamePaused = 0}
 
 //Save Game
-saveGame()
+if store.horde_mode = 0 {saveGame()}
 
 //Initial setup
 instance_create(x,y,obj_lightmap)
 instance_create(x,y,cursor)
 instance_create_depth(x,y,depth-3,obj_camera)
-instance_create(x,y,hud)
+if store.horde_mode = 0 { instance_create(x,y,hud)}
+if store.horde_mode = 1 { instance_create(x,y,hud_horde)}
 if store.flashlight_on = 1 {instance_create(x,y,obj_light_flashlight)}
 use_hold = 0
 my_id = 0

@@ -7,7 +7,7 @@ rd = point_direction(0,0,rh,-rv)
 haxis = gamepad_axis_value(0, gp_axislh)
 vaxis = gamepad_axis_value(0, gp_axislv)
 
-if dead = 0 {
+if dead = 0 and store.horde_mode = 0 {
 	if hud.chat_open = 0 and store.gamePaused = 0
 	{ 		
 		//Use active item
@@ -109,8 +109,9 @@ if store.hp <= 0 {
 	sprite_index = spr_player_dead
 	image_index = 0
 }
-
 }
+
+if dead = 0 and store.horde_mode = 1 { player_step_horde()}
 
 if dead > 0 {
 sprite_index = spr_player_dead

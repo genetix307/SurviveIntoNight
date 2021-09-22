@@ -24,4 +24,7 @@ function play_bgm() {
 	if room = myroom_compound {audio_play_sound(bgm_compound,1,true)}
 	if room = myroom_tradingpost {audio_play_sound(bgm_ambient_a,1,true)}
 	if room = myroom_comawhite {audio_play_sound(bgm_outdoors_haunting,1,true)}
+	
+	//Horde Mode
+	if room = myroom_horde {audio_play_sound(bgm_ambient_nature,1,true) audio_play_sound(bgm_horde,1,true)}
 }

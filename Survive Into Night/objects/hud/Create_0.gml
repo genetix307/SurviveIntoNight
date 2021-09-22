@@ -3,6 +3,7 @@ alarm[1] = 5
 alarm[2] = store.holdTimeHud //Pass Hours of day
 alarm[3] = 120 //Show Quest
 set_world = 1
+store.horde_mode = 0
 backpack_open = 0
 lightChange = 0
 setTrash()

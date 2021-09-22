@@ -45,14 +45,14 @@ show_materials()
 show_accomplishments()
 show_class()
 
-
-
 draw_sprite(spr_map,0,cx+18,cy+88)
 
 //Draw Current Task info
+if store.horde_mode = 0 {
 draw_set_font(font_chat)
 draw_text_color(cx+10,cy+534,"Current Task",c_lime,c_green,c_lime,c_green,show_task)
 draw_text_ext_color(cx+14,cy+551,store.current_task,15,460,c_white,c_silver,c_white,c_silver,show_task)
+}
 
 //Draw Survival Tip
 draw_set_font(font_chat)

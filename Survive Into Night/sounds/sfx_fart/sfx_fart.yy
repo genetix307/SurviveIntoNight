@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_sfx",
   },
   "soundFile": "sfx_fart.mp3",
-  "duration": 2.74775,
+  "duration": 2.74275,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",
