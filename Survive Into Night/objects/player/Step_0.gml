@@ -103,7 +103,7 @@ if hud.chat_open = 1 or store.gamePaused = 1 or instance_number(backpack_menu) >
 
 //Death
 if store.hp <= 0 {
-	dead = 1 depth = 40000 alarm[2] = 150
+	dead = 1 alarm[2] = 150
 	repeat 4 instance_create_depth(x,y,75,blood)
 	repeat 12 instance_create_depth(x,y,70,gore)
 	sprite_index = spr_player_dead

@@ -49,3 +49,5 @@ if fade_to_coma > 0
 		room = myroom_comawhite
 	}
 }
+
+if show_gameover > 3 { room = myroom_gameover }

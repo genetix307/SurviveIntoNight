@@ -8,7 +8,8 @@ store.saveExists = ini_read_real( "save1", "saveExists",store.saveExists);
 
 //Demo
 store.demo_time = ini_read_real( "save1", "demo_time",store.demo_time);
+//Horde
+store.horde_best_wave = ini_read_real( "save1", "horde_best_wave",store.horde_best_wave);
 
-//show_message("Game Loaded")
 ini_close();
 }

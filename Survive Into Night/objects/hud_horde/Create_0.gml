@@ -10,12 +10,14 @@ lightChange = 0
 setTrash()
 
 horde_wave = 0
+gen_enemy = 0
 show_item = 0
 show_item_text = ""
 show_area = 0
 show_area_text = ""
 show_quest = -2
 show_quest_fade = 0
+show_gameover = 0
 quick_text = ""
 show_quick_text = 0
 showWave = 0

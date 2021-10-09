@@ -3,7 +3,7 @@ image_alpha = 0
 audio_play_sound(sfx_boomerang,1,false)
 audio_sound_pitch(sfx_boomerang,.8+random(.3))
 
-my_attack = 3
+my_attack = 3.25
 
 x = x + lengthdir_x(20,player.image_angle-8)
 y = y + lengthdir_y(3,player.image_angle)

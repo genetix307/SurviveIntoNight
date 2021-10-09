@@ -9,3 +9,4 @@ if current_weapon = 6 //chainsaw
 }
 
 draw_self()
+

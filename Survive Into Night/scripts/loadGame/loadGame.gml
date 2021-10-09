@@ -7,6 +7,7 @@ ini_open("savegame.ini");
 //Vars to Load
 //Demo
 store.demo_time = ini_read_real( "save1", "demo_time",store.demo_time);
+
 //Resources
 store.ammo_handgun = ini_read_real( "save1", "ammo_handgun",store.ammo_handgun);
 store.ammo_rifle = ini_read_real( "save1", "ammo_rifle",store.ammo_rifle);

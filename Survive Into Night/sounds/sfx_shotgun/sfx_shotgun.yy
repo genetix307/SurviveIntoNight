@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.85,
+  "volume": 0.45,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_sfx",
   },
   "soundFile": "sfx_shotgun.mp3",
-  "duration": 1.023776,
+  "duration": 1.018776,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",

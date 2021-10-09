@@ -7,6 +7,8 @@ ini_open("savegame.ini")
 //Vars to Save
 //Demo
 ini_write_real( "save1", "demo_time", store.demo_time);
+//Horde
+ini_write_real( "save1", "horde_best_wave", store.horde_best_wave);
 //Resources
 ini_write_real( "save1", "ammo_handgun", store.ammo_handgun);
 ini_write_real( "save1", "ammo_rifle", store.ammo_rifle);

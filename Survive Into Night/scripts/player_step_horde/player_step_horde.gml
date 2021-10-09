@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function player_step_horde(){
-	if hud_horde.chat_open = 0 and store.gamePaused = 0
+	if hud_horde.chat_open = 0 and store.gamePaused = 0 and store.hp > 0
 	{ 		
 		//Use active item
 		if hud_horde.backpack_open = 0 
@@ -94,13 +94,18 @@ if can_attack > 0 {can_attack -= 1}
 if vibrate > 0 {vibrate -= 1 if vibrate <= 0 {gamepad_set_vibration(0, 0, 0)}}
 if hud_horde.chat_open = 1 or store.gamePaused = 1 or instance_number(backpack_menu) > 0 or instance_number(crafting_menu) > 0 {speed=0}
 
+
 //Death
 if store.hp <= 0 {
-	dead = 1 depth = 40000 alarm[2] = 150
-	repeat 4 instance_create_depth(x,y,75,blood)
-	repeat 12 instance_create_depth(x,y,70,gore)
+
 	sprite_index = spr_player_dead
 	image_index = 0
+    hud_horde.show_gameover += .0075
+	player.speed = 0
+	can_attack = 0
+	image_speed = 0
+	gamepad_set_vibration(0, 0, 0)
 }
+
 
 }

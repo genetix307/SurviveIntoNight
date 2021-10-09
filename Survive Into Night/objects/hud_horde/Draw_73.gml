@@ -36,14 +36,10 @@ draw_set_font(font_show_area)
 	draw_text_color(cx+444,cy+10,show_area_text,c_red,c_red,c_red,c_red,show_area)	
 }
 
-//Show Task
-//if show_quest > 0 and room != myroom_intro_area and room != myroom_intro_subway
-//{
-//draw_set_font(font_stats)
-//draw_text_color(cx+2,cy+674,"Current Task",c_yellow,c_orange,c_yellow,c_orange,show_quest)
-//draw_text_ext_color(cx+2,cy+689,store.current_task,15,360,c_white,c_silver,c_white,c_silver,show_quest)
-//}
-
+//Show Wave Info
+draw_set_font(font_stats)
+draw_text_ext_color(cx+2,cy+689,"Current Wave: " +string(horde_wave),15,360,c_white,c_silver,c_white,c_silver,.9)
+draw_text_ext_color(cx+2,cy+702,"Best Wave: " +string(store.horde_best_wave),15,360,c_white,c_silver,c_white,c_silver,.9)
 
 //Show Wave
 if showWave > 0
@@ -51,6 +47,17 @@ if showWave > 0
 draw_set_font(font_showDay)
 	draw_text_color(cx+519,cy+95,show_area_text,c_black,c_black,c_black,c_black,showWave)	
 	draw_text_color(cx+514,cy+90,show_area_text,c_white,c_white,c_white,c_white,showWave)	
+}
+
+//Show Gameover
+if show_gameover > 0
+{
+	draw_set_font(font_showDay)
+	draw_text_color(cx+449,cy+95,"Game Over",c_black,c_black,c_black,c_black,show_gameover)	
+	draw_text_color(cx+444,cy+90,"Game Over",c_red,c_red,c_red,c_red,show_gameover)	
+	draw_set_font(font_show_area)
+	draw_text_color(cx+480,cy+200,"You survived "+string(hud_horde.horde_wave)+" waves.",c_black,c_black,c_black,c_black,show_gameover)	
+	draw_text_color(cx+482,cy+202,"You survived "+string(hud_horde.horde_wave)+" waves.",c_white,c_silver,c_white,c_silver,show_gameover)
 }
 
 //Show Quick slots

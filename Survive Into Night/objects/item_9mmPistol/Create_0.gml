@@ -14,7 +14,7 @@ alarm[0] = 3
 //Slot,Name,durability,loaded,description
 my_slot = 3
 my_name = "9mm Pistol"
-my_durability = 34
+my_durability = 36
 if store.class = 2 {my_durability +=2}
 my_loaded = 0
 if store.drop_check > 0 and store.drop_dur > 0 {my_durability = store.drop_dur; my_loaded = store.drop_ammo; store.drop_dur = 0;}

@@ -7,7 +7,7 @@ audio_play_sound(sfx_shotgun,1,false)
 audio_sound_pitch(sfx_shotgun,.8+random(.3))
 //}
 
-my_attack = 4 + round(random_range(2,-2))
+my_attack = 4 + round(random_range(3,-2))
 
 //Check Headshot
 headshot = 0

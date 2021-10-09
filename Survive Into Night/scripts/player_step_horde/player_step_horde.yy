@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Horde",
-    "path": "folders/Scripts/Horde.yy",
+    "name": "Player",
+    "path": "folders/Scripts/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "player_step_horde",

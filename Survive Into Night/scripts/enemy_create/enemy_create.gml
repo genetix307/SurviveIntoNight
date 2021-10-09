@@ -9,8 +9,6 @@ function enemy_create() {
 	show_hit = 0
 	depth = player.depth +2
 
-
-
 //Set as Shadow Caster
 caster_init_circle(16, 8);
 const_speed = 2;

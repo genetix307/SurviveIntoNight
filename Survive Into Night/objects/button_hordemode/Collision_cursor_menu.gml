@@ -6,6 +6,7 @@ if gamepad_button_check_pressed(0,gp_face1) or mouse_check_button_pressed(mb_lef
 	store.player_x = 1595
 	store.player_y = 1160
 	store.horde_mode = 1
+	store.class = 10
 	room = myroom_horde
 }
 
